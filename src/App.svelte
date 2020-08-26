@@ -360,7 +360,7 @@
 	    <!--<img class="mediumPic" alt="mynd" alt="mynd" src="igms/cali/cali2.jpg">-->
 	    <img class="mediumPic" alt="mynd" src="igms/cali/cali3.jpg">
 	    <!--<img class="mediumPic" alt="mynd" src="igms/cali/cali4.jpg">-->
-	    <img class="mediumPic" alt="mynd" alt="mynd" src="igms/undefined-undefined/baby.png">
+	    <img class="mediumPic" alt="mynd" src="igms/undefined-undefined/baby.png">
 	    <img class="mediumPic" alt="mynd" src="igms/undefined-undefined/5red2.png">
 	    <img class="mediumPic" alt="mynd" src="igms/undefined-undefined/ok.gif">
 	    <img class="mediumPic" alt="mynd" src="igms/undefined-teikningar/Scan 34.jpg">
