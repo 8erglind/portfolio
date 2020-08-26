@@ -281,38 +281,38 @@
 <div class="container">
 
   <div class="wrapper back">
-    <div class="caption">
+    <div class="caption" on:click="{() => expand = !expand}">
       Work
     </div>
     <div class="out-on-desktop"></div>
     <br><br>
     
     
-    <img class="smallPic" alt="mynd" src="igms/flora/small.png" on:click={toggleflora} on:click="{() => expand = !expand}">
-    <img class="smallPic" alt="mynd" src="igms/onourowntime/small.png" on:click={toggleonourowntime} on:click="{() => expand = !expand}">
-    <img class="smallPic" alt="mynd" src="igms/thesis/small.jpg" on:click={togglegreen} on:click="{() => expand = !expand}">
-    <img class="smallPic" alt="mynd" src="igms/viv/small.png" on:click={toggleviv} on:click="{() => expand = !expand}">
-    <img class="smallPic" alt="mynd" src="igms/bread/small.jpg" on:click={togglebread} on:click="{() => expand = !expand}">
-    <img class="smallPic" alt="mynd" src="igms/bread/breadmag.jpg" on:click={togglebreadmag} on:click="{() => expand = !expand}">
-    <img class="smallPic" alt="mynd" src="igms/io/small.png" on:click={toggleportfolioio} on:click="{() => expand = !expand}">
-    <img class="smallPic" alt="mynd" src="igms/beauimg/small.jpg" on:click={togglebeauimg} on:click="{() => expand = !expand}">
-    <img class="smallPic" alt="mynd" src="igms/typoPosters/3.jpg" on:click={toggletypoposters} on:click="{() => expand = !expand}">
-    <!--<img class="smallPic" alt="mynd" src="igms/secret/small.png" on:click={togglesecret} on:click="{() => expand = !expand}">-->
-    <img class="smallPic" alt="mynd" src="igms/oeb/small.png" on:click={toggleoeb} on:click="{() => expand = !expand}">
-    <img class="smallPic" alt="mynd" src="igms/sortedPlastic/small.png" on:click={togglesortedplastic} on:click="{() => expand = !expand}">
-    <img class="smallPic" alt="mynd" src="igms/musicPosters/small.jpg" on:click={togglemusicposters} on:click="{() => expand = !expand}">
-    <img class="smallPic" alt="mynd" src="igms/timatal/small.png" on:click={toggletimatal} on:click="{() => expand = !expand}">
-    <img class="smallPic" alt="mynd" src="igms/tools/tools.png" on:click={toggletools} on:click="{() => expand = !expand}">
+    <img class="smallPic" alt="mynd" src="igms/flora/small.png" on:click={toggleflora}>
+    <img class="smallPic" alt="mynd" src="igms/onourowntime/small.png" on:click={toggleonourowntime}>
+    <img class="smallPic" alt="mynd" src="igms/thesis/small.jpg" on:click={togglegreen}>
+    <img class="smallPic" alt="mynd" src="igms/viv/small.png" on:click={toggleviv}>
+    <img class="smallPic" alt="mynd" src="igms/bread/small.jpg" on:click={togglebread}>
+    <img class="smallPic" alt="mynd" src="igms/bread/breadmag.jpg" on:click={togglebreadmag}>
+    <img class="smallPic" alt="mynd" src="igms/io/small.png" on:click={toggleportfolioio}>
+    <img class="smallPic" alt="mynd" src="igms/beauimg/small.jpg" on:click={togglebeauimg}>
+    <img class="smallPic" alt="mynd" src="igms/typoPosters/3.jpg" on:click={toggletypoposters}>
+    <!--<img class="smallPic" alt="mynd" src="igms/secret/small.png" on:click={togglesecret}>-->
+    <img class="smallPic" alt="mynd" src="igms/oeb/small.png" on:click={toggleoeb}>
+    <img class="smallPic" alt="mynd" src="igms/sortedPlastic/small.png" on:click={togglesortedplastic}>
+    <img class="smallPic" alt="mynd" src="igms/musicPosters/small.jpg" on:click={togglemusicposters}>
+    <img class="smallPic" alt="mynd" src="igms/timatal/small.png" on:click={toggletimatal}>
+    <img class="smallPic" alt="mynd" src="igms/tools/tools.png" on:click={toggletools}>
     <!--<img class="smallPic" alt="mynd" src="igms/body/body.png">-->
     <img class="smallPic" alt="mynd" src="igms/somalgors74/small.jpg">
-	<img class="smallPic" alt="mynd" src="igms/typedesign/svhv35.jpg" on:click={togglelikamar} on:click="{() => expand = !expand}">
+	<img class="smallPic" alt="mynd" src="igms/typedesign/svhv35.jpg" on:click={togglelikamar}>
 	<!--<img class="smallPic" alt="mynd" src="igms/cali/small.jpg"> OTHER -->
-	<img class="smallPic" alt="mynd" src="igms/secret/small.png" on:click={togglesecret} on:click="{() => expand = !expand}">
-	<img class="smallPic larger" alt="mynd" src="igms/musicBook/4.png" on:click={togglemusicbook} on:click="{() => expand = !expand}">
-	<img class="smallPic" alt="mynd" src="igms/corruptedspace/smaller.jpg" on:click={togglecorruptedspace} on:click="{() => expand = !expand}">
-	<img class="smallPic" alt="mynd" src="igms/familiarfaces/small.jpg" on:click={togglefamiliarfaces} on:click="{() => expand = !expand}">
-    <img class="smallPic" alt="mynd" style="max-width: 250px;" src="igms/litabok/small.png" on:click={togglelitabok} on:click="{() => expand = !expand}">
-	<img class="smallPic" alt="mynd" src="igms/trash/small.png" on:click={toggletrash} on:click="{() => expand = !expand}">
+	<img class="smallPic" alt="mynd" src="igms/secret/small.png" on:click={togglesecret}>
+	<img class="smallPic larger" alt="mynd" src="igms/musicBook/4.png" on:click={togglemusicbook}>
+	<img class="smallPic" alt="mynd" src="igms/corruptedspace/smaller.jpg" on:click={togglecorruptedspace}>
+	<img class="smallPic" alt="mynd" src="igms/familiarfaces/small.jpg" on:click={togglefamiliarfaces}>
+    <img class="smallPic" alt="mynd" style="max-width: 250px;" src="igms/litabok/small.png" on:click={togglelitabok}>
+	<img class="smallPic" alt="mynd" src="igms/trash/small.png" on:click={toggletrash}>
 	
     <!--<img class="smallPic" alt="mynd" src="igms/alterego/small.png"> OTHER -->
     <!--<img class="smallPic" alt="mynd" src="igms/grad/small.png">-->
