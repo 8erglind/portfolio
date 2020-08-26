@@ -364,7 +364,7 @@
 	    <img class="mediumPic" alt="mynd" src="igms/undefined-undefined/5red2.png">
 	    <img class="mediumPic" alt="mynd" src="igms/undefined-undefined/ok.gif">
 	    <img class="mediumPic" alt="mynd" src="igms/undefined-teikningar/Scan 34.jpg">
-	    <img class="mediumPic" alt="mynd" style="max-width: 30vw;" alt="mynd" src="igms/undefined-posters/KABKPuppyParade2.jpg">
+	    <img class="mediumPic" alt="mynd" style="max-width: 30vw;" src="igms/undefined-posters/KABKPuppyParade2.jpg">
 	    <!--<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/blom2b.jpg">-->
 	    <img class="mediumPic" alt="mynd" src="igms/undefined-undefined/blomnytt.jpg">
 	    <img class="mediumPic" alt="mynd" src="igms/undefined-undefined/IMG_1856.JPG">
