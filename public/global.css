@@ -320,10 +320,12 @@ a {color: blue; font-style: italic;}
   cursor: auto;
 
   border-radius: 10px;
+  filter: grayscale(1);
 }
 .smallPic:hover {
   opacity: 1;
   border: 1px dotted #027967;
+  filter: grayscale(0);
 }
 .mediumPic {
   opacity: /*0.4*/ .8;

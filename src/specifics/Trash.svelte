@@ -10,7 +10,7 @@
 	<img class="img portfolio-item" alt="mynd" src="igms/trash/1.jpg" />
 	<img class="img portfolio-item" alt="mynd" src="igms/trash/1.png" />
 	<br><br><br><br><br><br><br><br>
-	<p>Setja inn A drop in the Ocean lag heheh</p>
+	<!--<p>Setja inn A drop in the Ocean lag heheh</p>-->
 </div>
 
 

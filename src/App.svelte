@@ -3,7 +3,7 @@
 	//  specifics  //
 	import Onourowntime from './specifics/Onourowntime.svelte';
 	import Green from './specifics/Green.svelte';
-	import Vivienne from './specifics/vivienne.svelte';
+	import Vivienne from './specifics/Vivienne.svelte';
 	import Portfolioio from './specifics/Portfolioio.svelte';
 	import Typoposters from './specifics/Typoposters.svelte';
 	import Secret from './specifics/Secret.svelte';
@@ -29,7 +29,7 @@
 
 	let expand;
 	let frontscreen = true;
-	let other = false;
+	let other = true;
 
 	
 	let onourowntime = false;
@@ -329,51 +329,51 @@
 	    <div class="line"></div>
 		
 	    <!--<img class="mediumPic" src="igms/undefined-teikningar/upprodun2.jpg">-->
-	    <img class="mediumPic" src="igms/undefined-teikningar/ulines.png">
-	    <img class="mediumPic" src="igms/undefined-teikningar/upprodun3rettmeddrasli2.jpg">
+	    <img class="mediumPic" alt="mynd" src="igms/undefined-teikningar/ulines.png">
+	    <img class="mediumPic" alt="mynd" src="igms/undefined-teikningar/upprodun3rettmeddrasli2.jpg">
 	    <img class="mediumPic" alt="mynd" src="igms/undefined-undefined/organo.jpg">
-	    <img class="mediumPic" src="igms/undefined-ljosmyndir/P1150392.JPG">
-	    <img class="mediumPic" src="igms/undefined-ljosmyndir/P1050540.JPG">
-	    <!--<img class="mediumPic" src="igms/undefined-ljosmyndir/P1150285.JPG">-->
-	    <img class="mediumPic" src="igms/undefined-ljosmyndir/prent f fólk379.jpg">
-	    <!--<img class="mediumPic" src="igms/undefined-ljosmyndir/IMG_7173.JPG">-->
-	    <!--<img class="mediumPic" src="igms/undefined-ljosmyndir/prent f fólk3106.jpg">-->
-	    <img class="mediumPic" src="igms/undefined-posters/otherPoster.png">
-	    <img class="mediumPic" src="igms/undefined-teikningar/teikning1.jpg">
-	    <img class="mediumPic" src="igms/undefined-teikningar/teikning2.jpg">
-	    <img class="mediumPic" src="igms/undefined-teikningar/teikning3.jpg">
-	    <img class="mediumPic" style="border-radius: 120px;" src="igms/undefined-undefined/_.jpg">
-	    <img class="mediumPic" src="igms/undefined-posters/2.png">
-	    <img class="mediumPic" src="igms/undefined-undefined/prent f fólk374.jpg">
-	    <img class="mediumPic" src="igms/undefined-undefined/prent f fólk375.jpg">
-	    <!--<img class="mediumPic" src="igms/undefined-undefined/1tvenna.png">-->
-	    <!--<img class="mediumPic" src="igms/undefined-undefined/mynd12.png">-->
-	    <!--<img class="mediumPic" src="igms/undefined-undefined/blubb_Page_06.jpg">-->
-	    <img class="mediumPic" src="igms/undefined-undefined/blubb_Page_14b.jpg">
-	    <!--<img class="mediumPic" src="igms/undefined-undefined/blubb_Page_16.jpg">-->
-	    <!--<img class="mediumPic" src="igms/undefined-undefined/blubb_Page_19.jpg">-->
-	    <img class="mediumPic" src="igms/undefined-undefined/5utgafa-ut.png">
-	    <!--<img class="mediumPic" src="igms/undefined-undefined/prufur-31.gif">-->
-	    <!--<img class="mediumPic" src="igms/undefined-undefined/typoblack.png">-->
-	    <!--<img class="mediumPic" alt="mynd" src="igms/cali/small.jpg">-->
-	    <img class="mediumPic" alt="mynd" src="igms/cali/cali1.jpg">
-	    <!--<img class="mediumPic" alt="mynd" src="igms/cali/cali2.jpg">-->
-	    <img class="mediumPic" alt="mynd" src="igms/cali/cali3.jpg">
-	    <!--<img class="mediumPic" alt="mynd" src="igms/cali/cali4.jpg">-->
-	    <img class="mediumPic" alt="mynd" src="igms/undefined-undefined/baby.png">
-	    <img class="mediumPic" src="igms/undefined-undefined/5red2.png">
-	    <img class="mediumPic" src="igms/undefined-undefined/ok.gif">
-	    <img class="mediumPic" src="igms/undefined-teikningar/Scan 34.jpg">
-	    <img class="mediumPic" style="max-width: 30vw;" alt="mynd" src="igms/undefined-posters/KABKPuppyParade2.jpg">
-	    <!--<img class="mediumPic" src="igms/undefined-undefined/blom2b.jpg">-->
-	    <img class="mediumPic" src="igms/undefined-undefined/blomnytt.jpg">
-	    <img class="mediumPic" src="igms/undefined-undefined/IMG_1856.JPG">
-	    <img class="mediumPic" src="igms/undefined-undefined/rammi.jpg">
-	    <img class="mediumPic" style="max-width: 30vw;" src="igms/undefined-undefined/spurn.png">
-	    <img class="mediumPic" src="igms/undefined-undefined/oohnoo.gif">
-	    <img class="mediumPic" src="igms/undefined-undefined/5web.png">
-	    <img class="mediumPic" src="igms/undefined-undefined/front.png">
-	    <img class="mediumPic" src="igms/undefined-undefined/mamma.jpg">
+	    <img class="mediumPic" alt="mynd" src="igms/undefined-ljosmyndir/P1150392.JPG">
+	    <img class="mediumPic" alt="mynd" src="igms/undefined-ljosmyndir/P1050540.JPG">
+	    <!--<img class="mediumPic" alt="mynd" src="igms/undefined-ljosmyndir/P1150285.JPG">-->
+	    <img class="mediumPic" alt="mynd" src="igms/undefined-ljosmyndir/prent f fólk379.jpg">
+	    <!--<img class="mediumPic" alt="mynd" src="igms/undefined-ljosmyndir/IMG_7173.JPG">-->
+	    <!--<img class="mediumPic" alt="mynd" src="igms/undefined-ljosmyndir/prent f fólk3106.jpg">-->
+	    <img class="mediumPic" alt="mynd" src="igms/undefined-posters/otherPoster.png">
+	    <img class="mediumPic" alt="mynd" src="igms/undefined-teikningar/teikning1.jpg">
+	    <img class="mediumPic" alt="mynd" src="igms/undefined-teikningar/teikning2.jpg">
+	    <img class="mediumPic" alt="mynd" src="igms/undefined-teikningar/teikning3.jpg">
+	    <img class="mediumPic" alt="mynd" style="border-radius: 120px;" src="igms/undefined-undefined/_.jpg">
+	    <img class="mediumPic" alt="mynd" src="igms/undefined-posters/2.png">
+	    <img class="mediumPic" alt="mynd" src="igms/undefined-undefined/prent f fólk374.jpg">
+	    <img class="mediumPic" alt="mynd" src="igms/undefined-undefined/prent f fólk375.jpg">
+	    <!--<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/1tvenna.png">-->
+	    <!--<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/mynd12.png">-->
+	    <!--<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/blubb_Page_06.jpg">-->
+	    <img class="mediumPic" alt="mynd" src="igms/undefined-undefined/blubb_Page_14b.jpg">
+	    <!--<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/blubb_Page_16.jpg">-->
+	    <!--<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/blubb_Page_19.jpg">-->
+	    <img class="mediumPic" alt="mynd" src="igms/undefined-undefined/5utgafa-ut.png">
+	    <!--<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/prufur-31.gif">-->
+	    <!--<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/typoblack.png">-->
+	    <!--<img class="mediumPic" alt="mynd" alt="mynd" src="igms/cali/small.jpg">-->
+	    <img class="mediumPic" alt="mynd" alt="mynd" src="igms/cali/cali1.jpg">
+	    <!--<img class="mediumPic" alt="mynd" alt="mynd" src="igms/cali/cali2.jpg">-->
+	    <img class="mediumPic" alt="mynd" alt="mynd" src="igms/cali/cali3.jpg">
+	    <!--<img class="mediumPic" alt="mynd" alt="mynd" src="igms/cali/cali4.jpg">-->
+	    <img class="mediumPic" alt="mynd" alt="mynd" src="igms/undefined-undefined/baby.png">
+	    <img class="mediumPic" alt="mynd" src="igms/undefined-undefined/5red2.png">
+	    <img class="mediumPic" alt="mynd" src="igms/undefined-undefined/ok.gif">
+	    <img class="mediumPic" alt="mynd" src="igms/undefined-teikningar/Scan 34.jpg">
+	    <img class="mediumPic" alt="mynd" style="max-width: 30vw;" alt="mynd" src="igms/undefined-posters/KABKPuppyParade2.jpg">
+	    <!--<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/blom2b.jpg">-->
+	    <img class="mediumPic" alt="mynd" src="igms/undefined-undefined/blomnytt.jpg">
+	    <img class="mediumPic" alt="mynd" src="igms/undefined-undefined/IMG_1856.JPG">
+	    <img class="mediumPic" alt="mynd" src="igms/undefined-undefined/rammi.jpg">
+	    <img class="mediumPic" alt="mynd" style="max-width: 30vw;" src="igms/undefined-undefined/spurn.png">
+	    <img class="mediumPic" alt="mynd" src="igms/undefined-undefined/oohnoo.gif">
+	    <img class="mediumPic" alt="mynd" src="igms/undefined-undefined/5web.png">
+	    <img class="mediumPic" alt="mynd" src="igms/undefined-undefined/front.png">
+	    <img class="mediumPic" alt="mynd" src="igms/undefined-undefined/mamma.jpg">
     {/if}
 
     
