@@ -8,8 +8,8 @@
 	<img class="img portfolio-item larger" alt="mynd" src="igms/oeb/screena.jpg" /><br><br><br><br><br><br><br><br>
 	<img class="img portfolio-item larger" alt="mynd" src="igms/oeb/screenb.jpg" /><br><br><br><br><br><br><br><br>
 	<img class="img portfolio-item larger" alt="mynd" src="igms/oeb/screenc.jpg" /><br><br><br><br><br><br><br><br>
-	<!--<img class="img portfolio-item larger" alt="mynd" src="igms/oeb/screend.jpg" />
-	<br><br><br><br><br><br><br><br>-->
+	<img class="img portfolio-item larger" alt="mynd" src="igms/oeb/screend.jpg" />
+	<br><br><br><br><br><br><br><br>
 	<img class="img portfolio-item" style="height: 80%;" alt="mynd" src="igms/oeb/h.png" /><br>
 	<img class="img portfolio-item" style="height: 80%;" alt="mynd" src="igms/oeb/0a.png" />
 	<img class="img portfolio-item" alt="mynd" src="igms/oeb/1b.png" />
