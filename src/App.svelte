@@ -207,8 +207,8 @@
 		{#if secret}An anonymous's secret, translated into a foldout A6-size hardcover book.{/if}
 		{#if tools}A publication holding an archive of different communication tools. A5-size.{/if}
 		{#if timatal}A collection of different ideas and imaginations of time and time-keeping.<br>Content gathered from a single book found in a library (and returned before I thought of doucumenting it :S ...school project).{/if}
-		{#if sortedplastic}A research project, collaboration with Louana Gentner, on where plastic &mdash; sorted by residents of the Hague and delivered to local bins to be recycled &mdash; ends up. An interesting disappointment, documented in a A3-size publication and an online tetris-style game.{/if}
-		{#if litabok}An installation and publication about people as ornaments and the colours they wear????{/if}
+		{#if sortedplastic}A research project, collaboration with Louana Gentner, on where plastic &mdash; sorted by residents of the Hague and delivered to local bins to be recycled &mdash; ends up. An interesting disappointment, documented in an A3-size publication and an online tetris-style game.{/if}
+		{#if litabok}An installation and publication.{/if}
 		{#if oilbuddies}The heads of the worlds biggest oil-companies in 2017, in bubbles, floating around (...headed to wherever the weahter suits their clothes).{/if}
 		{#if trash}A sticker for the trash-bins of KABK as a call for recycling. Typeface made out of KABK's logo.{/if}
 	  	{#if familiarfaces}Posters, digital and physical, made in collaboration with Seojeong Youn.{/if}
