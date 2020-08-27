@@ -248,7 +248,7 @@ a {color: blue; font-style: italic;}
 
 .buttonWrapper {
   position: fixed;
-  top: 10px;
+  top: 5px;
   right: 100px;
   left: 50%;
   display: inline;
@@ -260,13 +260,15 @@ a {color: blue; font-style: italic;}
   display: inline;
   padding: 5px;
   border: 1px dotted #027967;
+  border-top: none;
   margin-right: 2.5px;
   margin-left: 2.5px;
   cursor: pointer;
+  background-color: rgb(245,242,240);
 }
 .button:hover {
   border: 1px solid #027967;
-  background-color: #f7f6f2;}
+}
 
 
 .container {
@@ -303,7 +305,7 @@ a {color: blue; font-style: italic;}
   padding: 5px;
   z-index: 2;
   color: white;
-  top: -1px;
+  top: 0px;
   right: 0px;
 }
 
@@ -451,9 +453,6 @@ a {color: blue; font-style: italic;}
   bottom: 10px;
   right: 0px;
   left: 0px;
-}
-.button {
-  background-color: #f7f6f2;
 }
 
 
