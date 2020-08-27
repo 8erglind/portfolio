@@ -278,6 +278,7 @@ a {color: blue; font-style: italic;}
 	z-index: 1;
 
 	bottom: 0%;
+  -webkit-overflow-scrolling: touch;
 	overflow-y: scroll;
 }
 
