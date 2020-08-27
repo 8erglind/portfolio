@@ -444,6 +444,18 @@ a {color: blue; font-style: italic;}
 	top: 0px;
 	left: 0px;
 }
+
+.buttonWrapper {
+  top: auto;
+  bottom: 10px;
+  right: 0px;
+  left: 0px;
+}
+.button {
+  background-color: #f7f6f2;
+}
+
+
 .container {
 	top: 0%;
 	left: 0%;

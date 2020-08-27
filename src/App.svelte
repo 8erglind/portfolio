@@ -313,7 +313,7 @@
     PICbritney = false;
     PICbrandalism = false;
     PICegobook = false;
-    PICmen = false;
+    PICmen = true;
   }
   const toggleOTHER = () => { 
     PICflora = false; 
@@ -349,7 +349,7 @@
     PICproverb = false;
     PICpsdmynd = true;
     PICfloraA = true;
-    PICcali = false;
+    PICcali = true;
     PICbaby = true;
     PICfimma = true;
     PICleturgif = true;
@@ -626,7 +626,7 @@
       Work
     </div>
     <div class="out-on-desktop"></div>
-    <br><br>
+    <br><br><br><br>
     
     
     {#if PICflora}<img class="smallPic" alt="mynd" src="igms/flora/small.png" on:click={toggleflora} on:click="{() => expand = !expand}">{/if}
