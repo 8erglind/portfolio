@@ -3528,8 +3528,14 @@ var app = (function () {
     	let t11;
     	let img11;
     	let img11_src_value;
-    	let t12;
     	let br3;
+    	let t12;
+    	let img12;
+    	let img12_src_value;
+    	let t13;
+    	let img13;
+    	let img13_src_value;
+    	let t14;
     	let br4;
     	let br5;
     	let br6;
@@ -3537,21 +3543,21 @@ var app = (function () {
     	let br8;
     	let br9;
     	let br10;
-    	let t13;
-    	let img12;
-    	let img12_src_value;
     	let br11;
-    	let t14;
-    	let img13;
-    	let img13_src_value;
     	let t15;
     	let img14;
     	let img14_src_value;
+    	let br12;
     	let t16;
     	let img15;
     	let img15_src_value;
     	let t17;
-    	let br12;
+    	let img16;
+    	let img16_src_value;
+    	let t18;
+    	let img17;
+    	let img17_src_value;
+    	let t19;
     	let br13;
     	let br14;
     	let br15;
@@ -3559,6 +3565,7 @@ var app = (function () {
     	let br17;
     	let br18;
     	let br19;
+    	let br20;
 
     	const block = {
     		c: function create() {
@@ -3590,8 +3597,12 @@ var app = (function () {
     			img10 = element("img");
     			t11 = space();
     			img11 = element("img");
-    			t12 = space();
     			br3 = element("br");
+    			t12 = space();
+    			img12 = element("img");
+    			t13 = space();
+    			img13 = element("img");
+    			t14 = space();
     			br4 = element("br");
     			br5 = element("br");
     			br6 = element("br");
@@ -3599,17 +3610,17 @@ var app = (function () {
     			br8 = element("br");
     			br9 = element("br");
     			br10 = element("br");
-    			t13 = space();
-    			img12 = element("img");
     			br11 = element("br");
-    			t14 = space();
-    			img13 = element("img");
     			t15 = space();
     			img14 = element("img");
+    			br12 = element("br");
     			t16 = space();
     			img15 = element("img");
     			t17 = space();
-    			br12 = element("br");
+    			img16 = element("img");
+    			t18 = space();
+    			img17 = element("img");
+    			t19 = space();
     			br13 = element("br");
     			br14 = element("br");
     			br15 = element("br");
@@ -3617,6 +3628,7 @@ var app = (function () {
     			br17 = element("br");
     			br18 = element("br");
     			br19 = element("br");
+    			br20 = element("br");
     			add_location(br0, file$e, 6, 1, 54);
     			add_location(br1, file$e, 6, 5, 58);
     			attr_dev(img0, "class", "img portfolio-item svelte-viypl1");
@@ -3668,39 +3680,48 @@ var app = (function () {
     			attr_dev(img11, "alt", "mynd");
     			if (img11.src !== (img11_src_value = "igms/litabok/3.png")) attr_dev(img11, "src", img11_src_value);
     			add_location(img11, file$e, 19, 1, 1034);
-    			add_location(br3, file$e, 20, 1, 1114);
-    			add_location(br4, file$e, 20, 5, 1118);
-    			add_location(br5, file$e, 20, 9, 1122);
-    			add_location(br6, file$e, 20, 13, 1126);
-    			add_location(br7, file$e, 20, 17, 1130);
-    			add_location(br8, file$e, 20, 21, 1134);
-    			add_location(br9, file$e, 20, 25, 1138);
-    			add_location(br10, file$e, 20, 29, 1142);
-    			attr_dev(img12, "class", "img portfolio-item svelte-viypl1");
+    			add_location(br3, file$e, 19, 79, 1112);
+    			attr_dev(img12, "class", "img portfolio-item smaller svelte-viypl1");
     			attr_dev(img12, "alt", "mynd");
-    			if (img12.src !== (img12_src_value = "igms/litabok/3.jpg")) attr_dev(img12, "src", img12_src_value);
-    			add_location(img12, file$e, 21, 1, 1148);
-    			add_location(br11, file$e, 21, 71, 1218);
-    			attr_dev(img13, "class", "img portfolio-item svelte-viypl1");
+    			if (img12.src !== (img12_src_value = "igms/litabok/2.png")) attr_dev(img12, "src", img12_src_value);
+    			add_location(img12, file$e, 20, 1, 1118);
+    			attr_dev(img13, "class", "img portfolio-item smaller svelte-viypl1");
     			attr_dev(img13, "alt", "mynd");
-    			if (img13.src !== (img13_src_value = "igms/litabok/2.jpg")) attr_dev(img13, "src", img13_src_value);
-    			add_location(img13, file$e, 22, 1, 1224);
+    			if (img13.src !== (img13_src_value = "igms/litabok/1.png")) attr_dev(img13, "src", img13_src_value);
+    			add_location(img13, file$e, 21, 1, 1198);
+    			add_location(br4, file$e, 22, 1, 1278);
+    			add_location(br5, file$e, 22, 5, 1282);
+    			add_location(br6, file$e, 22, 9, 1286);
+    			add_location(br7, file$e, 22, 13, 1290);
+    			add_location(br8, file$e, 22, 17, 1294);
+    			add_location(br9, file$e, 22, 21, 1298);
+    			add_location(br10, file$e, 22, 25, 1302);
+    			add_location(br11, file$e, 22, 29, 1306);
     			attr_dev(img14, "class", "img portfolio-item svelte-viypl1");
     			attr_dev(img14, "alt", "mynd");
-    			if (img14.src !== (img14_src_value = "igms/litabok/1.jpg")) attr_dev(img14, "src", img14_src_value);
-    			add_location(img14, file$e, 23, 1, 1296);
+    			if (img14.src !== (img14_src_value = "igms/litabok/3.jpg")) attr_dev(img14, "src", img14_src_value);
+    			add_location(img14, file$e, 23, 1, 1312);
+    			add_location(br12, file$e, 23, 71, 1382);
     			attr_dev(img15, "class", "img portfolio-item svelte-viypl1");
     			attr_dev(img15, "alt", "mynd");
-    			if (img15.src !== (img15_src_value = "igms/litabok/0.jpg")) attr_dev(img15, "src", img15_src_value);
-    			add_location(img15, file$e, 24, 1, 1368);
-    			add_location(br12, file$e, 26, 1, 1442);
-    			add_location(br13, file$e, 26, 5, 1446);
-    			add_location(br14, file$e, 26, 9, 1450);
-    			add_location(br15, file$e, 26, 13, 1454);
-    			add_location(br16, file$e, 26, 17, 1458);
-    			add_location(br17, file$e, 26, 21, 1462);
-    			add_location(br18, file$e, 26, 25, 1466);
-    			add_location(br19, file$e, 26, 29, 1470);
+    			if (img15.src !== (img15_src_value = "igms/litabok/2.jpg")) attr_dev(img15, "src", img15_src_value);
+    			add_location(img15, file$e, 24, 1, 1388);
+    			attr_dev(img16, "class", "img portfolio-item svelte-viypl1");
+    			attr_dev(img16, "alt", "mynd");
+    			if (img16.src !== (img16_src_value = "igms/litabok/1.jpg")) attr_dev(img16, "src", img16_src_value);
+    			add_location(img16, file$e, 25, 1, 1460);
+    			attr_dev(img17, "class", "img portfolio-item svelte-viypl1");
+    			attr_dev(img17, "alt", "mynd");
+    			if (img17.src !== (img17_src_value = "igms/litabok/0.jpg")) attr_dev(img17, "src", img17_src_value);
+    			add_location(img17, file$e, 26, 1, 1532);
+    			add_location(br13, file$e, 28, 1, 1606);
+    			add_location(br14, file$e, 28, 5, 1610);
+    			add_location(br15, file$e, 28, 9, 1614);
+    			add_location(br16, file$e, 28, 13, 1618);
+    			add_location(br17, file$e, 28, 17, 1622);
+    			add_location(br18, file$e, 28, 21, 1626);
+    			add_location(br19, file$e, 28, 25, 1630);
+    			add_location(br20, file$e, 28, 29, 1634);
     			attr_dev(div, "class", "backgroundcolor svelte-viypl1");
     			add_location(div, file$e, 5, 0, 23);
     		},
@@ -3736,8 +3757,12 @@ var app = (function () {
     			append_dev(div, img10);
     			append_dev(div, t11);
     			append_dev(div, img11);
-    			append_dev(div, t12);
     			append_dev(div, br3);
+    			append_dev(div, t12);
+    			append_dev(div, img12);
+    			append_dev(div, t13);
+    			append_dev(div, img13);
+    			append_dev(div, t14);
     			append_dev(div, br4);
     			append_dev(div, br5);
     			append_dev(div, br6);
@@ -3745,17 +3770,17 @@ var app = (function () {
     			append_dev(div, br8);
     			append_dev(div, br9);
     			append_dev(div, br10);
-    			append_dev(div, t13);
-    			append_dev(div, img12);
     			append_dev(div, br11);
-    			append_dev(div, t14);
-    			append_dev(div, img13);
     			append_dev(div, t15);
     			append_dev(div, img14);
+    			append_dev(div, br12);
     			append_dev(div, t16);
     			append_dev(div, img15);
     			append_dev(div, t17);
-    			append_dev(div, br12);
+    			append_dev(div, img16);
+    			append_dev(div, t18);
+    			append_dev(div, img17);
+    			append_dev(div, t19);
     			append_dev(div, br13);
     			append_dev(div, br14);
     			append_dev(div, br15);
@@ -3763,6 +3788,7 @@ var app = (function () {
     			append_dev(div, br17);
     			append_dev(div, br18);
     			append_dev(div, br19);
+    			append_dev(div, br20);
     		},
     		p: noop,
     		i: noop,
@@ -6234,11 +6260,223 @@ var app = (function () {
     	}
     }
 
-    /* src/App.svelte generated by Svelte v3.23.0 */
-    const file$n = "src/App.svelte";
+    /* src/specifics/Evublad.svelte generated by Svelte v3.23.0 */
 
-    // (121:3) {#if frontscreen}
-    function create_if_block_112(ctx) {
+    const file$n = "src/specifics/Evublad.svelte";
+
+    function create_fragment$n(ctx) {
+    	let div;
+    	let br0;
+    	let br1;
+    	let t0;
+    	let img0;
+    	let img0_src_value;
+    	let br2;
+    	let t1;
+    	let img1;
+    	let img1_src_value;
+    	let br3;
+    	let t2;
+    	let img2;
+    	let img2_src_value;
+    	let br4;
+    	let t3;
+    	let img3;
+    	let img3_src_value;
+    	let br5;
+    	let t4;
+    	let img4;
+    	let img4_src_value;
+    	let br6;
+    	let t5;
+    	let img5;
+    	let img5_src_value;
+    	let br7;
+    	let t6;
+    	let img6;
+    	let img6_src_value;
+    	let br8;
+    	let t7;
+    	let br9;
+    	let br10;
+    	let br11;
+    	let br12;
+    	let br13;
+    	let br14;
+    	let br15;
+    	let br16;
+
+    	const block = {
+    		c: function create() {
+    			div = element("div");
+    			br0 = element("br");
+    			br1 = element("br");
+    			t0 = space();
+    			img0 = element("img");
+    			br2 = element("br");
+    			t1 = space();
+    			img1 = element("img");
+    			br3 = element("br");
+    			t2 = space();
+    			img2 = element("img");
+    			br4 = element("br");
+    			t3 = space();
+    			img3 = element("img");
+    			br5 = element("br");
+    			t4 = space();
+    			img4 = element("img");
+    			br6 = element("br");
+    			t5 = space();
+    			img5 = element("img");
+    			br7 = element("br");
+    			t6 = space();
+    			img6 = element("img");
+    			br8 = element("br");
+    			t7 = space();
+    			br9 = element("br");
+    			br10 = element("br");
+    			br11 = element("br");
+    			br12 = element("br");
+    			br13 = element("br");
+    			br14 = element("br");
+    			br15 = element("br");
+    			br16 = element("br");
+    			add_location(br0, file$n, 6, 1, 54);
+    			add_location(br1, file$n, 6, 5, 58);
+    			attr_dev(img0, "class", "img portfolio-item svelte-lsg2gy");
+    			attr_dev(img0, "alt", "mynd");
+    			if (img0.src !== (img0_src_value = "igms/evublad/evublad-spreads0.jpg")) attr_dev(img0, "src", img0_src_value);
+    			add_location(img0, file$n, 7, 1, 64);
+    			add_location(br2, file$n, 7, 86, 149);
+    			attr_dev(img1, "class", "img portfolio-item svelte-lsg2gy");
+    			attr_dev(img1, "alt", "mynd");
+    			if (img1.src !== (img1_src_value = "igms/evublad/evublad-spreads2.jpg")) attr_dev(img1, "src", img1_src_value);
+    			add_location(img1, file$n, 8, 1, 155);
+    			add_location(br3, file$n, 8, 86, 240);
+    			attr_dev(img2, "class", "img portfolio-item svelte-lsg2gy");
+    			attr_dev(img2, "alt", "mynd");
+    			if (img2.src !== (img2_src_value = "igms/evublad/evublad-spreads4.jpg")) attr_dev(img2, "src", img2_src_value);
+    			add_location(img2, file$n, 9, 1, 246);
+    			add_location(br4, file$n, 9, 86, 331);
+    			attr_dev(img3, "class", "img portfolio-item svelte-lsg2gy");
+    			attr_dev(img3, "alt", "mynd");
+    			if (img3.src !== (img3_src_value = "igms/evublad/evublad-spreads5.jpg")) attr_dev(img3, "src", img3_src_value);
+    			add_location(img3, file$n, 10, 1, 337);
+    			add_location(br5, file$n, 10, 86, 422);
+    			attr_dev(img4, "class", "img portfolio-item svelte-lsg2gy");
+    			attr_dev(img4, "alt", "mynd");
+    			if (img4.src !== (img4_src_value = "igms/evublad/evublad-spreads6.jpg")) attr_dev(img4, "src", img4_src_value);
+    			add_location(img4, file$n, 11, 1, 428);
+    			add_location(br6, file$n, 11, 86, 513);
+    			attr_dev(img5, "class", "img portfolio-item svelte-lsg2gy");
+    			attr_dev(img5, "alt", "mynd");
+    			if (img5.src !== (img5_src_value = "igms/evublad/evublad-spreads7.jpg")) attr_dev(img5, "src", img5_src_value);
+    			add_location(img5, file$n, 12, 1, 519);
+    			add_location(br7, file$n, 12, 86, 604);
+    			attr_dev(img6, "class", "img portfolio-item svelte-lsg2gy");
+    			attr_dev(img6, "alt", "mynd");
+    			if (img6.src !== (img6_src_value = "igms/evublad/evublad-spreads9.jpg")) attr_dev(img6, "src", img6_src_value);
+    			add_location(img6, file$n, 13, 1, 610);
+    			add_location(br8, file$n, 13, 86, 695);
+    			add_location(br9, file$n, 14, 1, 701);
+    			add_location(br10, file$n, 14, 5, 705);
+    			add_location(br11, file$n, 14, 9, 709);
+    			add_location(br12, file$n, 14, 13, 713);
+    			add_location(br13, file$n, 14, 17, 717);
+    			add_location(br14, file$n, 14, 21, 721);
+    			add_location(br15, file$n, 14, 25, 725);
+    			add_location(br16, file$n, 14, 29, 729);
+    			attr_dev(div, "class", "backgroundcolor svelte-lsg2gy");
+    			add_location(div, file$n, 5, 0, 23);
+    		},
+    		l: function claim(nodes) {
+    			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, div, anchor);
+    			append_dev(div, br0);
+    			append_dev(div, br1);
+    			append_dev(div, t0);
+    			append_dev(div, img0);
+    			append_dev(div, br2);
+    			append_dev(div, t1);
+    			append_dev(div, img1);
+    			append_dev(div, br3);
+    			append_dev(div, t2);
+    			append_dev(div, img2);
+    			append_dev(div, br4);
+    			append_dev(div, t3);
+    			append_dev(div, img3);
+    			append_dev(div, br5);
+    			append_dev(div, t4);
+    			append_dev(div, img4);
+    			append_dev(div, br6);
+    			append_dev(div, t5);
+    			append_dev(div, img5);
+    			append_dev(div, br7);
+    			append_dev(div, t6);
+    			append_dev(div, img6);
+    			append_dev(div, br8);
+    			append_dev(div, t7);
+    			append_dev(div, br9);
+    			append_dev(div, br10);
+    			append_dev(div, br11);
+    			append_dev(div, br12);
+    			append_dev(div, br13);
+    			append_dev(div, br14);
+    			append_dev(div, br15);
+    			append_dev(div, br16);
+    		},
+    		p: noop,
+    		i: noop,
+    		o: noop,
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(div);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_fragment$n.name,
+    		type: "component",
+    		source: "",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    function instance$n($$self, $$props) {
+    	const writable_props = [];
+
+    	Object.keys($$props).forEach(key => {
+    		if (!~writable_props.indexOf(key) && key.slice(0, 2) !== "$$") console.warn(`<Evublad> was created with unknown prop '${key}'`);
+    	});
+
+    	let { $$slots = {}, $$scope } = $$props;
+    	validate_slots("Evublad", $$slots, []);
+    	return [];
+    }
+
+    class Evublad extends SvelteComponentDev {
+    	constructor(options) {
+    		super(options);
+    		init(this, options, instance$n, create_fragment$n, safe_not_equal, {});
+
+    		dispatch_dev("SvelteRegisterComponent", {
+    			component: this,
+    			tagName: "Evublad",
+    			options,
+    			id: create_fragment$n.name
+    		});
+    	}
+    }
+
+    /* src/App.svelte generated by Svelte v3.23.0 */
+    const file$o = "src/App.svelte";
+
+    // (124:3) {#if frontscreen}
+    function create_if_block_117(ctx) {
     	let t;
 
     	const block = {
@@ -6255,17 +6493,17 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block_112.name,
+    		id: create_if_block_117.name,
     		type: "if",
-    		source: "(121:3) {#if frontscreen}",
+    		source: "(124:3) {#if frontscreen}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (122:3) {#if onourowntime}
-    function create_if_block_111(ctx) {
+    // (125:3) {#if onourowntime}
+    function create_if_block_116(ctx) {
     	let t;
 
     	const block = {
@@ -6282,17 +6520,17 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block_111.name,
+    		id: create_if_block_116.name,
     		type: "if",
-    		source: "(122:3) {#if onourowntime}",
+    		source: "(125:3) {#if onourowntime}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (123:3) {#if green}
-    function create_if_block_110(ctx) {
+    // (126:3) {#if green}
+    function create_if_block_115(ctx) {
     	let t;
 
     	const block = {
@@ -6309,17 +6547,17 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block_110.name,
+    		id: create_if_block_115.name,
     		type: "if",
-    		source: "(123:3) {#if green}",
+    		source: "(126:3) {#if green}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (124:3) {#if viv}
-    function create_if_block_109(ctx) {
+    // (127:3) {#if viv}
+    function create_if_block_114(ctx) {
     	let t;
 
     	const block = {
@@ -6336,17 +6574,17 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block_109.name,
+    		id: create_if_block_114.name,
     		type: "if",
-    		source: "(124:3) {#if viv}",
+    		source: "(127:3) {#if viv}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (125:3) {#if portfolioio}
-    function create_if_block_108(ctx) {
+    // (128:3) {#if portfolioio}
+    function create_if_block_113(ctx) {
     	let t;
 
     	const block = {
@@ -6363,17 +6601,17 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block_108.name,
+    		id: create_if_block_113.name,
     		type: "if",
-    		source: "(125:3) {#if portfolioio}",
+    		source: "(128:3) {#if portfolioio}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (126:3) {#if typoposters}
-    function create_if_block_107(ctx) {
+    // (129:3) {#if typoposters}
+    function create_if_block_112(ctx) {
     	let t;
 
     	const block = {
@@ -6390,17 +6628,17 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block_107.name,
+    		id: create_if_block_112.name,
     		type: "if",
-    		source: "(126:3) {#if typoposters}",
+    		source: "(129:3) {#if typoposters}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (127:3) {#if beauimg}
-    function create_if_block_106(ctx) {
+    // (130:3) {#if beauimg}
+    function create_if_block_111(ctx) {
     	let t;
 
     	const block = {
@@ -6417,17 +6655,17 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block_106.name,
+    		id: create_if_block_111.name,
     		type: "if",
-    		source: "(127:3) {#if beauimg}",
+    		source: "(130:3) {#if beauimg}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (128:3) {#if secret}
-    function create_if_block_105(ctx) {
+    // (131:3) {#if secret}
+    function create_if_block_110(ctx) {
     	let t;
 
     	const block = {
@@ -6444,17 +6682,17 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block_105.name,
+    		id: create_if_block_110.name,
     		type: "if",
-    		source: "(128:3) {#if secret}",
+    		source: "(131:3) {#if secret}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (129:3) {#if sortedplastic}
-    function create_if_block_104(ctx) {
+    // (132:3) {#if sortedplastic}
+    function create_if_block_109(ctx) {
     	let t;
 
     	const block = {
@@ -6471,17 +6709,17 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block_104.name,
+    		id: create_if_block_109.name,
     		type: "if",
-    		source: "(129:3) {#if sortedplastic}",
+    		source: "(132:3) {#if sortedplastic}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (130:3) {#if oeb}
-    function create_if_block_103(ctx) {
+    // (133:3) {#if oeb}
+    function create_if_block_108(ctx) {
     	let t;
 
     	const block = {
@@ -6498,17 +6736,17 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block_103.name,
+    		id: create_if_block_108.name,
     		type: "if",
-    		source: "(130:3) {#if oeb}",
+    		source: "(133:3) {#if oeb}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (131:3) {#if musicposters}
-    function create_if_block_102(ctx) {
+    // (134:3) {#if musicposters}
+    function create_if_block_107(ctx) {
     	let t;
 
     	const block = {
@@ -6525,17 +6763,17 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block_102.name,
+    		id: create_if_block_107.name,
     		type: "if",
-    		source: "(131:3) {#if musicposters}",
+    		source: "(134:3) {#if musicposters}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (132:3) {#if timatal}
-    function create_if_block_101(ctx) {
+    // (135:3) {#if timatal}
+    function create_if_block_106(ctx) {
     	let t;
 
     	const block = {
@@ -6552,16 +6790,151 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block_101.name,
+    		id: create_if_block_106.name,
     		type: "if",
-    		source: "(132:3) {#if timatal}",
+    		source: "(135:3) {#if timatal}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (133:3) {#if tools}
+    // (136:3) {#if tools}
+    function create_if_block_105(ctx) {
+    	let t;
+
+    	const block = {
+    		c: function create() {
+    			t = text("Spring 2018");
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, t, anchor);
+    		},
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(t);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_if_block_105.name,
+    		type: "if",
+    		source: "(136:3) {#if tools}",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (137:3) {#if trash}
+    function create_if_block_104(ctx) {
+    	let t;
+
+    	const block = {
+    		c: function create() {
+    			t = text("Spring 2018");
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, t, anchor);
+    		},
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(t);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_if_block_104.name,
+    		type: "if",
+    		source: "(137:3) {#if trash}",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (138:3) {#if musicbook}
+    function create_if_block_103(ctx) {
+    	let t;
+
+    	const block = {
+    		c: function create() {
+    			t = text("Autumn 2016");
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, t, anchor);
+    		},
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(t);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_if_block_103.name,
+    		type: "if",
+    		source: "(138:3) {#if musicbook}",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (139:3) {#if corruptedspace}
+    function create_if_block_102(ctx) {
+    	let t;
+
+    	const block = {
+    		c: function create() {
+    			t = text("Spring 2018");
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, t, anchor);
+    		},
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(t);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_if_block_102.name,
+    		type: "if",
+    		source: "(139:3) {#if corruptedspace}",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (140:3) {#if oilbuddies}
+    function create_if_block_101(ctx) {
+    	let t;
+
+    	const block = {
+    		c: function create() {
+    			t = text("Spring 2017");
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, t, anchor);
+    		},
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(t);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_if_block_101.name,
+    		type: "if",
+    		source: "(140:3) {#if oilbuddies}",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (141:3) {#if litabok}
     function create_if_block_100(ctx) {
     	let t;
 
@@ -6581,20 +6954,20 @@ var app = (function () {
     		block,
     		id: create_if_block_100.name,
     		type: "if",
-    		source: "(133:3) {#if tools}",
+    		source: "(141:3) {#if litabok}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (134:3) {#if trash}
+    // (142:3) {#if plastica}
     function create_if_block_99(ctx) {
     	let t;
 
     	const block = {
     		c: function create() {
-    			t = text("Spring 2018");
+    			t = text("Autumn 2018");
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, t, anchor);
@@ -6608,20 +6981,20 @@ var app = (function () {
     		block,
     		id: create_if_block_99.name,
     		type: "if",
-    		source: "(134:3) {#if trash}",
+    		source: "(142:3) {#if plastica}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (135:3) {#if musicbook}
+    // (143:3) {#if familiarfaces}
     function create_if_block_98(ctx) {
     	let t;
 
     	const block = {
     		c: function create() {
-    			t = text("Autumn 2016");
+    			t = text("Autumn 2018");
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, t, anchor);
@@ -6635,150 +7008,15 @@ var app = (function () {
     		block,
     		id: create_if_block_98.name,
     		type: "if",
-    		source: "(135:3) {#if musicbook}",
+    		source: "(143:3) {#if familiarfaces}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (136:3) {#if corruptedspace}
+    // (144:3) {#if likamar}
     function create_if_block_97(ctx) {
-    	let t;
-
-    	const block = {
-    		c: function create() {
-    			t = text("Spring 2018");
-    		},
-    		m: function mount(target, anchor) {
-    			insert_dev(target, t, anchor);
-    		},
-    		d: function destroy(detaching) {
-    			if (detaching) detach_dev(t);
-    		}
-    	};
-
-    	dispatch_dev("SvelteRegisterBlock", {
-    		block,
-    		id: create_if_block_97.name,
-    		type: "if",
-    		source: "(136:3) {#if corruptedspace}",
-    		ctx
-    	});
-
-    	return block;
-    }
-
-    // (137:3) {#if oilbuddies}
-    function create_if_block_96(ctx) {
-    	let t;
-
-    	const block = {
-    		c: function create() {
-    			t = text("Spring 2017");
-    		},
-    		m: function mount(target, anchor) {
-    			insert_dev(target, t, anchor);
-    		},
-    		d: function destroy(detaching) {
-    			if (detaching) detach_dev(t);
-    		}
-    	};
-
-    	dispatch_dev("SvelteRegisterBlock", {
-    		block,
-    		id: create_if_block_96.name,
-    		type: "if",
-    		source: "(137:3) {#if oilbuddies}",
-    		ctx
-    	});
-
-    	return block;
-    }
-
-    // (138:3) {#if litabok}
-    function create_if_block_95(ctx) {
-    	let t;
-
-    	const block = {
-    		c: function create() {
-    			t = text("Spring 2018");
-    		},
-    		m: function mount(target, anchor) {
-    			insert_dev(target, t, anchor);
-    		},
-    		d: function destroy(detaching) {
-    			if (detaching) detach_dev(t);
-    		}
-    	};
-
-    	dispatch_dev("SvelteRegisterBlock", {
-    		block,
-    		id: create_if_block_95.name,
-    		type: "if",
-    		source: "(138:3) {#if litabok}",
-    		ctx
-    	});
-
-    	return block;
-    }
-
-    // (139:3) {#if plastica}
-    function create_if_block_94(ctx) {
-    	let t;
-
-    	const block = {
-    		c: function create() {
-    			t = text("Autumn 2018");
-    		},
-    		m: function mount(target, anchor) {
-    			insert_dev(target, t, anchor);
-    		},
-    		d: function destroy(detaching) {
-    			if (detaching) detach_dev(t);
-    		}
-    	};
-
-    	dispatch_dev("SvelteRegisterBlock", {
-    		block,
-    		id: create_if_block_94.name,
-    		type: "if",
-    		source: "(139:3) {#if plastica}",
-    		ctx
-    	});
-
-    	return block;
-    }
-
-    // (140:3) {#if familiarfaces}
-    function create_if_block_93(ctx) {
-    	let t;
-
-    	const block = {
-    		c: function create() {
-    			t = text("Autumn 2018");
-    		},
-    		m: function mount(target, anchor) {
-    			insert_dev(target, t, anchor);
-    		},
-    		d: function destroy(detaching) {
-    			if (detaching) detach_dev(t);
-    		}
-    	};
-
-    	dispatch_dev("SvelteRegisterBlock", {
-    		block,
-    		id: create_if_block_93.name,
-    		type: "if",
-    		source: "(140:3) {#if familiarfaces}",
-    		ctx
-    	});
-
-    	return block;
-    }
-
-    // (141:3) {#if likamar}
-    function create_if_block_92(ctx) {
     	let t;
 
     	const block = {
@@ -6795,17 +7033,17 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block_92.name,
+    		id: create_if_block_97.name,
     		type: "if",
-    		source: "(141:3) {#if likamar}",
+    		source: "(144:3) {#if likamar}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (142:3) {#if bread}
-    function create_if_block_91(ctx) {
+    // (145:3) {#if bread}
+    function create_if_block_96(ctx) {
     	let t;
 
     	const block = {
@@ -6822,17 +7060,17 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block_91.name,
+    		id: create_if_block_96.name,
     		type: "if",
-    		source: "(142:3) {#if bread}",
+    		source: "(145:3) {#if bread}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (143:3) {#if breadmag}
-    function create_if_block_90(ctx) {
+    // (146:3) {#if breadmag}
+    function create_if_block_95(ctx) {
     	let t;
 
     	const block = {
@@ -6849,17 +7087,17 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block_90.name,
+    		id: create_if_block_95.name,
     		type: "if",
-    		source: "(143:3) {#if breadmag}",
+    		source: "(146:3) {#if breadmag}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (144:3) {#if flora}
-    function create_if_block_89(ctx) {
+    // (147:3) {#if flora}
+    function create_if_block_94(ctx) {
     	let t;
 
     	const block = {
@@ -6876,17 +7114,44 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block_89.name,
+    		id: create_if_block_94.name,
     		type: "if",
-    		source: "(144:3) {#if flora}",
+    		source: "(147:3) {#if flora}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (148:3) {#if frontscreen}
-    function create_if_block_88(ctx) {
+    // (148:4) {#if evublad}
+    function create_if_block_93(ctx) {
+    	let t;
+
+    	const block = {
+    		c: function create() {
+    			t = text("Spring 2018");
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, t, anchor);
+    		},
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(t);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_if_block_93.name,
+    		type: "if",
+    		source: "(148:4) {#if evublad}",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (152:3) {#if frontscreen}
+    function create_if_block_92(ctx) {
     	let t0;
     	let br;
     	let t1;
@@ -6895,8 +7160,8 @@ var app = (function () {
     		c: function create() {
     			t0 = text("Page last updated");
     			br = element("br");
-    			t1 = text("19th of August 2020.");
-    			add_location(br, file$n, 147, 37, 14397);
+    			t1 = text("27th of August, 2020.");
+    			add_location(br, file$o, 151, 37, 15383);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, t0, anchor);
@@ -6912,16 +7177,124 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block_88.name,
+    		id: create_if_block_92.name,
     		type: "if",
-    		source: "(148:3) {#if frontscreen}",
+    		source: "(152:3) {#if frontscreen}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (149:3) {#if onourowntime}
+    // (153:3) {#if onourowntime}
+    function create_if_block_91(ctx) {
+    	let t;
+
+    	const block = {
+    		c: function create() {
+    			t = text("...");
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, t, anchor);
+    		},
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(t);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_if_block_91.name,
+    		type: "if",
+    		source: "(153:3) {#if onourowntime}",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (154:3) {#if green}
+    function create_if_block_90(ctx) {
+    	let t;
+
+    	const block = {
+    		c: function create() {
+    			t = text("...");
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, t, anchor);
+    		},
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(t);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_if_block_90.name,
+    		type: "if",
+    		source: "(154:3) {#if green}",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (155:3) {#if viv}
+    function create_if_block_89(ctx) {
+    	let t;
+
+    	const block = {
+    		c: function create() {
+    			t = text("...");
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, t, anchor);
+    		},
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(t);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_if_block_89.name,
+    		type: "if",
+    		source: "(155:3) {#if viv}",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (156:3) {#if bread}
+    function create_if_block_88(ctx) {
+    	let t;
+
+    	const block = {
+    		c: function create() {
+    			t = text("...");
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, t, anchor);
+    		},
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(t);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_if_block_88.name,
+    		type: "if",
+    		source: "(156:3) {#if bread}",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (157:3) {#if breadmag}
     function create_if_block_87(ctx) {
     	let t;
 
@@ -6941,14 +7314,14 @@ var app = (function () {
     		block,
     		id: create_if_block_87.name,
     		type: "if",
-    		source: "(149:3) {#if onourowntime}",
+    		source: "(157:3) {#if breadmag}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (150:3) {#if green}
+    // (158:3) {#if portfolioio}
     function create_if_block_86(ctx) {
     	let t;
 
@@ -6968,14 +7341,14 @@ var app = (function () {
     		block,
     		id: create_if_block_86.name,
     		type: "if",
-    		source: "(150:3) {#if green}",
+    		source: "(158:3) {#if portfolioio}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (151:3) {#if viv}
+    // (159:3) {#if typoposters}
     function create_if_block_85(ctx) {
     	let t;
 
@@ -6995,14 +7368,14 @@ var app = (function () {
     		block,
     		id: create_if_block_85.name,
     		type: "if",
-    		source: "(151:3) {#if viv}",
+    		source: "(159:3) {#if typoposters}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (152:3) {#if bread}
+    // (160:3) {#if beauimg}
     function create_if_block_84(ctx) {
     	let t;
 
@@ -7022,14 +7395,14 @@ var app = (function () {
     		block,
     		id: create_if_block_84.name,
     		type: "if",
-    		source: "(152:3) {#if bread}",
+    		source: "(160:3) {#if beauimg}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (153:3) {#if breadmag}
+    // (161:3) {#if secret}
     function create_if_block_83(ctx) {
     	let t;
 
@@ -7049,14 +7422,14 @@ var app = (function () {
     		block,
     		id: create_if_block_83.name,
     		type: "if",
-    		source: "(153:3) {#if breadmag}",
+    		source: "(161:3) {#if secret}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (154:3) {#if portfolioio}
+    // (162:3) {#if sortedplastic}
     function create_if_block_82(ctx) {
     	let t;
 
@@ -7076,14 +7449,14 @@ var app = (function () {
     		block,
     		id: create_if_block_82.name,
     		type: "if",
-    		source: "(154:3) {#if portfolioio}",
+    		source: "(162:3) {#if sortedplastic}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (155:3) {#if typoposters}
+    // (163:3) {#if oeb}
     function create_if_block_81(ctx) {
     	let t;
 
@@ -7103,14 +7476,14 @@ var app = (function () {
     		block,
     		id: create_if_block_81.name,
     		type: "if",
-    		source: "(155:3) {#if typoposters}",
+    		source: "(163:3) {#if oeb}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (156:3) {#if beauimg}
+    // (164:3) {#if musicposters}
     function create_if_block_80(ctx) {
     	let t;
 
@@ -7130,14 +7503,14 @@ var app = (function () {
     		block,
     		id: create_if_block_80.name,
     		type: "if",
-    		source: "(156:3) {#if beauimg}",
+    		source: "(164:3) {#if musicposters}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (157:3) {#if secret}
+    // (165:3) {#if timatal}
     function create_if_block_79(ctx) {
     	let t;
 
@@ -7157,14 +7530,14 @@ var app = (function () {
     		block,
     		id: create_if_block_79.name,
     		type: "if",
-    		source: "(157:3) {#if secret}",
+    		source: "(165:3) {#if timatal}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (158:3) {#if sortedplastic}
+    // (166:3) {#if tools}
     function create_if_block_78(ctx) {
     	let t;
 
@@ -7184,14 +7557,14 @@ var app = (function () {
     		block,
     		id: create_if_block_78.name,
     		type: "if",
-    		source: "(158:3) {#if sortedplastic}",
+    		source: "(166:3) {#if tools}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (159:3) {#if oeb}
+    // (167:3) {#if trash}
     function create_if_block_77(ctx) {
     	let t;
 
@@ -7211,14 +7584,14 @@ var app = (function () {
     		block,
     		id: create_if_block_77.name,
     		type: "if",
-    		source: "(159:3) {#if oeb}",
+    		source: "(167:3) {#if trash}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (160:3) {#if musicposters}
+    // (168:3) {#if musicbook}
     function create_if_block_76(ctx) {
     	let t;
 
@@ -7238,14 +7611,14 @@ var app = (function () {
     		block,
     		id: create_if_block_76.name,
     		type: "if",
-    		source: "(160:3) {#if musicposters}",
+    		source: "(168:3) {#if musicbook}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (161:3) {#if timatal}
+    // (169:3) {#if corruptedspace}
     function create_if_block_75(ctx) {
     	let t;
 
@@ -7265,14 +7638,14 @@ var app = (function () {
     		block,
     		id: create_if_block_75.name,
     		type: "if",
-    		source: "(161:3) {#if timatal}",
+    		source: "(169:3) {#if corruptedspace}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (162:3) {#if tools}
+    // (170:3) {#if oilbuddies}
     function create_if_block_74(ctx) {
     	let t;
 
@@ -7292,14 +7665,14 @@ var app = (function () {
     		block,
     		id: create_if_block_74.name,
     		type: "if",
-    		source: "(162:3) {#if tools}",
+    		source: "(170:3) {#if oilbuddies}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (163:3) {#if trash}
+    // (171:3) {#if litabok}
     function create_if_block_73(ctx) {
     	let t;
 
@@ -7319,14 +7692,14 @@ var app = (function () {
     		block,
     		id: create_if_block_73.name,
     		type: "if",
-    		source: "(163:3) {#if trash}",
+    		source: "(171:3) {#if litabok}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (164:3) {#if musicbook}
+    // (172:3) {#if plastica}
     function create_if_block_72(ctx) {
     	let t;
 
@@ -7346,14 +7719,14 @@ var app = (function () {
     		block,
     		id: create_if_block_72.name,
     		type: "if",
-    		source: "(164:3) {#if musicbook}",
+    		source: "(172:3) {#if plastica}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (165:3) {#if corruptedspace}
+    // (173:3) {#if familiarfaces}
     function create_if_block_71(ctx) {
     	let t;
 
@@ -7373,20 +7746,20 @@ var app = (function () {
     		block,
     		id: create_if_block_71.name,
     		type: "if",
-    		source: "(165:3) {#if corruptedspace}",
+    		source: "(173:3) {#if familiarfaces}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (166:3) {#if oilbuddies}
+    // (174:3) {#if likamar}
     function create_if_block_70(ctx) {
     	let t;
 
     	const block = {
     		c: function create() {
-    			t = text("...");
+    			t = text("Typeface initially designed in 2019, refined for Flóra útgáfa in 2020.");
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, t, anchor);
@@ -7400,20 +7773,20 @@ var app = (function () {
     		block,
     		id: create_if_block_70.name,
     		type: "if",
-    		source: "(166:3) {#if oilbuddies}",
+    		source: "(174:3) {#if likamar}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (167:3) {#if litabok}
+    // (175:3) {#if flora}
     function create_if_block_69(ctx) {
     	let t;
 
     	const block = {
     		c: function create() {
-    			t = text("...");
+    			t = text("Current website mostly designed and built in Summer 2020.");
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, t, anchor);
@@ -7427,14 +7800,14 @@ var app = (function () {
     		block,
     		id: create_if_block_69.name,
     		type: "if",
-    		source: "(167:3) {#if litabok}",
+    		source: "(175:3) {#if flora}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (168:3) {#if plastica}
+    // (176:4) {#if evublad}
     function create_if_block_68(ctx) {
     	let t;
 
@@ -7454,96 +7827,15 @@ var app = (function () {
     		block,
     		id: create_if_block_68.name,
     		type: "if",
-    		source: "(168:3) {#if plastica}",
+    		source: "(176:4) {#if evublad}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (169:3) {#if familiarfaces}
+    // (180:3) {#if frontscreen}
     function create_if_block_67(ctx) {
-    	let t;
-
-    	const block = {
-    		c: function create() {
-    			t = text("...");
-    		},
-    		m: function mount(target, anchor) {
-    			insert_dev(target, t, anchor);
-    		},
-    		d: function destroy(detaching) {
-    			if (detaching) detach_dev(t);
-    		}
-    	};
-
-    	dispatch_dev("SvelteRegisterBlock", {
-    		block,
-    		id: create_if_block_67.name,
-    		type: "if",
-    		source: "(169:3) {#if familiarfaces}",
-    		ctx
-    	});
-
-    	return block;
-    }
-
-    // (170:3) {#if likamar}
-    function create_if_block_66(ctx) {
-    	let t;
-
-    	const block = {
-    		c: function create() {
-    			t = text("Typeface initially designed in 2019, refined for Flóra útgáfa in 2020.");
-    		},
-    		m: function mount(target, anchor) {
-    			insert_dev(target, t, anchor);
-    		},
-    		d: function destroy(detaching) {
-    			if (detaching) detach_dev(t);
-    		}
-    	};
-
-    	dispatch_dev("SvelteRegisterBlock", {
-    		block,
-    		id: create_if_block_66.name,
-    		type: "if",
-    		source: "(170:3) {#if likamar}",
-    		ctx
-    	});
-
-    	return block;
-    }
-
-    // (171:3) {#if flora}
-    function create_if_block_65(ctx) {
-    	let t;
-
-    	const block = {
-    		c: function create() {
-    			t = text("Current website mostly designed and built in Summer 2020.");
-    		},
-    		m: function mount(target, anchor) {
-    			insert_dev(target, t, anchor);
-    		},
-    		d: function destroy(detaching) {
-    			if (detaching) detach_dev(t);
-    		}
-    	};
-
-    	dispatch_dev("SvelteRegisterBlock", {
-    		block,
-    		id: create_if_block_65.name,
-    		type: "if",
-    		source: "(171:3) {#if flora}",
-    		ctx
-    	});
-
-    	return block;
-    }
-
-    // (175:3) {#if frontscreen}
-    function create_if_block_64(ctx) {
     	let t;
 
     	const block = {
@@ -7560,17 +7852,17 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block_64.name,
+    		id: create_if_block_67.name,
     		type: "if",
-    		source: "(175:3) {#if frontscreen}",
+    		source: "(180:3) {#if frontscreen}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (176:3) {#if onourowntime}
-    function create_if_block_63(ctx) {
+    // (181:3) {#if onourowntime}
+    function create_if_block_66(ctx) {
     	let a;
 
     	const block = {
@@ -7579,7 +7871,7 @@ var app = (function () {
     			a.textContent = "On our own time";
     			attr_dev(a, "href", "https://onourowntime.today/");
     			attr_dev(a, "target", "_blank");
-    			add_location(a, file$n, 175, 21, 15261);
+    			add_location(a, file$o, 180, 21, 16274);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, a, anchor);
@@ -7591,17 +7883,17 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block_63.name,
+    		id: create_if_block_66.name,
     		type: "if",
-    		source: "(176:3) {#if onourowntime}",
+    		source: "(181:3) {#if onourowntime}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (177:3) {#if green}
-    function create_if_block_62(ctx) {
+    // (182:3) {#if green}
+    function create_if_block_65(ctx) {
     	let t0;
     	let br0;
     	let t1;
@@ -7615,8 +7907,8 @@ var app = (function () {
     			t1 = text("Towards a Guidebook");
     			br1 = element("br");
     			t2 = text("for Ecocritical Graphic Design");
-    			add_location(br0, file$n, 176, 19, 15359);
-    			add_location(br1, file$n, 176, 42, 15382);
+    			add_location(br0, file$o, 181, 19, 16372);
+    			add_location(br1, file$o, 181, 42, 16395);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, t0, anchor);
@@ -7636,17 +7928,17 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block_62.name,
+    		id: create_if_block_65.name,
     		type: "if",
-    		source: "(177:3) {#if green}",
+    		source: "(182:3) {#if green}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (178:3) {#if viv}
-    function create_if_block_61(ctx) {
+    // (183:3) {#if viv}
+    function create_if_block_64(ctx) {
     	let t;
 
     	const block = {
@@ -7663,17 +7955,17 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block_61.name,
+    		id: create_if_block_64.name,
     		type: "if",
-    		source: "(178:3) {#if viv}",
+    		source: "(183:3) {#if viv}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (179:3) {#if bread}
-    function create_if_block_60(ctx) {
+    // (184:3) {#if bread}
+    function create_if_block_63(ctx) {
     	let t;
 
     	const block = {
@@ -7690,17 +7982,17 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block_60.name,
+    		id: create_if_block_63.name,
     		type: "if",
-    		source: "(179:3) {#if bread}",
+    		source: "(184:3) {#if bread}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (180:3) {#if breadmag}
-    function create_if_block_59(ctx) {
+    // (185:3) {#if breadmag}
+    function create_if_block_62(ctx) {
     	let t;
 
     	const block = {
@@ -7717,17 +8009,17 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block_59.name,
+    		id: create_if_block_62.name,
     		type: "if",
-    		source: "(180:3) {#if breadmag}",
+    		source: "(185:3) {#if breadmag}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (181:3) {#if portfolioio}
-    function create_if_block_58(ctx) {
+    // (186:3) {#if portfolioio}
+    function create_if_block_61(ctx) {
     	let a;
     	let t0;
     	let br;
@@ -7739,10 +8031,10 @@ var app = (function () {
     			t0 = text("Io Sivertsen");
     			br = element("br");
     			t1 = text("Portfolio Website");
-    			add_location(br, file$n, 180, 82, 15640);
+    			add_location(br, file$o, 185, 82, 16653);
     			attr_dev(a, "href", "https://0i0i.github.io/");
     			attr_dev(a, "target", "_blank");
-    			add_location(a, file$n, 180, 20, 15578);
+    			add_location(a, file$o, 185, 20, 16591);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, a, anchor);
@@ -7757,17 +8049,17 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block_58.name,
+    		id: create_if_block_61.name,
     		type: "if",
-    		source: "(181:3) {#if portfolioio}",
+    		source: "(186:3) {#if portfolioio}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (182:3) {#if typoposters}
-    function create_if_block_57(ctx) {
+    // (187:3) {#if typoposters}
+    function create_if_block_60(ctx) {
     	let t;
 
     	const block = {
@@ -7784,17 +8076,17 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block_57.name,
+    		id: create_if_block_60.name,
     		type: "if",
-    		source: "(182:3) {#if typoposters}",
+    		source: "(187:3) {#if typoposters}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (183:3) {#if beauimg}
-    function create_if_block_56(ctx) {
+    // (188:3) {#if beauimg}
+    function create_if_block_59(ctx) {
     	let t;
 
     	const block = {
@@ -7811,17 +8103,17 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block_56.name,
+    		id: create_if_block_59.name,
     		type: "if",
-    		source: "(183:3) {#if beauimg}",
+    		source: "(188:3) {#if beauimg}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (184:3) {#if secret}
-    function create_if_block_55(ctx) {
+    // (189:3) {#if secret}
+    function create_if_block_58(ctx) {
     	let t;
 
     	const block = {
@@ -7838,17 +8130,17 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block_55.name,
+    		id: create_if_block_58.name,
     		type: "if",
-    		source: "(184:3) {#if secret}",
+    		source: "(189:3) {#if secret}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (185:3) {#if sortedplastic}
-    function create_if_block_54(ctx) {
+    // (190:3) {#if sortedplastic}
+    function create_if_block_57(ctx) {
     	let t;
 
     	const block = {
@@ -7865,17 +8157,17 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block_54.name,
+    		id: create_if_block_57.name,
     		type: "if",
-    		source: "(185:3) {#if sortedplastic}",
+    		source: "(190:3) {#if sortedplastic}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (186:3) {#if oeb}
-    function create_if_block_53(ctx) {
+    // (191:3) {#if oeb}
+    function create_if_block_56(ctx) {
     	let t;
 
     	const block = {
@@ -7892,17 +8184,17 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block_53.name,
+    		id: create_if_block_56.name,
     		type: "if",
-    		source: "(186:3) {#if oeb}",
+    		source: "(191:3) {#if oeb}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (187:3) {#if musicposters}
-    function create_if_block_52(ctx) {
+    // (192:3) {#if musicposters}
+    function create_if_block_55(ctx) {
     	let t0;
     	let br0;
     	let t1;
@@ -7916,8 +8208,8 @@ var app = (function () {
     			t1 = text("Cause We've Ended As Lovers");
     			br1 = element("br");
     			t2 = text("/ Pinball");
-    			add_location(br0, file$n, 186, 35, 15897);
-    			add_location(br1, file$n, 186, 66, 15928);
+    			add_location(br0, file$o, 191, 35, 16910);
+    			add_location(br1, file$o, 191, 66, 16941);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, t0, anchor);
@@ -7937,17 +8229,17 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block_52.name,
+    		id: create_if_block_55.name,
     		type: "if",
-    		source: "(187:3) {#if musicposters}",
+    		source: "(192:3) {#if musicposters}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (188:3) {#if timatal}
-    function create_if_block_51(ctx) {
+    // (193:3) {#if timatal}
+    function create_if_block_54(ctx) {
     	let t;
 
     	const block = {
@@ -7964,17 +8256,17 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block_51.name,
+    		id: create_if_block_54.name,
     		type: "if",
-    		source: "(188:3) {#if timatal}",
+    		source: "(193:3) {#if timatal}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (189:3) {#if tools}
-    function create_if_block_50(ctx) {
+    // (194:3) {#if tools}
+    function create_if_block_53(ctx) {
     	let t;
 
     	const block = {
@@ -7991,17 +8283,17 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block_50.name,
+    		id: create_if_block_53.name,
     		type: "if",
-    		source: "(189:3) {#if tools}",
+    		source: "(194:3) {#if tools}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (190:3) {#if trash}
-    function create_if_block_49(ctx) {
+    // (195:3) {#if trash}
+    function create_if_block_52(ctx) {
     	let t;
 
     	const block = {
@@ -8018,17 +8310,17 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block_49.name,
+    		id: create_if_block_52.name,
     		type: "if",
-    		source: "(190:3) {#if trash}",
+    		source: "(195:3) {#if trash}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (191:3) {#if musicbook}
-    function create_if_block_48(ctx) {
+    // (196:3) {#if musicbook}
+    function create_if_block_51(ctx) {
     	let t0;
     	let br0;
     	let t1;
@@ -8050,10 +8342,10 @@ var app = (function () {
     			t3 = text("there's always music");
     			br3 = element("br");
     			t4 = text("in the air.");
-    			add_location(br0, file$n, 190, 34, 16095);
-    			add_location(br1, file$n, 190, 54, 16115);
-    			add_location(br2, file$n, 190, 73, 16134);
-    			add_location(br3, file$n, 190, 97, 16158);
+    			add_location(br0, file$o, 195, 34, 17108);
+    			add_location(br1, file$o, 195, 54, 17128);
+    			add_location(br2, file$o, 195, 73, 17147);
+    			add_location(br3, file$o, 195, 97, 17171);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, t0, anchor);
@@ -8081,17 +8373,17 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block_48.name,
+    		id: create_if_block_51.name,
     		type: "if",
-    		source: "(191:3) {#if musicbook}",
+    		source: "(196:3) {#if musicbook}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (192:3) {#if corruptedspace}
-    function create_if_block_47(ctx) {
+    // (197:3) {#if corruptedspace}
+    function create_if_block_50(ctx) {
     	let t;
 
     	const block = {
@@ -8108,17 +8400,17 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block_47.name,
+    		id: create_if_block_50.name,
     		type: "if",
-    		source: "(192:3) {#if corruptedspace}",
+    		source: "(197:3) {#if corruptedspace}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (193:3) {#if oilbuddies}
-    function create_if_block_46(ctx) {
+    // (198:3) {#if oilbuddies}
+    function create_if_block_49(ctx) {
     	let t;
 
     	const block = {
@@ -8135,17 +8427,17 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block_46.name,
+    		id: create_if_block_49.name,
     		type: "if",
-    		source: "(193:3) {#if oilbuddies}",
+    		source: "(198:3) {#if oilbuddies}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (194:3) {#if litabok}
-    function create_if_block_45(ctx) {
+    // (199:3) {#if litabok}
+    function create_if_block_48(ctx) {
     	let t;
 
     	const block = {
@@ -8162,17 +8454,17 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block_45.name,
+    		id: create_if_block_48.name,
     		type: "if",
-    		source: "(194:3) {#if litabok}",
+    		source: "(199:3) {#if litabok}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (195:3) {#if plastica}
-    function create_if_block_44(ctx) {
+    // (200:3) {#if plastica}
+    function create_if_block_47(ctx) {
     	let t;
 
     	const block = {
@@ -8189,17 +8481,17 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block_44.name,
+    		id: create_if_block_47.name,
     		type: "if",
-    		source: "(195:3) {#if plastica}",
+    		source: "(200:3) {#if plastica}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (196:3) {#if familiarfaces}
-    function create_if_block_43(ctx) {
+    // (201:3) {#if familiarfaces}
+    function create_if_block_46(ctx) {
     	let t;
 
     	const block = {
@@ -8216,17 +8508,17 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block_43.name,
+    		id: create_if_block_46.name,
     		type: "if",
-    		source: "(196:3) {#if familiarfaces}",
+    		source: "(201:3) {#if familiarfaces}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (197:3) {#if likamar}
-    function create_if_block_42(ctx) {
+    // (202:3) {#if likamar}
+    function create_if_block_45(ctx) {
     	let t;
 
     	const block = {
@@ -8243,17 +8535,17 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block_42.name,
+    		id: create_if_block_45.name,
     		type: "if",
-    		source: "(197:3) {#if likamar}",
+    		source: "(202:3) {#if likamar}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (198:3) {#if flora}
-    function create_if_block_41(ctx) {
+    // (203:3) {#if flora}
+    function create_if_block_44(ctx) {
     	let a;
 
     	const block = {
@@ -8263,7 +8555,7 @@ var app = (function () {
     			attr_dev(a, "href", "https://flora-utgafa.is/");
     			set_style(a, "color", "lightblue", 1);
     			attr_dev(a, "target", "_blank");
-    			add_location(a, file$n, 197, 14, 16447);
+    			add_location(a, file$o, 202, 14, 17460);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, a, anchor);
@@ -8275,27 +8567,27 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block_41.name,
+    		id: create_if_block_44.name,
     		type: "if",
-    		source: "(198:3) {#if flora}",
+    		source: "(203:3) {#if flora}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (202:5) {#if frontscreen}
-    function create_if_block_40(ctx) {
+    // (204:4) {#if evublad}
+    function create_if_block_43(ctx) {
     	let t0;
     	let br;
     	let t1;
 
     	const block = {
     		c: function create() {
-    			t0 = text("Welcome to my portfolio,");
+    			t0 = text("Artist Interview");
     			br = element("br");
-    			t1 = text("click on \"MENU\" (lower right corner) to view my work.");
-    			add_location(br, file$n, 201, 46, 16697);
+    			t1 = text("Eva Sigurðardóttir");
+    			add_location(br, file$o, 203, 33, 17603);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, t0, anchor);
@@ -8311,17 +8603,53 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block_40.name,
+    		id: create_if_block_43.name,
     		type: "if",
-    		source: "(202:5) {#if frontscreen}",
+    		source: "(204:4) {#if evublad}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (203:2) {#if onourowntime}
-    function create_if_block_39(ctx) {
+    // (208:5) {#if frontscreen}
+    function create_if_block_42(ctx) {
+    	let t0;
+    	let br;
+    	let t1;
+
+    	const block = {
+    		c: function create() {
+    			t0 = text("Welcome to my portfolio!");
+    			br = element("br");
+    			t1 = text("Browse through my projects on the right and click to see more details.");
+    			add_location(br, file$o, 207, 46, 17771);
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, t0, anchor);
+    			insert_dev(target, br, anchor);
+    			insert_dev(target, t1, anchor);
+    		},
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(t0);
+    			if (detaching) detach_dev(br);
+    			if (detaching) detach_dev(t1);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_if_block_42.name,
+    		type: "if",
+    		source: "(208:5) {#if frontscreen}",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (209:2) {#if onourowntime}
+    function create_if_block_41(ctx) {
     	let t;
 
     	const block = {
@@ -8338,17 +8666,17 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block_39.name,
+    		id: create_if_block_41.name,
     		type: "if",
-    		source: "(203:2) {#if onourowntime}",
+    		source: "(209:2) {#if onourowntime}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (205:4) {#if viv}
-    function create_if_block_38(ctx) {
+    // (211:4) {#if viv}
+    function create_if_block_40(ctx) {
     	let t;
 
     	const block = {
@@ -8365,17 +8693,17 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block_38.name,
+    		id: create_if_block_40.name,
     		type: "if",
-    		source: "(205:4) {#if viv}",
+    		source: "(211:4) {#if viv}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (206:4) {#if typoposters}
-    function create_if_block_37(ctx) {
+    // (212:4) {#if typoposters}
+    function create_if_block_39(ctx) {
     	let t;
 
     	const block = {
@@ -8392,17 +8720,17 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block_37.name,
+    		id: create_if_block_39.name,
     		type: "if",
-    		source: "(206:4) {#if typoposters}",
+    		source: "(212:4) {#if typoposters}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (207:2) {#if secret}
-    function create_if_block_36(ctx) {
+    // (213:2) {#if secret}
+    function create_if_block_38(ctx) {
     	let t;
 
     	const block = {
@@ -8419,17 +8747,17 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block_36.name,
+    		id: create_if_block_38.name,
     		type: "if",
-    		source: "(207:2) {#if secret}",
+    		source: "(213:2) {#if secret}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (208:2) {#if tools}
-    function create_if_block_35(ctx) {
+    // (214:2) {#if tools}
+    function create_if_block_37(ctx) {
     	let t;
 
     	const block = {
@@ -8446,27 +8774,27 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block_35.name,
+    		id: create_if_block_37.name,
     		type: "if",
-    		source: "(208:2) {#if tools}",
+    		source: "(214:2) {#if tools}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (209:2) {#if timatal}
-    function create_if_block_34(ctx) {
+    // (215:2) {#if timatal}
+    function create_if_block_36(ctx) {
     	let t0;
     	let br;
     	let t1;
 
     	const block = {
     		c: function create() {
-    			t0 = text("A collection of different ideas and imaginations of time and time-keeping.");
+    			t0 = text("A collection of different ideas and imaginations of time and time-keeping. A kind of non-calendar calendar.");
     			br = element("br");
-    			t1 = text("Content gathered from a single book found in a library (and returned before I thought of doucumenting it :S ...school project).");
-    			add_location(br, file$n, 208, 89, 17822);
+    			t1 = text("Content gathered from a single book found in a library (and returned before I thought of doucumenting it (rookie mistake) so the source remains a mystery).");
+    			add_location(br, file$o, 214, 122, 18946);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, t0, anchor);
@@ -8482,22 +8810,76 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block_34.name,
+    		id: create_if_block_36.name,
     		type: "if",
-    		source: "(209:2) {#if timatal}",
+    		source: "(215:2) {#if timatal}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (210:2) {#if sortedplastic}
+    // (216:2) {#if sortedplastic}
+    function create_if_block_35(ctx) {
+    	let t;
+
+    	const block = {
+    		c: function create() {
+    			t = text("A research project, collaboration with Louana Gentner, on where plastic — sorted by residents of the Hague and delivered to local bins to be recycled — ends up. An interesting disappointment, documented in an A3-size publication and an online tetris-style game.");
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, t, anchor);
+    		},
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(t);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_if_block_35.name,
+    		type: "if",
+    		source: "(216:2) {#if sortedplastic}",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (217:2) {#if litabok}
+    function create_if_block_34(ctx) {
+    	let t;
+
+    	const block = {
+    		c: function create() {
+    			t = text("An installation and publication.");
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, t, anchor);
+    		},
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(t);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_if_block_34.name,
+    		type: "if",
+    		source: "(217:2) {#if litabok}",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (218:2) {#if oilbuddies}
     function create_if_block_33(ctx) {
     	let t;
 
     	const block = {
     		c: function create() {
-    			t = text("A research project, collaboration with Louana Gentner, on where plastic — sorted by residents of the Hague and delivered to local bins to be recycled — ends up. An interesting disappointment, documented in a A3-size publication and an online tetris-style game.");
+    			t = text("The heads of the worlds biggest oil-companies in 2017, in bubbles, floating around, ...headed to wherever the weahter suits their clothes?");
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, t, anchor);
@@ -8511,26 +8893,35 @@ var app = (function () {
     		block,
     		id: create_if_block_33.name,
     		type: "if",
-    		source: "(210:2) {#if sortedplastic}",
+    		source: "(218:2) {#if oilbuddies}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (211:2) {#if litabok}
+    // (219:2) {#if trash}
     function create_if_block_32(ctx) {
-    	let t;
+    	let t0;
+    	let br;
+    	let t1;
 
     	const block = {
     		c: function create() {
-    			t = text("An installation and publication about people as ornaments and the colours they wear????");
+    			t0 = text("A set of stickers for the trash-bins of KABK as a call for recycling. Typeface made out of KABK's logo.");
+    			br = element("br");
+    			t1 = text("(...a drop in the ocean, a change in the weather)");
+    			add_location(br, file$o, 218, 116, 19742);
     		},
     		m: function mount(target, anchor) {
-    			insert_dev(target, t, anchor);
+    			insert_dev(target, t0, anchor);
+    			insert_dev(target, br, anchor);
+    			insert_dev(target, t1, anchor);
     		},
     		d: function destroy(detaching) {
-    			if (detaching) detach_dev(t);
+    			if (detaching) detach_dev(t0);
+    			if (detaching) detach_dev(br);
+    			if (detaching) detach_dev(t1);
     		}
     	};
 
@@ -8538,69 +8929,15 @@ var app = (function () {
     		block,
     		id: create_if_block_32.name,
     		type: "if",
-    		source: "(211:2) {#if litabok}",
+    		source: "(219:2) {#if trash}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (212:2) {#if oilbuddies}
+    // (220:4) {#if familiarfaces}
     function create_if_block_31(ctx) {
-    	let t;
-
-    	const block = {
-    		c: function create() {
-    			t = text("The heads of the worlds biggest oil-companies in 2017, in bubbles, floating around (...headed to wherever the weahter suits their clothes).");
-    		},
-    		m: function mount(target, anchor) {
-    			insert_dev(target, t, anchor);
-    		},
-    		d: function destroy(detaching) {
-    			if (detaching) detach_dev(t);
-    		}
-    	};
-
-    	dispatch_dev("SvelteRegisterBlock", {
-    		block,
-    		id: create_if_block_31.name,
-    		type: "if",
-    		source: "(212:2) {#if oilbuddies}",
-    		ctx
-    	});
-
-    	return block;
-    }
-
-    // (213:2) {#if trash}
-    function create_if_block_30(ctx) {
-    	let t;
-
-    	const block = {
-    		c: function create() {
-    			t = text("A sticker for the trash-bins of KABK as a call for recycling. Typeface made out of KABK's logo.");
-    		},
-    		m: function mount(target, anchor) {
-    			insert_dev(target, t, anchor);
-    		},
-    		d: function destroy(detaching) {
-    			if (detaching) detach_dev(t);
-    		}
-    	};
-
-    	dispatch_dev("SvelteRegisterBlock", {
-    		block,
-    		id: create_if_block_30.name,
-    		type: "if",
-    		source: "(213:2) {#if trash}",
-    		ctx
-    	});
-
-    	return block;
-    }
-
-    // (214:4) {#if familiarfaces}
-    function create_if_block_29(ctx) {
     	let t;
 
     	const block = {
@@ -8617,17 +8954,17 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block_29.name,
+    		id: create_if_block_31.name,
     		type: "if",
-    		source: "(214:4) {#if familiarfaces}",
+    		source: "(220:4) {#if familiarfaces}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (215:4) {#if musicbook}
-    function create_if_block_28(ctx) {
+    // (221:4) {#if musicbook}
+    function create_if_block_30(ctx) {
     	let t;
 
     	const block = {
@@ -8644,17 +8981,17 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block_28.name,
+    		id: create_if_block_30.name,
     		type: "if",
-    		source: "(215:4) {#if musicbook}",
+    		source: "(221:4) {#if musicbook}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (216:4) {#if plastica}
-    function create_if_block_27(ctx) {
+    // (222:4) {#if plastica}
+    function create_if_block_29(ctx) {
     	let t;
 
     	const block = {
@@ -8671,17 +9008,17 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block_27.name,
+    		id: create_if_block_29.name,
     		type: "if",
-    		source: "(216:4) {#if plastica}",
+    		source: "(222:4) {#if plastica}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (217:4) {#if corruptedspace}
-    function create_if_block_26(ctx) {
+    // (223:4) {#if corruptedspace}
+    function create_if_block_28(ctx) {
     	let t;
 
     	const block = {
@@ -8698,17 +9035,17 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block_26.name,
+    		id: create_if_block_28.name,
     		type: "if",
-    		source: "(217:4) {#if corruptedspace}",
+    		source: "(223:4) {#if corruptedspace}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (223:4) {#if likamar}
-    function create_if_block_25(ctx) {
+    // (229:4) {#if likamar}
+    function create_if_block_27(ctx) {
     	let t;
 
     	const block = {
@@ -8725,17 +9062,17 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block_25.name,
+    		id: create_if_block_27.name,
     		type: "if",
-    		source: "(223:4) {#if likamar}",
+    		source: "(229:4) {#if likamar}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (224:4) {#if green}
-    function create_if_block_24(ctx) {
+    // (230:4) {#if green}
+    function create_if_block_26(ctx) {
     	let t;
 
     	const block = {
@@ -8752,17 +9089,44 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block_24.name,
+    		id: create_if_block_26.name,
     		type: "if",
-    		source: "(224:4) {#if green}",
+    		source: "(230:4) {#if green}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (228:2) {#if onourowntime}
-    function create_if_block_23(ctx) {
+    // (231:6) {#if evublad}
+    function create_if_block_25(ctx) {
+    	let t;
+
+    	const block = {
+    		c: function create() {
+    			t = text("Studio visit and interview with artist Eva Sigurðardóttir. Eva's handwriting is used to translate integral parts of the interview from Icelandic to English.");
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, t, anchor);
+    		},
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(t);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_if_block_25.name,
+    		type: "if",
+    		source: "(231:6) {#if evublad}",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (235:2) {#if onourowntime}
+    function create_if_block_24(ctx) {
     	let current;
     	const onourowntime_1 = new Onourowntime({ $$inline: true });
 
@@ -8790,17 +9154,17 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block_23.name,
+    		id: create_if_block_24.name,
     		type: "if",
-    		source: "(228:2) {#if onourowntime}",
+    		source: "(235:2) {#if onourowntime}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (229:2) {#if green}
-    function create_if_block_22(ctx) {
+    // (236:2) {#if green}
+    function create_if_block_23(ctx) {
     	let current;
     	const green_1 = new Green({ $$inline: true });
 
@@ -8828,17 +9192,17 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block_22.name,
+    		id: create_if_block_23.name,
     		type: "if",
-    		source: "(229:2) {#if green}",
+    		source: "(236:2) {#if green}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (230:2) {#if viv}
-    function create_if_block_21(ctx) {
+    // (237:2) {#if viv}
+    function create_if_block_22(ctx) {
     	let current;
     	const vivienne = new Vivienne({ $$inline: true });
 
@@ -8866,17 +9230,17 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block_21.name,
+    		id: create_if_block_22.name,
     		type: "if",
-    		source: "(230:2) {#if viv}",
+    		source: "(237:2) {#if viv}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (231:2) {#if portfolioio}
-    function create_if_block_20(ctx) {
+    // (238:2) {#if portfolioio}
+    function create_if_block_21(ctx) {
     	let current;
     	const portfolioio_1 = new Portfolioio({ $$inline: true });
 
@@ -8904,17 +9268,17 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block_20.name,
+    		id: create_if_block_21.name,
     		type: "if",
-    		source: "(231:2) {#if portfolioio}",
+    		source: "(238:2) {#if portfolioio}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (232:2) {#if typoposters}
-    function create_if_block_19(ctx) {
+    // (239:2) {#if typoposters}
+    function create_if_block_20(ctx) {
     	let current;
     	const typoposters_1 = new Typoposters({ $$inline: true });
 
@@ -8942,17 +9306,17 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block_19.name,
+    		id: create_if_block_20.name,
     		type: "if",
-    		source: "(232:2) {#if typoposters}",
+    		source: "(239:2) {#if typoposters}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (233:2) {#if secret}
-    function create_if_block_18(ctx) {
+    // (240:2) {#if secret}
+    function create_if_block_19(ctx) {
     	let current;
     	const secret_1 = new Secret({ $$inline: true });
 
@@ -8980,17 +9344,17 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block_18.name,
+    		id: create_if_block_19.name,
     		type: "if",
-    		source: "(233:2) {#if secret}",
+    		source: "(240:2) {#if secret}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (234:2) {#if sortedplastic}
-    function create_if_block_17(ctx) {
+    // (241:2) {#if sortedplastic}
+    function create_if_block_18(ctx) {
     	let current;
     	const sortedplastic_1 = new Sorted_plastic({ $$inline: true });
 
@@ -9018,17 +9382,17 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block_17.name,
+    		id: create_if_block_18.name,
     		type: "if",
-    		source: "(234:2) {#if sortedplastic}",
+    		source: "(241:2) {#if sortedplastic}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (235:2) {#if musicposters}
-    function create_if_block_16(ctx) {
+    // (242:2) {#if musicposters}
+    function create_if_block_17(ctx) {
     	let current;
     	const musicposters_1 = new Musicposters({ $$inline: true });
 
@@ -9056,17 +9420,17 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block_16.name,
+    		id: create_if_block_17.name,
     		type: "if",
-    		source: "(235:2) {#if musicposters}",
+    		source: "(242:2) {#if musicposters}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (236:2) {#if timatal}
-    function create_if_block_15(ctx) {
+    // (243:2) {#if timatal}
+    function create_if_block_16(ctx) {
     	let current;
     	const timatal_1 = new Timatal({ $$inline: true });
 
@@ -9094,17 +9458,17 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block_15.name,
+    		id: create_if_block_16.name,
     		type: "if",
-    		source: "(236:2) {#if timatal}",
+    		source: "(243:2) {#if timatal}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (237:2) {#if tools}
-    function create_if_block_14(ctx) {
+    // (244:2) {#if tools}
+    function create_if_block_15(ctx) {
     	let current;
     	const toolsofexpression = new ToolsOfExpression({ $$inline: true });
 
@@ -9132,17 +9496,17 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block_14.name,
+    		id: create_if_block_15.name,
     		type: "if",
-    		source: "(237:2) {#if tools}",
+    		source: "(244:2) {#if tools}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (238:2) {#if trash}
-    function create_if_block_13(ctx) {
+    // (245:2) {#if trash}
+    function create_if_block_14(ctx) {
     	let current;
     	const trash_1 = new Trash({ $$inline: true });
 
@@ -9170,17 +9534,17 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block_13.name,
+    		id: create_if_block_14.name,
     		type: "if",
-    		source: "(238:2) {#if trash}",
+    		source: "(245:2) {#if trash}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (239:2) {#if musicbook}
-    function create_if_block_12(ctx) {
+    // (246:2) {#if musicbook}
+    function create_if_block_13(ctx) {
     	let current;
     	const musicbook_1 = new MusicBook({ $$inline: true });
 
@@ -9208,17 +9572,17 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block_12.name,
+    		id: create_if_block_13.name,
     		type: "if",
-    		source: "(239:2) {#if musicbook}",
+    		source: "(246:2) {#if musicbook}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (240:2) {#if corruptedspace}
-    function create_if_block_11(ctx) {
+    // (247:2) {#if corruptedspace}
+    function create_if_block_12(ctx) {
     	let current;
     	const corrupted = new Corrupted({ $$inline: true });
 
@@ -9246,17 +9610,17 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block_11.name,
+    		id: create_if_block_12.name,
     		type: "if",
-    		source: "(240:2) {#if corruptedspace}",
+    		source: "(247:2) {#if corruptedspace}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (241:2) {#if oilbuddies}
-    function create_if_block_10(ctx) {
+    // (248:2) {#if oilbuddies}
+    function create_if_block_11(ctx) {
     	let current;
     	const oilbuddies_1 = new OilBuddies({ $$inline: true });
 
@@ -9284,17 +9648,17 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block_10.name,
+    		id: create_if_block_11.name,
     		type: "if",
-    		source: "(241:2) {#if oilbuddies}",
+    		source: "(248:2) {#if oilbuddies}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (242:2) {#if litabok}
-    function create_if_block_9(ctx) {
+    // (249:2) {#if litabok}
+    function create_if_block_10(ctx) {
     	let current;
     	const litabok_1 = new Litabok({ $$inline: true });
 
@@ -9322,17 +9686,17 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block_9.name,
+    		id: create_if_block_10.name,
     		type: "if",
-    		source: "(242:2) {#if litabok}",
+    		source: "(249:2) {#if litabok}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (243:2) {#if plastica}
-    function create_if_block_8(ctx) {
+    // (250:2) {#if plastica}
+    function create_if_block_9(ctx) {
     	let current;
     	const plastica_1 = new Plastica({ $$inline: true });
 
@@ -9360,17 +9724,17 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block_8.name,
+    		id: create_if_block_9.name,
     		type: "if",
-    		source: "(243:2) {#if plastica}",
+    		source: "(250:2) {#if plastica}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (244:2) {#if familiarfaces}
-    function create_if_block_7(ctx) {
+    // (251:2) {#if familiarfaces}
+    function create_if_block_8(ctx) {
     	let current;
     	const familiarfaces_1 = new FamiliarFaces({ $$inline: true });
 
@@ -9398,17 +9762,17 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block_7.name,
+    		id: create_if_block_8.name,
     		type: "if",
-    		source: "(244:2) {#if familiarfaces}",
+    		source: "(251:2) {#if familiarfaces}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (245:2) {#if likamar}
-    function create_if_block_6(ctx) {
+    // (252:2) {#if likamar}
+    function create_if_block_7(ctx) {
     	let current;
     	const likamar_1 = new Likamar({ $$inline: true });
 
@@ -9436,17 +9800,17 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block_6.name,
+    		id: create_if_block_7.name,
     		type: "if",
-    		source: "(245:2) {#if likamar}",
+    		source: "(252:2) {#if likamar}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (246:2) {#if oeb}
-    function create_if_block_5(ctx) {
+    // (253:2) {#if oeb}
+    function create_if_block_6(ctx) {
     	let current;
     	const oeb_1 = new Oeb({ $$inline: true });
 
@@ -9474,17 +9838,17 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block_5.name,
+    		id: create_if_block_6.name,
     		type: "if",
-    		source: "(246:2) {#if oeb}",
+    		source: "(253:2) {#if oeb}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (247:2) {#if beauimg}
-    function create_if_block_4(ctx) {
+    // (254:2) {#if beauimg}
+    function create_if_block_5(ctx) {
     	let current;
     	const beauimg_1 = new Beauimg({ $$inline: true });
 
@@ -9512,17 +9876,17 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block_4.name,
+    		id: create_if_block_5.name,
     		type: "if",
-    		source: "(247:2) {#if beauimg}",
+    		source: "(254:2) {#if beauimg}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (248:2) {#if bread}
-    function create_if_block_3(ctx) {
+    // (255:2) {#if bread}
+    function create_if_block_4(ctx) {
     	let current;
     	const bread_1 = new Bread({ $$inline: true });
 
@@ -9550,17 +9914,17 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block_3.name,
+    		id: create_if_block_4.name,
     		type: "if",
-    		source: "(248:2) {#if bread}",
+    		source: "(255:2) {#if bread}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (249:2) {#if flora}
-    function create_if_block_2(ctx) {
+    // (256:2) {#if flora}
+    function create_if_block_3(ctx) {
     	let current;
     	const flora_1 = new Flora({ $$inline: true });
 
@@ -9588,17 +9952,17 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block_2.name,
+    		id: create_if_block_3.name,
     		type: "if",
-    		source: "(249:2) {#if flora}",
+    		source: "(256:2) {#if flora}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (250:2) {#if breadmag}
-    function create_if_block_1(ctx) {
+    // (257:2) {#if breadmag}
+    function create_if_block_2(ctx) {
     	let current;
     	const breadmag_1 = new Breadmag({ $$inline: true });
 
@@ -9626,16 +9990,54 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_if_block_1.name,
+    		id: create_if_block_2.name,
     		type: "if",
-    		source: "(250:2) {#if breadmag}",
+    		source: "(257:2) {#if breadmag}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (328:4) {#if other}
+    // (258:2) {#if evublad}
+    function create_if_block_1(ctx) {
+    	let current;
+    	const evublad_1 = new Evublad({ $$inline: true });
+
+    	const block = {
+    		c: function create() {
+    			create_component(evublad_1.$$.fragment);
+    		},
+    		m: function mount(target, anchor) {
+    			mount_component(evublad_1, target, anchor);
+    			current = true;
+    		},
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(evublad_1.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(evublad_1.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			destroy_component(evublad_1, detaching);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_if_block_1.name,
+    		type: "if",
+    		source: "(258:2) {#if evublad}",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (337:4) {#if other}
     function create_if_block(ctx) {
     	let div;
     	let t0;
@@ -9731,6 +10133,40 @@ var app = (function () {
     	let t30;
     	let img30;
     	let img30_src_value;
+    	let t31;
+    	let img31;
+    	let img31_src_value;
+    	let t32;
+    	let img32;
+    	let img32_src_value;
+    	let t33;
+    	let img33;
+    	let img33_src_value;
+    	let t34;
+    	let img34;
+    	let img34_src_value;
+    	let t35;
+    	let img35;
+    	let img35_src_value;
+    	let t36;
+    	let img36;
+    	let img36_src_value;
+    	let t37;
+    	let img37;
+    	let img37_src_value;
+    	let t38;
+    	let img38;
+    	let img38_src_value;
+    	let t39;
+    	let img39;
+    	let img39_src_value;
+    	let t40;
+    	let br0;
+    	let br1;
+    	let br2;
+    	let br3;
+    	let br4;
+    	let br5;
 
     	const block = {
     		c: function create() {
@@ -9797,109 +10233,202 @@ var app = (function () {
     			img29 = element("img");
     			t30 = space();
     			img30 = element("img");
-    			attr_dev(div, "class", "line svelte-1s63fcv");
-    			add_location(div, file$n, 328, 5, 25414);
+    			t31 = space();
+    			img31 = element("img");
+    			t32 = space();
+    			img32 = element("img");
+    			t33 = space();
+    			img33 = element("img");
+    			t34 = space();
+    			img34 = element("img");
+    			t35 = space();
+    			img35 = element("img");
+    			t36 = space();
+    			img36 = element("img");
+    			t37 = space();
+    			img37 = element("img");
+    			t38 = space();
+    			img38 = element("img");
+    			t39 = space();
+    			img39 = element("img");
+    			t40 = space();
+    			br0 = element("br");
+    			br1 = element("br");
+    			br2 = element("br");
+    			br3 = element("br");
+    			br4 = element("br");
+    			br5 = element("br");
+    			attr_dev(div, "class", "line svelte-1eguo3s");
+    			add_location(div, file$o, 337, 5, 26965);
     			attr_dev(img0, "class", "mediumPic");
+    			attr_dev(img0, "alt", "mynd");
     			if (img0.src !== (img0_src_value = "igms/undefined-teikningar/ulines.png")) attr_dev(img0, "src", img0_src_value);
-    			add_location(img0, file$n, 331, 5, 25529);
+    			add_location(img0, file$o, 340, 5, 27080);
     			attr_dev(img1, "class", "mediumPic");
+    			attr_dev(img1, "alt", "mynd");
     			if (img1.src !== (img1_src_value = "igms/undefined-teikningar/upprodun3rettmeddrasli2.jpg")) attr_dev(img1, "src", img1_src_value);
-    			add_location(img1, file$n, 332, 5, 25601);
+    			add_location(img1, file$o, 341, 5, 27163);
     			attr_dev(img2, "class", "mediumPic");
     			attr_dev(img2, "alt", "mynd");
     			if (img2.src !== (img2_src_value = "igms/undefined-undefined/organo.jpg")) attr_dev(img2, "src", img2_src_value);
-    			add_location(img2, file$n, 333, 5, 25690);
+    			add_location(img2, file$o, 342, 5, 27263);
     			attr_dev(img3, "class", "mediumPic");
-    			if (img3.src !== (img3_src_value = "igms/undefined-ljosmyndir/P1150392.JPG")) attr_dev(img3, "src", img3_src_value);
-    			add_location(img3, file$n, 334, 5, 25772);
+    			attr_dev(img3, "alt", "mynd");
+    			if (img3.src !== (img3_src_value = "igms/undefined-posters/2.jpg")) attr_dev(img3, "src", img3_src_value);
+    			add_location(img3, file$o, 343, 5, 27345);
     			attr_dev(img4, "class", "mediumPic");
-    			if (img4.src !== (img4_src_value = "igms/undefined-ljosmyndir/P1050540.JPG")) attr_dev(img4, "src", img4_src_value);
-    			add_location(img4, file$n, 335, 5, 25846);
+    			attr_dev(img4, "alt", "mynd");
+    			if (img4.src !== (img4_src_value = "igms/undefined-undefined/toomuchtoseelevel.jpg")) attr_dev(img4, "src", img4_src_value);
+    			add_location(img4, file$o, 344, 5, 27420);
     			attr_dev(img5, "class", "mediumPic");
-    			if (img5.src !== (img5_src_value = "igms/undefined-ljosmyndir/prent f fólk379.jpg")) attr_dev(img5, "src", img5_src_value);
-    			add_location(img5, file$n, 337, 5, 26001);
+    			attr_dev(img5, "alt", "mynd");
+    			if (img5.src !== (img5_src_value = "igms/undefined-undefined/aproverb.jpg")) attr_dev(img5, "src", img5_src_value);
+    			add_location(img5, file$o, 345, 5, 27513);
     			attr_dev(img6, "class", "mediumPic");
-    			if (img6.src !== (img6_src_value = "igms/undefined-posters/otherPoster.png")) attr_dev(img6, "src", img6_src_value);
-    			add_location(img6, file$n, 340, 5, 26254);
+    			attr_dev(img6, "alt", "mynd");
+    			if (img6.src !== (img6_src_value = "igms/undefined-undefined/blubb_Page_14b.jpg")) attr_dev(img6, "src", img6_src_value);
+    			add_location(img6, file$o, 349, 5, 27872);
     			attr_dev(img7, "class", "mediumPic");
-    			if (img7.src !== (img7_src_value = "igms/undefined-teikningar/teikning1.jpg")) attr_dev(img7, "src", img7_src_value);
-    			add_location(img7, file$n, 341, 5, 26328);
+    			attr_dev(img7, "alt", "mynd");
+    			if (img7.src !== (img7_src_value = "igms/undefined-undefined/5utgafa-ut.jpg")) attr_dev(img7, "src", img7_src_value);
+    			add_location(img7, file$o, 352, 5, 28154);
     			attr_dev(img8, "class", "mediumPic");
-    			if (img8.src !== (img8_src_value = "igms/undefined-teikningar/teikning2.jpg")) attr_dev(img8, "src", img8_src_value);
-    			add_location(img8, file$n, 342, 5, 26403);
+    			attr_dev(img8, "alt", "mynd");
+    			if (img8.src !== (img8_src_value = "igms/cali/cali1.jpg")) attr_dev(img8, "src", img8_src_value);
+    			add_location(img8, file$o, 356, 5, 28497);
     			attr_dev(img9, "class", "mediumPic");
-    			if (img9.src !== (img9_src_value = "igms/undefined-teikningar/teikning3.jpg")) attr_dev(img9, "src", img9_src_value);
-    			add_location(img9, file$n, 343, 5, 26478);
+    			attr_dev(img9, "alt", "mynd");
+    			if (img9.src !== (img9_src_value = "igms/cali/cali3.jpg")) attr_dev(img9, "src", img9_src_value);
+    			add_location(img9, file$o, 358, 5, 28647);
     			attr_dev(img10, "class", "mediumPic");
-    			set_style(img10, "border-radius", "120px");
-    			if (img10.src !== (img10_src_value = "igms/undefined-undefined/_.jpg")) attr_dev(img10, "src", img10_src_value);
-    			add_location(img10, file$n, 344, 5, 26553);
+    			attr_dev(img10, "alt", "mynd");
+    			if (img10.src !== (img10_src_value = "igms/undefined-undefined/smallbaby.png")) attr_dev(img10, "src", img10_src_value);
+    			add_location(img10, file$o, 360, 5, 28786);
     			attr_dev(img11, "class", "mediumPic");
-    			if (img11.src !== (img11_src_value = "igms/undefined-posters/2.png")) attr_dev(img11, "src", img11_src_value);
-    			add_location(img11, file$n, 345, 5, 26649);
+    			attr_dev(img11, "alt", "mynd");
+    			if (img11.src !== (img11_src_value = "igms/undefined-undefined/5red1.png")) attr_dev(img11, "src", img11_src_value);
+    			add_location(img11, file$o, 361, 5, 28871);
     			attr_dev(img12, "class", "mediumPic");
-    			if (img12.src !== (img12_src_value = "igms/undefined-undefined/prent f fólk374.jpg")) attr_dev(img12, "src", img12_src_value);
-    			add_location(img12, file$n, 346, 5, 26713);
+    			attr_dev(img12, "alt", "mynd");
+    			if (img12.src !== (img12_src_value = "igms/undefined-undefined/ok.gif")) attr_dev(img12, "src", img12_src_value);
+    			add_location(img12, file$o, 362, 5, 28952);
     			attr_dev(img13, "class", "mediumPic");
-    			if (img13.src !== (img13_src_value = "igms/undefined-undefined/prent f fólk375.jpg")) attr_dev(img13, "src", img13_src_value);
-    			add_location(img13, file$n, 347, 5, 26794);
+    			attr_dev(img13, "alt", "mynd");
+    			if (img13.src !== (img13_src_value = "igms/undefined-undefined/mynd12.png")) attr_dev(img13, "src", img13_src_value);
+    			add_location(img13, file$o, 363, 6, 29031);
     			attr_dev(img14, "class", "mediumPic");
-    			if (img14.src !== (img14_src_value = "igms/undefined-undefined/blubb_Page_14b.jpg")) attr_dev(img14, "src", img14_src_value);
-    			add_location(img14, file$n, 351, 5, 27117);
+    			attr_dev(img14, "alt", "mynd");
+    			set_style(img14, "max-width", "30vw");
+    			if (img14.src !== (img14_src_value = "igms/undefined-posters/KABKPuppyParade.jpg")) attr_dev(img14, "src", img14_src_value);
+    			add_location(img14, file$o, 365, 5, 29206);
     			attr_dev(img15, "class", "mediumPic");
-    			if (img15.src !== (img15_src_value = "igms/undefined-undefined/5utgafa-ut.png")) attr_dev(img15, "src", img15_src_value);
-    			add_location(img15, file$n, 354, 5, 27366);
+    			attr_dev(img15, "alt", "mynd");
+    			if (img15.src !== (img15_src_value = "igms/undefined-undefined/typography.jpg")) attr_dev(img15, "src", img15_src_value);
+    			add_location(img15, file$o, 366, 6, 29321);
     			attr_dev(img16, "class", "mediumPic");
     			attr_dev(img16, "alt", "mynd");
-    			if (img16.src !== (img16_src_value = "igms/cali/cali1.jpg")) attr_dev(img16, "src", img16_src_value);
-    			add_location(img16, file$n, 358, 5, 27676);
+    			if (img16.src !== (img16_src_value = "igms/undefined-undefined/5web.jpg")) attr_dev(img16, "src", img16_src_value);
+    			add_location(img16, file$o, 369, 6, 29587);
     			attr_dev(img17, "class", "mediumPic");
     			attr_dev(img17, "alt", "mynd");
-    			if (img17.src !== (img17_src_value = "igms/cali/cali3.jpg")) attr_dev(img17, "src", img17_src_value);
-    			add_location(img17, file$n, 360, 5, 27815);
+    			if (img17.src !== (img17_src_value = "igms/undefined-undefined/skoh.jpg")) attr_dev(img17, "src", img17_src_value);
+    			add_location(img17, file$o, 370, 5, 29667);
     			attr_dev(img18, "class", "mediumPic");
     			attr_dev(img18, "alt", "mynd");
-    			if (img18.src !== (img18_src_value = "igms/undefined-undefined/baby.png")) attr_dev(img18, "src", img18_src_value);
-    			add_location(img18, file$n, 362, 5, 27954);
+    			if (img18.src !== (img18_src_value = "igms/undefined-undefined/rammi.jpg")) attr_dev(img18, "src", img18_src_value);
+    			add_location(img18, file$o, 371, 5, 29747);
     			attr_dev(img19, "class", "mediumPic");
-    			if (img19.src !== (img19_src_value = "igms/undefined-undefined/5red2.png")) attr_dev(img19, "src", img19_src_value);
-    			add_location(img19, file$n, 363, 5, 28034);
+    			attr_dev(img19, "alt", "mynd");
+    			set_style(img19, "max-width", "30vw");
+    			if (img19.src !== (img19_src_value = "igms/undefined-undefined/spurn.png")) attr_dev(img19, "src", img19_src_value);
+    			add_location(img19, file$o, 372, 5, 29828);
     			attr_dev(img20, "class", "mediumPic");
-    			if (img20.src !== (img20_src_value = "igms/undefined-undefined/ok.gif")) attr_dev(img20, "src", img20_src_value);
-    			add_location(img20, file$n, 364, 5, 28104);
+    			attr_dev(img20, "alt", "mynd");
+    			if (img20.src !== (img20_src_value = "igms/undefined-undefined/blomnytt2.jpg")) attr_dev(img20, "src", img20_src_value);
+    			add_location(img20, file$o, 373, 6, 29935);
     			attr_dev(img21, "class", "mediumPic");
-    			if (img21.src !== (img21_src_value = "igms/undefined-teikningar/Scan 34.jpg")) attr_dev(img21, "src", img21_src_value);
-    			add_location(img21, file$n, 365, 5, 28171);
+    			attr_dev(img21, "alt", "mynd");
+    			if (img21.src !== (img21_src_value = "igms/undefined-undefined/mamma.jpg")) attr_dev(img21, "src", img21_src_value);
+    			add_location(img21, file$o, 374, 6, 30021);
     			attr_dev(img22, "class", "mediumPic");
-    			set_style(img22, "max-width", "30vw");
     			attr_dev(img22, "alt", "mynd");
-    			if (img22.src !== (img22_src_value = "igms/undefined-posters/KABKPuppyParade2.jpg")) attr_dev(img22, "src", img22_src_value);
-    			add_location(img22, file$n, 366, 5, 28244);
+    			if (img22.src !== (img22_src_value = "igms/undefined-undefined/oohnoo.gif")) attr_dev(img22, "src", img22_src_value);
+    			add_location(img22, file$o, 375, 5, 30102);
     			attr_dev(img23, "class", "mediumPic");
-    			if (img23.src !== (img23_src_value = "igms/undefined-undefined/blomnytt.jpg")) attr_dev(img23, "src", img23_src_value);
-    			add_location(img23, file$n, 368, 5, 28437);
+    			attr_dev(img23, "alt", "mynd");
+    			if (img23.src !== (img23_src_value = "igms/undefined-undefined/front.png")) attr_dev(img23, "src", img23_src_value);
+    			add_location(img23, file$o, 376, 5, 30184);
     			attr_dev(img24, "class", "mediumPic");
-    			if (img24.src !== (img24_src_value = "igms/undefined-undefined/IMG_1856.JPG")) attr_dev(img24, "src", img24_src_value);
-    			add_location(img24, file$n, 369, 5, 28510);
+    			attr_dev(img24, "alt", "mynd");
+    			if (img24.src !== (img24_src_value = "igms/undefined-undefined/display1.jpg")) attr_dev(img24, "src", img24_src_value);
+    			add_location(img24, file$o, 378, 6, 30364);
     			attr_dev(img25, "class", "mediumPic");
-    			if (img25.src !== (img25_src_value = "igms/undefined-undefined/rammi.jpg")) attr_dev(img25, "src", img25_src_value);
-    			add_location(img25, file$n, 370, 5, 28583);
+    			attr_dev(img25, "alt", "mynd");
+    			if (img25.src !== (img25_src_value = "igms/undefined-undefined/display2.jpg")) attr_dev(img25, "src", img25_src_value);
+    			add_location(img25, file$o, 379, 6, 30449);
     			attr_dev(img26, "class", "mediumPic");
-    			set_style(img26, "max-width", "30vw");
-    			if (img26.src !== (img26_src_value = "igms/undefined-undefined/spurn.png")) attr_dev(img26, "src", img26_src_value);
-    			add_location(img26, file$n, 371, 5, 28653);
+    			attr_dev(img26, "alt", "mynd");
+    			if (img26.src !== (img26_src_value = "igms/undefined-undefined/display3.jpg")) attr_dev(img26, "src", img26_src_value);
+    			add_location(img26, file$o, 380, 6, 30534);
     			attr_dev(img27, "class", "mediumPic");
-    			if (img27.src !== (img27_src_value = "igms/undefined-undefined/oohnoo.gif")) attr_dev(img27, "src", img27_src_value);
-    			add_location(img27, file$n, 372, 5, 28748);
+    			attr_dev(img27, "alt", "mynd");
+    			if (img27.src !== (img27_src_value = "igms/undefined-ljosmyndir/tschlin.jpg")) attr_dev(img27, "src", img27_src_value);
+    			add_location(img27, file$o, 381, 6, 30619);
     			attr_dev(img28, "class", "mediumPic");
-    			if (img28.src !== (img28_src_value = "igms/undefined-undefined/5web.png")) attr_dev(img28, "src", img28_src_value);
-    			add_location(img28, file$n, 373, 5, 28819);
+    			attr_dev(img28, "alt", "mynd");
+    			if (img28.src !== (img28_src_value = "igms/undefined-ljosmyndir/simiafjalli.jpg")) attr_dev(img28, "src", img28_src_value);
+    			add_location(img28, file$o, 382, 6, 30704);
     			attr_dev(img29, "class", "mediumPic");
-    			if (img29.src !== (img29_src_value = "igms/undefined-undefined/front.png")) attr_dev(img29, "src", img29_src_value);
-    			add_location(img29, file$n, 374, 5, 28888);
+    			attr_dev(img29, "alt", "mynd");
+    			if (img29.src !== (img29_src_value = "igms/undefined-ljosmyndir/fjall.jpg")) attr_dev(img29, "src", img29_src_value);
+    			add_location(img29, file$o, 384, 6, 30886);
     			attr_dev(img30, "class", "mediumPic");
-    			if (img30.src !== (img30_src_value = "igms/undefined-undefined/mamma.jpg")) attr_dev(img30, "src", img30_src_value);
-    			add_location(img30, file$n, 375, 5, 28958);
+    			attr_dev(img30, "alt", "mynd");
+    			if (img30.src !== (img30_src_value = "igms/undefined-posters/otherPoster.jpg")) attr_dev(img30, "src", img30_src_value);
+    			add_location(img30, file$o, 387, 6, 31164);
+    			attr_dev(img31, "class", "mediumPic");
+    			attr_dev(img31, "alt", "mynd");
+    			if (img31.src !== (img31_src_value = "igms/undefined-teikningar/teikning1.jpg")) attr_dev(img31, "src", img31_src_value);
+    			add_location(img31, file$o, 388, 6, 31250);
+    			attr_dev(img32, "class", "mediumPic");
+    			attr_dev(img32, "alt", "mynd");
+    			if (img32.src !== (img32_src_value = "igms/undefined-teikningar/teikning2.jpg")) attr_dev(img32, "src", img32_src_value);
+    			add_location(img32, file$o, 389, 6, 31337);
+    			attr_dev(img33, "class", "mediumPic");
+    			attr_dev(img33, "alt", "mynd");
+    			if (img33.src !== (img33_src_value = "igms/undefined-teikningar/teikning3.jpg")) attr_dev(img33, "src", img33_src_value);
+    			add_location(img33, file$o, 390, 6, 31424);
+    			attr_dev(img34, "class", "mediumPic");
+    			attr_dev(img34, "alt", "mynd");
+    			set_style(img34, "border-radius", "120px");
+    			if (img34.src !== (img34_src_value = "igms/undefined-undefined/_.jpg")) attr_dev(img34, "src", img34_src_value);
+    			add_location(img34, file$o, 391, 6, 31511);
+    			attr_dev(img35, "class", "mediumPic");
+    			attr_dev(img35, "alt", "mynd");
+    			if (img35.src !== (img35_src_value = "igms/undefined-web/7.jpg")) attr_dev(img35, "src", img35_src_value);
+    			add_location(img35, file$o, 392, 6, 31619);
+    			attr_dev(img36, "class", "mediumPic");
+    			attr_dev(img36, "alt", "mynd");
+    			if (img36.src !== (img36_src_value = "igms/undefined-undefined/15.png")) attr_dev(img36, "src", img36_src_value);
+    			add_location(img36, file$o, 393, 6, 31691);
+    			attr_dev(img37, "class", "mediumPic");
+    			attr_dev(img37, "alt", "mynd");
+    			if (img37.src !== (img37_src_value = "igms/undefined-undefined/14.png")) attr_dev(img37, "src", img37_src_value);
+    			add_location(img37, file$o, 394, 6, 31770);
+    			attr_dev(img38, "class", "mediumPic");
+    			attr_dev(img38, "alt", "mynd");
+    			if (img38.src !== (img38_src_value = "igms/undefined-undefined/1.png")) attr_dev(img38, "src", img38_src_value);
+    			add_location(img38, file$o, 396, 6, 31935);
+    			attr_dev(img39, "class", "mediumPic");
+    			attr_dev(img39, "alt", "mynd");
+    			if (img39.src !== (img39_src_value = "igms/undefined-undefined/aSmalltable.png")) attr_dev(img39, "src", img39_src_value);
+    			add_location(img39, file$o, 397, 6, 32013);
+    			add_location(br0, file$o, 398, 6, 32101);
+    			add_location(br1, file$o, 398, 10, 32105);
+    			add_location(br2, file$o, 398, 14, 32109);
+    			add_location(br3, file$o, 398, 18, 32113);
+    			add_location(br4, file$o, 398, 22, 32117);
+    			add_location(br5, file$o, 398, 26, 32121);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -9965,6 +10494,31 @@ var app = (function () {
     			insert_dev(target, img29, anchor);
     			insert_dev(target, t30, anchor);
     			insert_dev(target, img30, anchor);
+    			insert_dev(target, t31, anchor);
+    			insert_dev(target, img31, anchor);
+    			insert_dev(target, t32, anchor);
+    			insert_dev(target, img32, anchor);
+    			insert_dev(target, t33, anchor);
+    			insert_dev(target, img33, anchor);
+    			insert_dev(target, t34, anchor);
+    			insert_dev(target, img34, anchor);
+    			insert_dev(target, t35, anchor);
+    			insert_dev(target, img35, anchor);
+    			insert_dev(target, t36, anchor);
+    			insert_dev(target, img36, anchor);
+    			insert_dev(target, t37, anchor);
+    			insert_dev(target, img37, anchor);
+    			insert_dev(target, t38, anchor);
+    			insert_dev(target, img38, anchor);
+    			insert_dev(target, t39, anchor);
+    			insert_dev(target, img39, anchor);
+    			insert_dev(target, t40, anchor);
+    			insert_dev(target, br0, anchor);
+    			insert_dev(target, br1, anchor);
+    			insert_dev(target, br2, anchor);
+    			insert_dev(target, br3, anchor);
+    			insert_dev(target, br4, anchor);
+    			insert_dev(target, br5, anchor);
     		},
     		d: function destroy(detaching) {
     			if (detaching) detach_dev(div);
@@ -10030,6 +10584,31 @@ var app = (function () {
     			if (detaching) detach_dev(img29);
     			if (detaching) detach_dev(t30);
     			if (detaching) detach_dev(img30);
+    			if (detaching) detach_dev(t31);
+    			if (detaching) detach_dev(img31);
+    			if (detaching) detach_dev(t32);
+    			if (detaching) detach_dev(img32);
+    			if (detaching) detach_dev(t33);
+    			if (detaching) detach_dev(img33);
+    			if (detaching) detach_dev(t34);
+    			if (detaching) detach_dev(img34);
+    			if (detaching) detach_dev(t35);
+    			if (detaching) detach_dev(img35);
+    			if (detaching) detach_dev(t36);
+    			if (detaching) detach_dev(img36);
+    			if (detaching) detach_dev(t37);
+    			if (detaching) detach_dev(img37);
+    			if (detaching) detach_dev(t38);
+    			if (detaching) detach_dev(img38);
+    			if (detaching) detach_dev(t39);
+    			if (detaching) detach_dev(img39);
+    			if (detaching) detach_dev(t40);
+    			if (detaching) detach_dev(br0);
+    			if (detaching) detach_dev(br1);
+    			if (detaching) detach_dev(br2);
+    			if (detaching) detach_dev(br3);
+    			if (detaching) detach_dev(br4);
+    			if (detaching) detach_dev(br5);
     		}
     	};
 
@@ -10037,14 +10616,14 @@ var app = (function () {
     		block,
     		id: create_if_block.name,
     		type: "if",
-    		source: "(328:4) {#if other}",
+    		source: "(337:4) {#if other}",
     		ctx
     	});
 
     	return block;
     }
 
-    function create_fragment$n(ctx) {
+    function create_fragment$o(ctx) {
     	let div5;
     	let div0;
     	let t1;
@@ -10073,9 +10652,9 @@ var app = (function () {
     	let t23;
     	let t24;
     	let t25;
+    	let t26;
     	let div2;
     	let span0;
-    	let t26;
     	let t27;
     	let t28;
     	let t29;
@@ -10099,9 +10678,9 @@ var app = (function () {
     	let t47;
     	let t48;
     	let t49;
-    	let div3;
     	let t50;
     	let t51;
+    	let div3;
     	let t52;
     	let t53;
     	let t54;
@@ -10124,11 +10703,11 @@ var app = (function () {
     	let t71;
     	let t72;
     	let t73;
-    	let div4;
-    	let span1;
     	let t74;
     	let t75;
     	let t76;
+    	let div4;
+    	let span1;
     	let t77;
     	let t78;
     	let t79;
@@ -10166,242 +10745,255 @@ var app = (function () {
     	let t111;
     	let t112;
     	let t113;
+    	let t114;
+    	let t115;
+    	let t116;
+    	let t117;
+    	let t118;
     	let div7;
     	let div6;
     	let img0;
     	let img0_src_value;
     	let br0;
     	let br1;
-    	let t114;
+    	let t119;
     	let br2;
     	let br3;
-    	let t115;
+    	let t120;
     	let i0;
     	let br4;
-    	let t117;
+    	let t122;
     	let br5;
-    	let t118;
+    	let t123;
     	let br6;
     	let br7;
-    	let t119;
+    	let t124;
     	let span2;
     	let i1;
     	let br8;
-    	let t121;
+    	let t126;
     	let br9;
-    	let t122;
+    	let t127;
     	let br10;
-    	let t123;
+    	let t128;
     	let br11;
     	let br12;
-    	let t124;
+    	let t129;
     	let i2;
     	let br13;
-    	let t126;
+    	let t131;
     	let br14;
-    	let t127;
+    	let t132;
     	let span3;
     	let br15;
     	let br16;
-    	let t128;
-    	let t129;
+    	let t133;
+    	let t134;
     	let div11;
     	let div10;
     	let div8;
-    	let t131;
+    	let t136;
     	let div9;
-    	let t132;
+    	let t137;
     	let br17;
     	let br18;
-    	let t133;
+    	let t138;
     	let img1;
     	let img1_src_value;
-    	let t134;
+    	let t139;
     	let img2;
     	let img2_src_value;
-    	let t135;
+    	let t140;
     	let img3;
     	let img3_src_value;
-    	let t136;
+    	let t141;
     	let img4;
     	let img4_src_value;
-    	let t137;
+    	let t142;
     	let img5;
     	let img5_src_value;
-    	let t138;
+    	let t143;
     	let img6;
     	let img6_src_value;
-    	let t139;
+    	let t144;
     	let img7;
     	let img7_src_value;
-    	let t140;
+    	let t145;
     	let img8;
     	let img8_src_value;
-    	let t141;
+    	let t146;
     	let img9;
     	let img9_src_value;
-    	let t142;
+    	let t147;
     	let img10;
     	let img10_src_value;
-    	let t143;
+    	let t148;
     	let img11;
     	let img11_src_value;
-    	let t144;
+    	let t149;
     	let img12;
     	let img12_src_value;
-    	let t145;
+    	let t150;
     	let img13;
     	let img13_src_value;
-    	let t146;
+    	let t151;
     	let img14;
     	let img14_src_value;
-    	let t147;
+    	let t152;
     	let img15;
     	let img15_src_value;
-    	let t148;
+    	let t153;
     	let img16;
     	let img16_src_value;
-    	let t149;
+    	let t154;
     	let img17;
     	let img17_src_value;
-    	let t150;
+    	let t155;
     	let img18;
     	let img18_src_value;
-    	let t151;
+    	let t156;
     	let img19;
     	let img19_src_value;
-    	let t152;
+    	let t157;
     	let img20;
     	let img20_src_value;
-    	let t153;
+    	let t158;
     	let img21;
     	let img21_src_value;
-    	let t154;
+    	let t159;
     	let img22;
     	let img22_src_value;
-    	let t155;
+    	let t160;
     	let img23;
     	let img23_src_value;
-    	let t156;
+    	let t161;
     	let img24;
     	let img24_src_value;
-    	let t157;
+    	let t162;
+    	let img25;
+    	let img25_src_value;
+    	let t163;
     	let current;
     	let mounted;
     	let dispose;
-    	let if_block0 = /*frontscreen*/ ctx[1] && create_if_block_112(ctx);
-    	let if_block1 = /*onourowntime*/ ctx[2] && create_if_block_111(ctx);
-    	let if_block2 = /*green*/ ctx[3] && create_if_block_110(ctx);
-    	let if_block3 = /*viv*/ ctx[4] && create_if_block_109(ctx);
-    	let if_block4 = /*portfolioio*/ ctx[7] && create_if_block_108(ctx);
-    	let if_block5 = /*typoposters*/ ctx[5] && create_if_block_107(ctx);
-    	let if_block6 = /*beauimg*/ ctx[21] && create_if_block_106(ctx);
-    	let if_block7 = /*secret*/ ctx[6] && create_if_block_105(ctx);
-    	let if_block8 = /*sortedplastic*/ ctx[8] && create_if_block_104(ctx);
-    	let if_block9 = /*oeb*/ ctx[20] && create_if_block_103(ctx);
-    	let if_block10 = /*musicposters*/ ctx[9] && create_if_block_102(ctx);
-    	let if_block11 = /*timatal*/ ctx[10] && create_if_block_101(ctx);
-    	let if_block12 = /*tools*/ ctx[11] && create_if_block_100(ctx);
-    	let if_block13 = /*trash*/ ctx[12] && create_if_block_99(ctx);
-    	let if_block14 = /*musicbook*/ ctx[13] && create_if_block_98(ctx);
-    	let if_block15 = /*corruptedspace*/ ctx[14] && create_if_block_97(ctx);
-    	let if_block16 = /*oilbuddies*/ ctx[15] && create_if_block_96(ctx);
-    	let if_block17 = /*litabok*/ ctx[16] && create_if_block_95(ctx);
-    	let if_block18 = /*plastica*/ ctx[17] && create_if_block_94(ctx);
-    	let if_block19 = /*familiarfaces*/ ctx[18] && create_if_block_93(ctx);
-    	let if_block20 = /*likamar*/ ctx[19] && create_if_block_92(ctx);
-    	let if_block21 = /*bread*/ ctx[22] && create_if_block_91(ctx);
-    	let if_block22 = /*breadmag*/ ctx[24] && create_if_block_90(ctx);
-    	let if_block23 = /*flora*/ ctx[23] && create_if_block_89(ctx);
-    	let if_block24 = /*frontscreen*/ ctx[1] && create_if_block_88(ctx);
-    	let if_block25 = /*onourowntime*/ ctx[2] && create_if_block_87(ctx);
-    	let if_block26 = /*green*/ ctx[3] && create_if_block_86(ctx);
-    	let if_block27 = /*viv*/ ctx[4] && create_if_block_85(ctx);
-    	let if_block28 = /*bread*/ ctx[22] && create_if_block_84(ctx);
-    	let if_block29 = /*breadmag*/ ctx[24] && create_if_block_83(ctx);
-    	let if_block30 = /*portfolioio*/ ctx[7] && create_if_block_82(ctx);
-    	let if_block31 = /*typoposters*/ ctx[5] && create_if_block_81(ctx);
-    	let if_block32 = /*beauimg*/ ctx[21] && create_if_block_80(ctx);
-    	let if_block33 = /*secret*/ ctx[6] && create_if_block_79(ctx);
-    	let if_block34 = /*sortedplastic*/ ctx[8] && create_if_block_78(ctx);
-    	let if_block35 = /*oeb*/ ctx[20] && create_if_block_77(ctx);
-    	let if_block36 = /*musicposters*/ ctx[9] && create_if_block_76(ctx);
-    	let if_block37 = /*timatal*/ ctx[10] && create_if_block_75(ctx);
-    	let if_block38 = /*tools*/ ctx[11] && create_if_block_74(ctx);
-    	let if_block39 = /*trash*/ ctx[12] && create_if_block_73(ctx);
-    	let if_block40 = /*musicbook*/ ctx[13] && create_if_block_72(ctx);
-    	let if_block41 = /*corruptedspace*/ ctx[14] && create_if_block_71(ctx);
-    	let if_block42 = /*oilbuddies*/ ctx[15] && create_if_block_70(ctx);
-    	let if_block43 = /*litabok*/ ctx[16] && create_if_block_69(ctx);
-    	let if_block44 = /*plastica*/ ctx[17] && create_if_block_68(ctx);
-    	let if_block45 = /*familiarfaces*/ ctx[18] && create_if_block_67(ctx);
-    	let if_block46 = /*likamar*/ ctx[19] && create_if_block_66(ctx);
-    	let if_block47 = /*flora*/ ctx[23] && create_if_block_65(ctx);
-    	let if_block48 = /*frontscreen*/ ctx[1] && create_if_block_64(ctx);
-    	let if_block49 = /*onourowntime*/ ctx[2] && create_if_block_63(ctx);
-    	let if_block50 = /*green*/ ctx[3] && create_if_block_62(ctx);
-    	let if_block51 = /*viv*/ ctx[4] && create_if_block_61(ctx);
-    	let if_block52 = /*bread*/ ctx[22] && create_if_block_60(ctx);
-    	let if_block53 = /*breadmag*/ ctx[24] && create_if_block_59(ctx);
-    	let if_block54 = /*portfolioio*/ ctx[7] && create_if_block_58(ctx);
-    	let if_block55 = /*typoposters*/ ctx[5] && create_if_block_57(ctx);
-    	let if_block56 = /*beauimg*/ ctx[21] && create_if_block_56(ctx);
-    	let if_block57 = /*secret*/ ctx[6] && create_if_block_55(ctx);
-    	let if_block58 = /*sortedplastic*/ ctx[8] && create_if_block_54(ctx);
-    	let if_block59 = /*oeb*/ ctx[20] && create_if_block_53(ctx);
-    	let if_block60 = /*musicposters*/ ctx[9] && create_if_block_52(ctx);
-    	let if_block61 = /*timatal*/ ctx[10] && create_if_block_51(ctx);
-    	let if_block62 = /*tools*/ ctx[11] && create_if_block_50(ctx);
-    	let if_block63 = /*trash*/ ctx[12] && create_if_block_49(ctx);
-    	let if_block64 = /*musicbook*/ ctx[13] && create_if_block_48(ctx);
-    	let if_block65 = /*corruptedspace*/ ctx[14] && create_if_block_47(ctx);
-    	let if_block66 = /*oilbuddies*/ ctx[15] && create_if_block_46(ctx);
-    	let if_block67 = /*litabok*/ ctx[16] && create_if_block_45(ctx);
-    	let if_block68 = /*plastica*/ ctx[17] && create_if_block_44(ctx);
-    	let if_block69 = /*familiarfaces*/ ctx[18] && create_if_block_43(ctx);
-    	let if_block70 = /*likamar*/ ctx[19] && create_if_block_42(ctx);
-    	let if_block71 = /*flora*/ ctx[23] && create_if_block_41(ctx);
-    	let if_block72 = /*frontscreen*/ ctx[1] && create_if_block_40(ctx);
-    	let if_block73 = /*onourowntime*/ ctx[2] && create_if_block_39(ctx);
-    	let if_block74 = /*viv*/ ctx[4] && create_if_block_38(ctx);
-    	let if_block75 = /*typoposters*/ ctx[5] && create_if_block_37(ctx);
-    	let if_block76 = /*secret*/ ctx[6] && create_if_block_36(ctx);
-    	let if_block77 = /*tools*/ ctx[11] && create_if_block_35(ctx);
-    	let if_block78 = /*timatal*/ ctx[10] && create_if_block_34(ctx);
-    	let if_block79 = /*sortedplastic*/ ctx[8] && create_if_block_33(ctx);
-    	let if_block80 = /*litabok*/ ctx[16] && create_if_block_32(ctx);
-    	let if_block81 = /*oilbuddies*/ ctx[15] && create_if_block_31(ctx);
-    	let if_block82 = /*trash*/ ctx[12] && create_if_block_30(ctx);
-    	let if_block83 = /*familiarfaces*/ ctx[18] && create_if_block_29(ctx);
-    	let if_block84 = /*musicbook*/ ctx[13] && create_if_block_28(ctx);
-    	let if_block85 = /*plastica*/ ctx[17] && create_if_block_27(ctx);
-    	let if_block86 = /*corruptedspace*/ ctx[14] && create_if_block_26(ctx);
-    	let if_block87 = /*likamar*/ ctx[19] && create_if_block_25(ctx);
-    	let if_block88 = /*green*/ ctx[3] && create_if_block_24(ctx);
-    	let if_block89 = /*onourowntime*/ ctx[2] && create_if_block_23(ctx);
-    	let if_block90 = /*green*/ ctx[3] && create_if_block_22(ctx);
-    	let if_block91 = /*viv*/ ctx[4] && create_if_block_21(ctx);
-    	let if_block92 = /*portfolioio*/ ctx[7] && create_if_block_20(ctx);
-    	let if_block93 = /*typoposters*/ ctx[5] && create_if_block_19(ctx);
-    	let if_block94 = /*secret*/ ctx[6] && create_if_block_18(ctx);
-    	let if_block95 = /*sortedplastic*/ ctx[8] && create_if_block_17(ctx);
-    	let if_block96 = /*musicposters*/ ctx[9] && create_if_block_16(ctx);
-    	let if_block97 = /*timatal*/ ctx[10] && create_if_block_15(ctx);
-    	let if_block98 = /*tools*/ ctx[11] && create_if_block_14(ctx);
-    	let if_block99 = /*trash*/ ctx[12] && create_if_block_13(ctx);
-    	let if_block100 = /*musicbook*/ ctx[13] && create_if_block_12(ctx);
-    	let if_block101 = /*corruptedspace*/ ctx[14] && create_if_block_11(ctx);
-    	let if_block102 = /*oilbuddies*/ ctx[15] && create_if_block_10(ctx);
-    	let if_block103 = /*litabok*/ ctx[16] && create_if_block_9(ctx);
-    	let if_block104 = /*plastica*/ ctx[17] && create_if_block_8(ctx);
-    	let if_block105 = /*familiarfaces*/ ctx[18] && create_if_block_7(ctx);
-    	let if_block106 = /*likamar*/ ctx[19] && create_if_block_6(ctx);
-    	let if_block107 = /*oeb*/ ctx[20] && create_if_block_5(ctx);
-    	let if_block108 = /*beauimg*/ ctx[21] && create_if_block_4(ctx);
-    	let if_block109 = /*bread*/ ctx[22] && create_if_block_3(ctx);
-    	let if_block110 = /*flora*/ ctx[23] && create_if_block_2(ctx);
-    	let if_block111 = /*breadmag*/ ctx[24] && create_if_block_1(ctx);
-    	let if_block112 = /*other*/ ctx[25] && create_if_block(ctx);
+    	let if_block0 = /*frontscreen*/ ctx[1] && create_if_block_117(ctx);
+    	let if_block1 = /*onourowntime*/ ctx[2] && create_if_block_116(ctx);
+    	let if_block2 = /*green*/ ctx[3] && create_if_block_115(ctx);
+    	let if_block3 = /*viv*/ ctx[4] && create_if_block_114(ctx);
+    	let if_block4 = /*portfolioio*/ ctx[7] && create_if_block_113(ctx);
+    	let if_block5 = /*typoposters*/ ctx[5] && create_if_block_112(ctx);
+    	let if_block6 = /*beauimg*/ ctx[21] && create_if_block_111(ctx);
+    	let if_block7 = /*secret*/ ctx[6] && create_if_block_110(ctx);
+    	let if_block8 = /*sortedplastic*/ ctx[8] && create_if_block_109(ctx);
+    	let if_block9 = /*oeb*/ ctx[20] && create_if_block_108(ctx);
+    	let if_block10 = /*musicposters*/ ctx[9] && create_if_block_107(ctx);
+    	let if_block11 = /*timatal*/ ctx[10] && create_if_block_106(ctx);
+    	let if_block12 = /*tools*/ ctx[11] && create_if_block_105(ctx);
+    	let if_block13 = /*trash*/ ctx[12] && create_if_block_104(ctx);
+    	let if_block14 = /*musicbook*/ ctx[13] && create_if_block_103(ctx);
+    	let if_block15 = /*corruptedspace*/ ctx[14] && create_if_block_102(ctx);
+    	let if_block16 = /*oilbuddies*/ ctx[15] && create_if_block_101(ctx);
+    	let if_block17 = /*litabok*/ ctx[16] && create_if_block_100(ctx);
+    	let if_block18 = /*plastica*/ ctx[17] && create_if_block_99(ctx);
+    	let if_block19 = /*familiarfaces*/ ctx[18] && create_if_block_98(ctx);
+    	let if_block20 = /*likamar*/ ctx[19] && create_if_block_97(ctx);
+    	let if_block21 = /*bread*/ ctx[22] && create_if_block_96(ctx);
+    	let if_block22 = /*breadmag*/ ctx[24] && create_if_block_95(ctx);
+    	let if_block23 = /*flora*/ ctx[23] && create_if_block_94(ctx);
+    	let if_block24 = /*evublad*/ ctx[25] && create_if_block_93(ctx);
+    	let if_block25 = /*frontscreen*/ ctx[1] && create_if_block_92(ctx);
+    	let if_block26 = /*onourowntime*/ ctx[2] && create_if_block_91(ctx);
+    	let if_block27 = /*green*/ ctx[3] && create_if_block_90(ctx);
+    	let if_block28 = /*viv*/ ctx[4] && create_if_block_89(ctx);
+    	let if_block29 = /*bread*/ ctx[22] && create_if_block_88(ctx);
+    	let if_block30 = /*breadmag*/ ctx[24] && create_if_block_87(ctx);
+    	let if_block31 = /*portfolioio*/ ctx[7] && create_if_block_86(ctx);
+    	let if_block32 = /*typoposters*/ ctx[5] && create_if_block_85(ctx);
+    	let if_block33 = /*beauimg*/ ctx[21] && create_if_block_84(ctx);
+    	let if_block34 = /*secret*/ ctx[6] && create_if_block_83(ctx);
+    	let if_block35 = /*sortedplastic*/ ctx[8] && create_if_block_82(ctx);
+    	let if_block36 = /*oeb*/ ctx[20] && create_if_block_81(ctx);
+    	let if_block37 = /*musicposters*/ ctx[9] && create_if_block_80(ctx);
+    	let if_block38 = /*timatal*/ ctx[10] && create_if_block_79(ctx);
+    	let if_block39 = /*tools*/ ctx[11] && create_if_block_78(ctx);
+    	let if_block40 = /*trash*/ ctx[12] && create_if_block_77(ctx);
+    	let if_block41 = /*musicbook*/ ctx[13] && create_if_block_76(ctx);
+    	let if_block42 = /*corruptedspace*/ ctx[14] && create_if_block_75(ctx);
+    	let if_block43 = /*oilbuddies*/ ctx[15] && create_if_block_74(ctx);
+    	let if_block44 = /*litabok*/ ctx[16] && create_if_block_73(ctx);
+    	let if_block45 = /*plastica*/ ctx[17] && create_if_block_72(ctx);
+    	let if_block46 = /*familiarfaces*/ ctx[18] && create_if_block_71(ctx);
+    	let if_block47 = /*likamar*/ ctx[19] && create_if_block_70(ctx);
+    	let if_block48 = /*flora*/ ctx[23] && create_if_block_69(ctx);
+    	let if_block49 = /*evublad*/ ctx[25] && create_if_block_68(ctx);
+    	let if_block50 = /*frontscreen*/ ctx[1] && create_if_block_67(ctx);
+    	let if_block51 = /*onourowntime*/ ctx[2] && create_if_block_66(ctx);
+    	let if_block52 = /*green*/ ctx[3] && create_if_block_65(ctx);
+    	let if_block53 = /*viv*/ ctx[4] && create_if_block_64(ctx);
+    	let if_block54 = /*bread*/ ctx[22] && create_if_block_63(ctx);
+    	let if_block55 = /*breadmag*/ ctx[24] && create_if_block_62(ctx);
+    	let if_block56 = /*portfolioio*/ ctx[7] && create_if_block_61(ctx);
+    	let if_block57 = /*typoposters*/ ctx[5] && create_if_block_60(ctx);
+    	let if_block58 = /*beauimg*/ ctx[21] && create_if_block_59(ctx);
+    	let if_block59 = /*secret*/ ctx[6] && create_if_block_58(ctx);
+    	let if_block60 = /*sortedplastic*/ ctx[8] && create_if_block_57(ctx);
+    	let if_block61 = /*oeb*/ ctx[20] && create_if_block_56(ctx);
+    	let if_block62 = /*musicposters*/ ctx[9] && create_if_block_55(ctx);
+    	let if_block63 = /*timatal*/ ctx[10] && create_if_block_54(ctx);
+    	let if_block64 = /*tools*/ ctx[11] && create_if_block_53(ctx);
+    	let if_block65 = /*trash*/ ctx[12] && create_if_block_52(ctx);
+    	let if_block66 = /*musicbook*/ ctx[13] && create_if_block_51(ctx);
+    	let if_block67 = /*corruptedspace*/ ctx[14] && create_if_block_50(ctx);
+    	let if_block68 = /*oilbuddies*/ ctx[15] && create_if_block_49(ctx);
+    	let if_block69 = /*litabok*/ ctx[16] && create_if_block_48(ctx);
+    	let if_block70 = /*plastica*/ ctx[17] && create_if_block_47(ctx);
+    	let if_block71 = /*familiarfaces*/ ctx[18] && create_if_block_46(ctx);
+    	let if_block72 = /*likamar*/ ctx[19] && create_if_block_45(ctx);
+    	let if_block73 = /*flora*/ ctx[23] && create_if_block_44(ctx);
+    	let if_block74 = /*evublad*/ ctx[25] && create_if_block_43(ctx);
+    	let if_block75 = /*frontscreen*/ ctx[1] && create_if_block_42(ctx);
+    	let if_block76 = /*onourowntime*/ ctx[2] && create_if_block_41(ctx);
+    	let if_block77 = /*viv*/ ctx[4] && create_if_block_40(ctx);
+    	let if_block78 = /*typoposters*/ ctx[5] && create_if_block_39(ctx);
+    	let if_block79 = /*secret*/ ctx[6] && create_if_block_38(ctx);
+    	let if_block80 = /*tools*/ ctx[11] && create_if_block_37(ctx);
+    	let if_block81 = /*timatal*/ ctx[10] && create_if_block_36(ctx);
+    	let if_block82 = /*sortedplastic*/ ctx[8] && create_if_block_35(ctx);
+    	let if_block83 = /*litabok*/ ctx[16] && create_if_block_34(ctx);
+    	let if_block84 = /*oilbuddies*/ ctx[15] && create_if_block_33(ctx);
+    	let if_block85 = /*trash*/ ctx[12] && create_if_block_32(ctx);
+    	let if_block86 = /*familiarfaces*/ ctx[18] && create_if_block_31(ctx);
+    	let if_block87 = /*musicbook*/ ctx[13] && create_if_block_30(ctx);
+    	let if_block88 = /*plastica*/ ctx[17] && create_if_block_29(ctx);
+    	let if_block89 = /*corruptedspace*/ ctx[14] && create_if_block_28(ctx);
+    	let if_block90 = /*likamar*/ ctx[19] && create_if_block_27(ctx);
+    	let if_block91 = /*green*/ ctx[3] && create_if_block_26(ctx);
+    	let if_block92 = /*evublad*/ ctx[25] && create_if_block_25(ctx);
+    	let if_block93 = /*onourowntime*/ ctx[2] && create_if_block_24(ctx);
+    	let if_block94 = /*green*/ ctx[3] && create_if_block_23(ctx);
+    	let if_block95 = /*viv*/ ctx[4] && create_if_block_22(ctx);
+    	let if_block96 = /*portfolioio*/ ctx[7] && create_if_block_21(ctx);
+    	let if_block97 = /*typoposters*/ ctx[5] && create_if_block_20(ctx);
+    	let if_block98 = /*secret*/ ctx[6] && create_if_block_19(ctx);
+    	let if_block99 = /*sortedplastic*/ ctx[8] && create_if_block_18(ctx);
+    	let if_block100 = /*musicposters*/ ctx[9] && create_if_block_17(ctx);
+    	let if_block101 = /*timatal*/ ctx[10] && create_if_block_16(ctx);
+    	let if_block102 = /*tools*/ ctx[11] && create_if_block_15(ctx);
+    	let if_block103 = /*trash*/ ctx[12] && create_if_block_14(ctx);
+    	let if_block104 = /*musicbook*/ ctx[13] && create_if_block_13(ctx);
+    	let if_block105 = /*corruptedspace*/ ctx[14] && create_if_block_12(ctx);
+    	let if_block106 = /*oilbuddies*/ ctx[15] && create_if_block_11(ctx);
+    	let if_block107 = /*litabok*/ ctx[16] && create_if_block_10(ctx);
+    	let if_block108 = /*plastica*/ ctx[17] && create_if_block_9(ctx);
+    	let if_block109 = /*familiarfaces*/ ctx[18] && create_if_block_8(ctx);
+    	let if_block110 = /*likamar*/ ctx[19] && create_if_block_7(ctx);
+    	let if_block111 = /*oeb*/ ctx[20] && create_if_block_6(ctx);
+    	let if_block112 = /*beauimg*/ ctx[21] && create_if_block_5(ctx);
+    	let if_block113 = /*bread*/ ctx[22] && create_if_block_4(ctx);
+    	let if_block114 = /*flora*/ ctx[23] && create_if_block_3(ctx);
+    	let if_block115 = /*breadmag*/ ctx[24] && create_if_block_2(ctx);
+    	let if_block116 = /*evublad*/ ctx[25] && create_if_block_1(ctx);
+    	let if_block117 = /*other*/ ctx[26] && create_if_block(ctx);
 
     	const block = {
     		c: function create() {
@@ -10458,10 +11050,10 @@ var app = (function () {
     			t24 = space();
     			if (if_block23) if_block23.c();
     			t25 = space();
-    			div2 = element("div");
-    			span0 = element("span");
     			if (if_block24) if_block24.c();
     			t26 = space();
+    			div2 = element("div");
+    			span0 = element("span");
     			if (if_block25) if_block25.c();
     			t27 = space();
     			if (if_block26) if_block26.c();
@@ -10508,11 +11100,11 @@ var app = (function () {
     			t48 = space();
     			if (if_block47) if_block47.c();
     			t49 = space();
-    			div3 = element("div");
     			if (if_block48) if_block48.c();
     			t50 = space();
     			if (if_block49) if_block49.c();
     			t51 = space();
+    			div3 = element("div");
     			if (if_block50) if_block50.c();
     			t52 = space();
     			if (if_block51) if_block51.c();
@@ -10557,14 +11149,14 @@ var app = (function () {
     			t72 = space();
     			if (if_block71) if_block71.c();
     			t73 = space();
-    			div4 = element("div");
-    			span1 = element("span");
     			if (if_block72) if_block72.c();
     			t74 = space();
     			if (if_block73) if_block73.c();
     			t75 = space();
     			if (if_block74) if_block74.c();
     			t76 = space();
+    			div4 = element("div");
+    			span1 = element("span");
     			if (if_block75) if_block75.c();
     			t77 = space();
     			if (if_block76) if_block76.c();
@@ -10639,265 +11231,281 @@ var app = (function () {
     			t112 = space();
     			if (if_block111) if_block111.c();
     			t113 = space();
+    			if (if_block112) if_block112.c();
+    			t114 = space();
+    			if (if_block113) if_block113.c();
+    			t115 = space();
+    			if (if_block114) if_block114.c();
+    			t116 = space();
+    			if (if_block115) if_block115.c();
+    			t117 = space();
+    			if (if_block116) if_block116.c();
+    			t118 = space();
     			div7 = element("div");
     			div6 = element("div");
     			img0 = element("img");
     			br0 = element("br");
     			br1 = element("br");
-    			t114 = text("\n      BERGLIND BRÁ");
+    			t119 = text("\n      BERGLIND BRÁ");
     			br2 = element("br");
     			br3 = element("br");
-    			t115 = space();
+    			t120 = space();
     			i0 = element("i");
     			i0.textContent = "Education";
     			br4 = element("br");
-    			t117 = text("\n      Myndlistaskólinn");
+    			t122 = text("\n      Sjónlist 2015, Myndlistaskólinn í Reykjavík");
     			br5 = element("br");
-    			t118 = text("\n      BA in 2020 from The Royal Academy of Art, The Hague\n      ");
+    			t123 = text("\n      Graphic Design BA 2020, The Royal Academy of Art, The Hague\n      ");
     			br6 = element("br");
     			br7 = element("br");
-    			t119 = space();
+    			t124 = space();
     			span2 = element("span");
     			i1 = element("i");
     			i1.textContent = "Work experience";
     			br8 = element("br");
-    			t121 = text("\n      Internship at Somalgors74 / Curdin Tones");
+    			t126 = text("\n      Web building / graphic design for Flóra útgáfa");
     			br9 = element("br");
-    			t122 = text("\n      Web building / graphic design for Flóra útgáfa");
+    			t127 = text("\n      Internship at Somalgors74 / Curdin Tones");
     			br10 = element("br");
-    			t123 = text("\n      Portfolio website for photographer Io Alexa Sivertsen");
+    			t128 = text("\n      Portfolio website for photographer Io Alexa Sivertsen");
     			br11 = element("br");
     			br12 = element("br");
-    			t124 = space();
+    			t129 = space();
     			i2 = element("i");
     			i2.textContent = "Contact";
     			br13 = element("br");
-    			t126 = text("\n      berglindbra28@gmail.com");
+    			t131 = text("\n      berglindbra28@gmail.com");
     			br14 = element("br");
-    			t127 = space();
+    			t132 = space();
     			span3 = element("span");
     			br15 = element("br");
     			br16 = element("br");
-    			t128 = text("**MOBILE VERSION IS UNDER CONSTRUCTION**");
-    			t129 = space();
+    			t133 = text("**MOBILE VERSION IS UNDER CONSTRUCTION**");
+    			t134 = space();
     			div11 = element("div");
     			div10 = element("div");
     			div8 = element("div");
     			div8.textContent = "Work";
-    			t131 = space();
+    			t136 = space();
     			div9 = element("div");
-    			t132 = space();
+    			t137 = space();
     			br17 = element("br");
     			br18 = element("br");
-    			t133 = space();
-    			img1 = element("img");
-    			t134 = space();
-    			img2 = element("img");
-    			t135 = space();
-    			img3 = element("img");
-    			t136 = space();
-    			img4 = element("img");
-    			t137 = space();
-    			img5 = element("img");
     			t138 = space();
-    			img6 = element("img");
+    			img1 = element("img");
     			t139 = space();
-    			img7 = element("img");
+    			img2 = element("img");
     			t140 = space();
-    			img8 = element("img");
+    			img3 = element("img");
     			t141 = space();
-    			img9 = element("img");
+    			img4 = element("img");
     			t142 = space();
-    			img10 = element("img");
+    			img5 = element("img");
     			t143 = space();
-    			img11 = element("img");
+    			img6 = element("img");
     			t144 = space();
-    			img12 = element("img");
+    			img7 = element("img");
     			t145 = space();
-    			img13 = element("img");
+    			img8 = element("img");
     			t146 = space();
-    			img14 = element("img");
+    			img9 = element("img");
     			t147 = space();
-    			img15 = element("img");
+    			img10 = element("img");
     			t148 = space();
-    			img16 = element("img");
+    			img11 = element("img");
     			t149 = space();
-    			img17 = element("img");
+    			img12 = element("img");
     			t150 = space();
-    			img18 = element("img");
+    			img13 = element("img");
     			t151 = space();
-    			img19 = element("img");
+    			img14 = element("img");
     			t152 = space();
-    			img20 = element("img");
+    			img15 = element("img");
     			t153 = space();
-    			img21 = element("img");
+    			img16 = element("img");
     			t154 = space();
-    			img22 = element("img");
+    			img17 = element("img");
     			t155 = space();
-    			img23 = element("img");
+    			img18 = element("img");
     			t156 = space();
-    			img24 = element("img");
+    			img19 = element("img");
     			t157 = space();
-    			if (if_block112) if_block112.c();
+    			img20 = element("img");
+    			t158 = space();
+    			img21 = element("img");
+    			t159 = space();
+    			img22 = element("img");
+    			t160 = space();
+    			img23 = element("img");
+    			t161 = space();
+    			img24 = element("img");
+    			t162 = space();
+    			img25 = element("img");
+    			t163 = space();
+    			if (if_block117) if_block117.c();
     			attr_dev(div0, "class", "menu");
-    			add_location(div0, file$n, 108, 2, 13079);
+    			add_location(div0, file$o, 111, 2, 14031);
     			attr_dev(div1, "class", "date mainscreen-main");
-    			add_location(div1, file$n, 119, 2, 13385);
+    			add_location(div1, file$o, 122, 2, 14337);
     			attr_dev(span0, "class", "subtitles-text");
-    			add_location(span0, file$n, 146, 50, 14330);
+    			add_location(span0, file$o, 150, 50, 15316);
     			attr_dev(div2, "class", "subtitlesDate mainscreen-subtitles");
-    			add_location(div2, file$n, 146, 2, 14282);
+    			add_location(div2, file$o, 150, 2, 15268);
     			attr_dev(div3, "class", "name mainscreen-main");
-    			add_location(div3, file$n, 173, 2, 15167);
+    			add_location(div3, file$o, 178, 2, 16180);
     			attr_dev(span1, "class", "subtitles-text");
-    			add_location(span1, file$n, 200, 4, 16621);
+    			add_location(span1, file$o, 206, 4, 17695);
     			attr_dev(div4, "class", "subtitlesName mainscreen-subtitles");
-    			add_location(div4, file$n, 199, 2, 16568);
+    			add_location(div4, file$o, 205, 2, 17642);
     			attr_dev(div5, "id", "Screen");
-    			attr_dev(div5, "class", "containerMiddleScroll svelte-1s63fcv");
+    			attr_dev(div5, "class", "containerMiddleScroll svelte-1eguo3s");
     			toggle_class(div5, "expand", /*expand*/ ctx[0]);
-    			add_location(div5, file$n, 105, 0, 12928);
+    			add_location(div5, file$o, 108, 0, 13880);
     			attr_dev(img0, "class", "logoBio");
     			attr_dev(img0, "alt", "mynd");
     			if (img0.src !== (img0_src_value = "igms/icons/BBJsmall2.png")) attr_dev(img0, "src", img0_src_value);
-    			add_location(img0, file$n, 257, 6, 20694);
-    			add_location(br0, file$n, 257, 69, 20757);
-    			add_location(br1, file$n, 257, 73, 20761);
-    			add_location(br2, file$n, 258, 18, 20784);
-    			add_location(br3, file$n, 258, 22, 20788);
-    			add_location(i0, file$n, 259, 6, 20799);
-    			add_location(br4, file$n, 259, 22, 20815);
-    			add_location(br5, file$n, 260, 22, 20842);
-    			add_location(br6, file$n, 262, 6, 20911);
-    			add_location(br7, file$n, 262, 10, 20915);
-    			add_location(i1, file$n, 263, 34, 20954);
-    			add_location(br8, file$n, 263, 56, 20976);
-    			add_location(br9, file$n, 264, 46, 21027);
-    			add_location(br10, file$n, 265, 52, 21084);
-    			add_location(br11, file$n, 266, 59, 21148);
-    			add_location(br12, file$n, 266, 63, 21152);
+    			add_location(img0, file$o, 265, 6, 22073);
+    			add_location(br0, file$o, 265, 69, 22136);
+    			add_location(br1, file$o, 265, 73, 22140);
+    			add_location(br2, file$o, 266, 18, 22163);
+    			add_location(br3, file$o, 266, 22, 22167);
+    			add_location(i0, file$o, 267, 6, 22178);
+    			add_location(br4, file$o, 267, 22, 22194);
+    			add_location(br5, file$o, 268, 49, 22248);
+    			add_location(br6, file$o, 270, 6, 22325);
+    			add_location(br7, file$o, 270, 10, 22329);
+    			add_location(i1, file$o, 271, 34, 22368);
+    			add_location(br8, file$o, 271, 56, 22390);
+    			add_location(br9, file$o, 272, 52, 22447);
+    			add_location(br10, file$o, 273, 46, 22498);
+    			add_location(br11, file$o, 274, 59, 22562);
+    			add_location(br12, file$o, 274, 63, 22566);
     			attr_dev(span2, "class", "out-on-mobile");
-    			add_location(span2, file$n, 263, 6, 20926);
-    			add_location(i2, file$n, 270, 6, 21235);
-    			add_location(br13, file$n, 270, 20, 21249);
-    			add_location(br14, file$n, 271, 29, 21283);
-    			add_location(br15, file$n, 273, 76, 21453);
-    			add_location(br16, file$n, 273, 80, 21457);
+    			add_location(span2, file$o, 271, 6, 22340);
+    			add_location(i2, file$o, 278, 6, 22649);
+    			add_location(br13, file$o, 278, 20, 22663);
+    			add_location(br14, file$o, 279, 29, 22697);
+    			add_location(br15, file$o, 281, 76, 22867);
+    			add_location(br16, file$o, 281, 80, 22871);
     			attr_dev(span3, "class", "out-on-desktop construction");
     			set_style(span3, "text-align", "center");
-    			add_location(span3, file$n, 273, 6, 21383);
+    			add_location(span3, file$o, 281, 6, 22797);
     			attr_dev(div6, "class", "biography-text");
-    			add_location(div6, file$n, 256, 2, 20659);
+    			add_location(div6, file$o, 264, 2, 22038);
     			attr_dev(div7, "class", "biography");
-    			add_location(div7, file$n, 254, 0, 20630);
+    			add_location(div7, file$o, 262, 0, 22009);
     			attr_dev(div8, "class", "caption");
-    			add_location(div8, file$n, 283, 4, 21587);
+    			add_location(div8, file$o, 291, 4, 23001);
     			attr_dev(div9, "class", "out-on-desktop");
-    			add_location(div9, file$n, 286, 4, 21635);
-    			add_location(br17, file$n, 287, 4, 21674);
-    			add_location(br18, file$n, 287, 8, 21678);
+    			add_location(div9, file$o, 294, 4, 23049);
+    			add_location(br17, file$o, 295, 4, 23088);
+    			add_location(br18, file$o, 295, 8, 23092);
     			attr_dev(img1, "class", "smallPic");
     			attr_dev(img1, "alt", "mynd");
     			if (img1.src !== (img1_src_value = "igms/flora/small.png")) attr_dev(img1, "src", img1_src_value);
-    			add_location(img1, file$n, 290, 4, 21697);
+    			add_location(img1, file$o, 298, 4, 23111);
     			attr_dev(img2, "class", "smallPic");
     			attr_dev(img2, "alt", "mynd");
     			if (img2.src !== (img2_src_value = "igms/onourowntime/small.png")) attr_dev(img2, "src", img2_src_value);
-    			add_location(img2, file$n, 291, 4, 21821);
+    			add_location(img2, file$o, 299, 4, 23235);
     			attr_dev(img3, "class", "smallPic");
     			attr_dev(img3, "alt", "mynd");
     			if (img3.src !== (img3_src_value = "igms/thesis/small.jpg")) attr_dev(img3, "src", img3_src_value);
-    			add_location(img3, file$n, 292, 4, 21959);
+    			add_location(img3, file$o, 300, 4, 23373);
     			attr_dev(img4, "class", "smallPic");
     			attr_dev(img4, "alt", "mynd");
     			if (img4.src !== (img4_src_value = "igms/viv/small.png")) attr_dev(img4, "src", img4_src_value);
-    			add_location(img4, file$n, 293, 4, 22084);
+    			add_location(img4, file$o, 301, 4, 23498);
     			attr_dev(img5, "class", "smallPic");
     			attr_dev(img5, "alt", "mynd");
     			if (img5.src !== (img5_src_value = "igms/bread/small.jpg")) attr_dev(img5, "src", img5_src_value);
-    			add_location(img5, file$n, 294, 4, 22204);
+    			add_location(img5, file$o, 302, 4, 23618);
     			attr_dev(img6, "class", "smallPic");
     			attr_dev(img6, "alt", "mynd");
     			if (img6.src !== (img6_src_value = "igms/bread/breadmag.jpg")) attr_dev(img6, "src", img6_src_value);
-    			add_location(img6, file$n, 295, 4, 22328);
+    			add_location(img6, file$o, 303, 4, 23742);
     			attr_dev(img7, "class", "smallPic");
     			attr_dev(img7, "alt", "mynd");
     			if (img7.src !== (img7_src_value = "igms/io/small.png")) attr_dev(img7, "src", img7_src_value);
-    			add_location(img7, file$n, 296, 4, 22458);
+    			add_location(img7, file$o, 304, 4, 23872);
     			attr_dev(img8, "class", "smallPic");
     			attr_dev(img8, "alt", "mynd");
     			if (img8.src !== (img8_src_value = "igms/beauimg/small.jpg")) attr_dev(img8, "src", img8_src_value);
-    			add_location(img8, file$n, 297, 4, 22585);
+    			add_location(img8, file$o, 305, 4, 23999);
     			attr_dev(img9, "class", "smallPic");
     			attr_dev(img9, "alt", "mynd");
     			if (img9.src !== (img9_src_value = "igms/typoPosters/3.jpg")) attr_dev(img9, "src", img9_src_value);
-    			add_location(img9, file$n, 298, 4, 22713);
+    			add_location(img9, file$o, 306, 4, 24127);
     			attr_dev(img10, "class", "smallPic");
     			attr_dev(img10, "alt", "mynd");
     			if (img10.src !== (img10_src_value = "igms/oeb/small.png")) attr_dev(img10, "src", img10_src_value);
-    			add_location(img10, file$n, 300, 4, 22978);
+    			add_location(img10, file$o, 308, 4, 24392);
     			attr_dev(img11, "class", "smallPic");
     			attr_dev(img11, "alt", "mynd");
     			if (img11.src !== (img11_src_value = "igms/sortedPlastic/small.png")) attr_dev(img11, "src", img11_src_value);
-    			add_location(img11, file$n, 301, 4, 23098);
+    			add_location(img11, file$o, 309, 4, 24512);
     			attr_dev(img12, "class", "smallPic");
     			attr_dev(img12, "alt", "mynd");
     			if (img12.src !== (img12_src_value = "igms/musicPosters/small.jpg")) attr_dev(img12, "src", img12_src_value);
-    			add_location(img12, file$n, 302, 4, 23238);
+    			add_location(img12, file$o, 310, 4, 24652);
     			attr_dev(img13, "class", "smallPic");
     			attr_dev(img13, "alt", "mynd");
     			if (img13.src !== (img13_src_value = "igms/timatal/small.png")) attr_dev(img13, "src", img13_src_value);
-    			add_location(img13, file$n, 303, 4, 23376);
+    			add_location(img13, file$o, 311, 4, 24790);
     			attr_dev(img14, "class", "smallPic");
     			attr_dev(img14, "alt", "mynd");
     			if (img14.src !== (img14_src_value = "igms/tools/tools.png")) attr_dev(img14, "src", img14_src_value);
-    			add_location(img14, file$n, 304, 4, 23504);
+    			add_location(img14, file$o, 312, 4, 24918);
     			attr_dev(img15, "class", "smallPic");
     			attr_dev(img15, "alt", "mynd");
     			if (img15.src !== (img15_src_value = "igms/somalgors74/small.jpg")) attr_dev(img15, "src", img15_src_value);
-    			add_location(img15, file$n, 306, 4, 23698);
+    			add_location(img15, file$o, 314, 4, 25112);
     			attr_dev(img16, "class", "smallPic");
     			attr_dev(img16, "alt", "mynd");
     			if (img16.src !== (img16_src_value = "igms/typedesign/svhv35.jpg")) attr_dev(img16, "src", img16_src_value);
-    			add_location(img16, file$n, 307, 1, 23766);
+    			add_location(img16, file$o, 315, 1, 25180);
     			attr_dev(img17, "class", "smallPic");
     			attr_dev(img17, "alt", "mynd");
     			if (img17.src !== (img17_src_value = "igms/secret/small.png")) attr_dev(img17, "src", img17_src_value);
-    			add_location(img17, file$n, 309, 1, 23970);
+    			add_location(img17, file$o, 317, 1, 25384);
     			attr_dev(img18, "class", "smallPic larger");
     			attr_dev(img18, "alt", "mynd");
     			if (img18.src !== (img18_src_value = "igms/musicBook/4.png")) attr_dev(img18, "src", img18_src_value);
-    			add_location(img18, file$n, 310, 1, 24093);
+    			add_location(img18, file$o, 318, 1, 25507);
     			attr_dev(img19, "class", "smallPic");
     			attr_dev(img19, "alt", "mynd");
     			if (img19.src !== (img19_src_value = "igms/corruptedspace/smaller.jpg")) attr_dev(img19, "src", img19_src_value);
-    			add_location(img19, file$n, 311, 1, 24225);
+    			add_location(img19, file$o, 319, 1, 25639);
     			attr_dev(img20, "class", "smallPic");
     			attr_dev(img20, "alt", "mynd");
-    			if (img20.src !== (img20_src_value = "igms/familiarfaces/small.jpg")) attr_dev(img20, "src", img20_src_value);
-    			add_location(img20, file$n, 312, 1, 24366);
+    			if (img20.src !== (img20_src_value = "igms/evublad/evublad-spreads0.jpg")) attr_dev(img20, "src", img20_src_value);
+    			add_location(img20, file$o, 320, 2, 25781);
     			attr_dev(img21, "class", "smallPic");
     			attr_dev(img21, "alt", "mynd");
-    			set_style(img21, "max-width", "250px");
-    			if (img21.src !== (img21_src_value = "igms/litabok/small.png")) attr_dev(img21, "src", img21_src_value);
-    			add_location(img21, file$n, 313, 4, 24506);
+    			if (img21.src !== (img21_src_value = "igms/familiarfaces/small.jpg")) attr_dev(img21, "src", img21_src_value);
+    			add_location(img21, file$o, 321, 1, 25917);
     			attr_dev(img22, "class", "smallPic");
     			attr_dev(img22, "alt", "mynd");
-    			if (img22.src !== (img22_src_value = "igms/trash/small.png")) attr_dev(img22, "src", img22_src_value);
-    			add_location(img22, file$n, 314, 1, 24657);
+    			set_style(img22, "max-width", "250px");
+    			if (img22.src !== (img22_src_value = "igms/litabok/small.png")) attr_dev(img22, "src", img22_src_value);
+    			add_location(img22, file$o, 322, 4, 26057);
     			attr_dev(img23, "class", "smallPic");
     			attr_dev(img23, "alt", "mynd");
-    			if (img23.src !== (img23_src_value = "igms/plastica/small2.png")) attr_dev(img23, "src", img23_src_value);
-    			add_location(img23, file$n, 321, 4, 25098);
+    			if (img23.src !== (img23_src_value = "igms/trash/small.png")) attr_dev(img23, "src", img23_src_value);
+    			add_location(img23, file$o, 323, 1, 26208);
     			attr_dev(img24, "class", "smallPic");
     			attr_dev(img24, "alt", "mynd");
-    			set_style(img24, "border-radius", "50px");
-    			if (img24.src !== (img24_src_value = "igms/oilbuddies/small.png")) attr_dev(img24, "src", img24_src_value);
-    			add_location(img24, file$n, 323, 4, 25231);
+    			if (img24.src !== (img24_src_value = "igms/plastica/small2.png")) attr_dev(img24, "src", img24_src_value);
+    			add_location(img24, file$o, 330, 4, 26649);
+    			attr_dev(img25, "class", "smallPic");
+    			attr_dev(img25, "alt", "mynd");
+    			set_style(img25, "border-radius", "50px");
+    			if (img25.src !== (img25_src_value = "igms/oilbuddies/small.png")) attr_dev(img25, "src", img25_src_value);
+    			add_location(img25, file$o, 332, 4, 26782);
     			attr_dev(div10, "class", "wrapper back");
-    			add_location(div10, file$n, 282, 2, 21556);
+    			add_location(div10, file$o, 290, 2, 22970);
     			attr_dev(div11, "class", "container");
-    			add_location(div11, file$n, 280, 0, 21529);
+    			add_location(div11, file$o, 288, 0, 22943);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -10954,11 +11562,11 @@ var app = (function () {
     			if (if_block22) if_block22.m(div1, null);
     			append_dev(div1, t24);
     			if (if_block23) if_block23.m(div1, null);
-    			append_dev(div5, t25);
+    			append_dev(div1, t25);
+    			if (if_block24) if_block24.m(div1, null);
+    			append_dev(div5, t26);
     			append_dev(div5, div2);
     			append_dev(div2, span0);
-    			if (if_block24) if_block24.m(span0, null);
-    			append_dev(span0, t26);
     			if (if_block25) if_block25.m(span0, null);
     			append_dev(span0, t27);
     			if (if_block26) if_block26.m(span0, null);
@@ -11004,12 +11612,12 @@ var app = (function () {
     			if (if_block46) if_block46.m(span0, null);
     			append_dev(span0, t48);
     			if (if_block47) if_block47.m(span0, null);
-    			append_dev(div5, t49);
+    			append_dev(span0, t49);
+    			if (if_block48) if_block48.m(span0, null);
+    			append_dev(span0, t50);
+    			if (if_block49) if_block49.m(span0, null);
+    			append_dev(div5, t51);
     			append_dev(div5, div3);
-    			if (if_block48) if_block48.m(div3, null);
-    			append_dev(div3, t50);
-    			if (if_block49) if_block49.m(div3, null);
-    			append_dev(div3, t51);
     			if (if_block50) if_block50.m(div3, null);
     			append_dev(div3, t52);
     			if (if_block51) if_block51.m(div3, null);
@@ -11053,15 +11661,15 @@ var app = (function () {
     			if (if_block70) if_block70.m(div3, null);
     			append_dev(div3, t72);
     			if (if_block71) if_block71.m(div3, null);
-    			append_dev(div5, t73);
+    			append_dev(div3, t73);
+    			if (if_block72) if_block72.m(div3, null);
+    			append_dev(div3, t74);
+    			if (if_block73) if_block73.m(div3, null);
+    			append_dev(div3, t75);
+    			if (if_block74) if_block74.m(div3, null);
+    			append_dev(div5, t76);
     			append_dev(div5, div4);
     			append_dev(div4, span1);
-    			if (if_block72) if_block72.m(span1, null);
-    			append_dev(span1, t74);
-    			if (if_block73) if_block73.m(span1, null);
-    			append_dev(span1, t75);
-    			if (if_block74) if_block74.m(span1, null);
-    			append_dev(span1, t76);
     			if (if_block75) if_block75.m(span1, null);
     			append_dev(span1, t77);
     			if (if_block76) if_block76.m(span1, null);
@@ -11089,14 +11697,14 @@ var app = (function () {
     			if (if_block87) if_block87.m(span1, null);
     			append_dev(span1, t89);
     			if (if_block88) if_block88.m(span1, null);
-    			append_dev(div5, t90);
-    			if (if_block89) if_block89.m(div5, null);
-    			append_dev(div5, t91);
-    			if (if_block90) if_block90.m(div5, null);
-    			append_dev(div5, t92);
-    			if (if_block91) if_block91.m(div5, null);
-    			append_dev(div5, t93);
-    			if (if_block92) if_block92.m(div5, null);
+    			append_dev(span1, t90);
+    			if (if_block89) if_block89.m(span1, null);
+    			append_dev(span1, t91);
+    			if (if_block90) if_block90.m(span1, null);
+    			append_dev(span1, t92);
+    			if (if_block91) if_block91.m(span1, null);
+    			append_dev(span1, t93);
+    			if (if_block92) if_block92.m(span1, null);
     			append_dev(div5, t94);
     			if (if_block93) if_block93.m(div5, null);
     			append_dev(div5, t95);
@@ -11135,154 +11743,168 @@ var app = (function () {
     			if (if_block110) if_block110.m(div5, null);
     			append_dev(div5, t112);
     			if (if_block111) if_block111.m(div5, null);
-    			insert_dev(target, t113, anchor);
+    			append_dev(div5, t113);
+    			if (if_block112) if_block112.m(div5, null);
+    			append_dev(div5, t114);
+    			if (if_block113) if_block113.m(div5, null);
+    			append_dev(div5, t115);
+    			if (if_block114) if_block114.m(div5, null);
+    			append_dev(div5, t116);
+    			if (if_block115) if_block115.m(div5, null);
+    			append_dev(div5, t117);
+    			if (if_block116) if_block116.m(div5, null);
+    			insert_dev(target, t118, anchor);
     			insert_dev(target, div7, anchor);
     			append_dev(div7, div6);
     			append_dev(div6, img0);
     			append_dev(div6, br0);
     			append_dev(div6, br1);
-    			append_dev(div6, t114);
+    			append_dev(div6, t119);
     			append_dev(div6, br2);
     			append_dev(div6, br3);
-    			append_dev(div6, t115);
+    			append_dev(div6, t120);
     			append_dev(div6, i0);
     			append_dev(div6, br4);
-    			append_dev(div6, t117);
+    			append_dev(div6, t122);
     			append_dev(div6, br5);
-    			append_dev(div6, t118);
+    			append_dev(div6, t123);
     			append_dev(div6, br6);
     			append_dev(div6, br7);
-    			append_dev(div6, t119);
+    			append_dev(div6, t124);
     			append_dev(div6, span2);
     			append_dev(span2, i1);
     			append_dev(span2, br8);
-    			append_dev(span2, t121);
+    			append_dev(span2, t126);
     			append_dev(span2, br9);
-    			append_dev(span2, t122);
+    			append_dev(span2, t127);
     			append_dev(span2, br10);
-    			append_dev(span2, t123);
+    			append_dev(span2, t128);
     			append_dev(span2, br11);
     			append_dev(span2, br12);
-    			append_dev(div6, t124);
+    			append_dev(div6, t129);
     			append_dev(div6, i2);
     			append_dev(div6, br13);
-    			append_dev(div6, t126);
+    			append_dev(div6, t131);
     			append_dev(div6, br14);
-    			append_dev(div6, t127);
+    			append_dev(div6, t132);
     			append_dev(div6, span3);
     			append_dev(span3, br15);
     			append_dev(span3, br16);
-    			append_dev(span3, t128);
-    			insert_dev(target, t129, anchor);
+    			append_dev(span3, t133);
+    			insert_dev(target, t134, anchor);
     			insert_dev(target, div11, anchor);
     			append_dev(div11, div10);
     			append_dev(div10, div8);
-    			append_dev(div10, t131);
+    			append_dev(div10, t136);
     			append_dev(div10, div9);
-    			append_dev(div10, t132);
+    			append_dev(div10, t137);
     			append_dev(div10, br17);
     			append_dev(div10, br18);
-    			append_dev(div10, t133);
-    			append_dev(div10, img1);
-    			append_dev(div10, t134);
-    			append_dev(div10, img2);
-    			append_dev(div10, t135);
-    			append_dev(div10, img3);
-    			append_dev(div10, t136);
-    			append_dev(div10, img4);
-    			append_dev(div10, t137);
-    			append_dev(div10, img5);
     			append_dev(div10, t138);
-    			append_dev(div10, img6);
+    			append_dev(div10, img1);
     			append_dev(div10, t139);
-    			append_dev(div10, img7);
+    			append_dev(div10, img2);
     			append_dev(div10, t140);
-    			append_dev(div10, img8);
+    			append_dev(div10, img3);
     			append_dev(div10, t141);
-    			append_dev(div10, img9);
+    			append_dev(div10, img4);
     			append_dev(div10, t142);
-    			append_dev(div10, img10);
+    			append_dev(div10, img5);
     			append_dev(div10, t143);
-    			append_dev(div10, img11);
+    			append_dev(div10, img6);
     			append_dev(div10, t144);
-    			append_dev(div10, img12);
+    			append_dev(div10, img7);
     			append_dev(div10, t145);
-    			append_dev(div10, img13);
+    			append_dev(div10, img8);
     			append_dev(div10, t146);
-    			append_dev(div10, img14);
+    			append_dev(div10, img9);
     			append_dev(div10, t147);
-    			append_dev(div10, img15);
+    			append_dev(div10, img10);
     			append_dev(div10, t148);
-    			append_dev(div10, img16);
+    			append_dev(div10, img11);
     			append_dev(div10, t149);
-    			append_dev(div10, img17);
+    			append_dev(div10, img12);
     			append_dev(div10, t150);
-    			append_dev(div10, img18);
+    			append_dev(div10, img13);
     			append_dev(div10, t151);
-    			append_dev(div10, img19);
+    			append_dev(div10, img14);
     			append_dev(div10, t152);
-    			append_dev(div10, img20);
+    			append_dev(div10, img15);
     			append_dev(div10, t153);
-    			append_dev(div10, img21);
+    			append_dev(div10, img16);
     			append_dev(div10, t154);
-    			append_dev(div10, img22);
+    			append_dev(div10, img17);
     			append_dev(div10, t155);
-    			append_dev(div10, img23);
+    			append_dev(div10, img18);
     			append_dev(div10, t156);
-    			append_dev(div10, img24);
+    			append_dev(div10, img19);
     			append_dev(div10, t157);
-    			if (if_block112) if_block112.m(div10, null);
+    			append_dev(div10, img20);
+    			append_dev(div10, t158);
+    			append_dev(div10, img21);
+    			append_dev(div10, t159);
+    			append_dev(div10, img22);
+    			append_dev(div10, t160);
+    			append_dev(div10, img23);
+    			append_dev(div10, t161);
+    			append_dev(div10, img24);
+    			append_dev(div10, t162);
+    			append_dev(div10, img25);
+    			append_dev(div10, t163);
+    			if (if_block117) if_block117.m(div10, null);
     			current = true;
 
     			if (!mounted) {
     				dispose = [
-    					listen_dev(div0, "click", /*click_handler*/ ctx[49], false, false, false),
-    					listen_dev(img1, "click", /*toggleflora*/ ctx[47], false, false, false),
-    					listen_dev(img1, "click", /*click_handler_1*/ ctx[50], false, false, false),
-    					listen_dev(img2, "click", /*toggleonourowntime*/ ctx[26], false, false, false),
-    					listen_dev(img2, "click", /*click_handler_2*/ ctx[51], false, false, false),
-    					listen_dev(img3, "click", /*togglegreen*/ ctx[27], false, false, false),
-    					listen_dev(img3, "click", /*click_handler_3*/ ctx[52], false, false, false),
-    					listen_dev(img4, "click", /*toggleviv*/ ctx[28], false, false, false),
-    					listen_dev(img4, "click", /*click_handler_4*/ ctx[53], false, false, false),
-    					listen_dev(img5, "click", /*togglebread*/ ctx[46], false, false, false),
-    					listen_dev(img5, "click", /*click_handler_5*/ ctx[54], false, false, false),
-    					listen_dev(img6, "click", /*togglebreadmag*/ ctx[48], false, false, false),
-    					listen_dev(img6, "click", /*click_handler_6*/ ctx[55], false, false, false),
-    					listen_dev(img7, "click", /*toggleportfolioio*/ ctx[29], false, false, false),
-    					listen_dev(img7, "click", /*click_handler_7*/ ctx[56], false, false, false),
-    					listen_dev(img8, "click", /*togglebeauimg*/ ctx[45], false, false, false),
-    					listen_dev(img8, "click", /*click_handler_8*/ ctx[57], false, false, false),
-    					listen_dev(img9, "click", /*toggletypoposters*/ ctx[30], false, false, false),
-    					listen_dev(img9, "click", /*click_handler_9*/ ctx[58], false, false, false),
-    					listen_dev(img10, "click", /*toggleoeb*/ ctx[44], false, false, false),
-    					listen_dev(img10, "click", /*click_handler_10*/ ctx[59], false, false, false),
-    					listen_dev(img11, "click", /*togglesortedplastic*/ ctx[32], false, false, false),
-    					listen_dev(img11, "click", /*click_handler_11*/ ctx[60], false, false, false),
-    					listen_dev(img12, "click", /*togglemusicposters*/ ctx[33], false, false, false),
-    					listen_dev(img12, "click", /*click_handler_12*/ ctx[61], false, false, false),
-    					listen_dev(img13, "click", /*toggletimatal*/ ctx[34], false, false, false),
-    					listen_dev(img13, "click", /*click_handler_13*/ ctx[62], false, false, false),
-    					listen_dev(img14, "click", /*toggletools*/ ctx[35], false, false, false),
-    					listen_dev(img14, "click", /*click_handler_14*/ ctx[63], false, false, false),
-    					listen_dev(img16, "click", /*togglelikamar*/ ctx[43], false, false, false),
-    					listen_dev(img16, "click", /*click_handler_15*/ ctx[64], false, false, false),
-    					listen_dev(img17, "click", /*togglesecret*/ ctx[31], false, false, false),
-    					listen_dev(img17, "click", /*click_handler_16*/ ctx[65], false, false, false),
-    					listen_dev(img18, "click", /*togglemusicbook*/ ctx[37], false, false, false),
-    					listen_dev(img18, "click", /*click_handler_17*/ ctx[66], false, false, false),
-    					listen_dev(img19, "click", /*togglecorruptedspace*/ ctx[38], false, false, false),
-    					listen_dev(img19, "click", /*click_handler_18*/ ctx[67], false, false, false),
-    					listen_dev(img20, "click", /*togglefamiliarfaces*/ ctx[40], false, false, false),
-    					listen_dev(img20, "click", /*click_handler_19*/ ctx[68], false, false, false),
-    					listen_dev(img21, "click", /*togglelitabok*/ ctx[41], false, false, false),
-    					listen_dev(img21, "click", /*click_handler_20*/ ctx[69], false, false, false),
-    					listen_dev(img22, "click", /*toggletrash*/ ctx[42], false, false, false),
-    					listen_dev(img22, "click", /*click_handler_21*/ ctx[70], false, false, false),
-    					listen_dev(img23, "click", /*toggleplastica*/ ctx[36], false, false, false),
-    					listen_dev(img23, "click", /*click_handler_22*/ ctx[71], false, false, false),
-    					listen_dev(img24, "click", /*toggleoilbuddies*/ ctx[39], false, false, false),
-    					listen_dev(img24, "click", /*click_handler_23*/ ctx[72], false, false, false)
+    					listen_dev(div0, "click", /*click_handler*/ ctx[51], false, false, false),
+    					listen_dev(img1, "click", /*toggleflora*/ ctx[48], false, false, false),
+    					listen_dev(img1, "click", /*click_handler_1*/ ctx[52], false, false, false),
+    					listen_dev(img2, "click", /*toggleonourowntime*/ ctx[27], false, false, false),
+    					listen_dev(img2, "click", /*click_handler_2*/ ctx[53], false, false, false),
+    					listen_dev(img3, "click", /*togglegreen*/ ctx[28], false, false, false),
+    					listen_dev(img3, "click", /*click_handler_3*/ ctx[54], false, false, false),
+    					listen_dev(img4, "click", /*toggleviv*/ ctx[29], false, false, false),
+    					listen_dev(img4, "click", /*click_handler_4*/ ctx[55], false, false, false),
+    					listen_dev(img5, "click", /*togglebread*/ ctx[47], false, false, false),
+    					listen_dev(img5, "click", /*click_handler_5*/ ctx[56], false, false, false),
+    					listen_dev(img6, "click", /*togglebreadmag*/ ctx[49], false, false, false),
+    					listen_dev(img6, "click", /*click_handler_6*/ ctx[57], false, false, false),
+    					listen_dev(img7, "click", /*toggleportfolioio*/ ctx[30], false, false, false),
+    					listen_dev(img7, "click", /*click_handler_7*/ ctx[58], false, false, false),
+    					listen_dev(img8, "click", /*togglebeauimg*/ ctx[46], false, false, false),
+    					listen_dev(img8, "click", /*click_handler_8*/ ctx[59], false, false, false),
+    					listen_dev(img9, "click", /*toggletypoposters*/ ctx[31], false, false, false),
+    					listen_dev(img9, "click", /*click_handler_9*/ ctx[60], false, false, false),
+    					listen_dev(img10, "click", /*toggleoeb*/ ctx[45], false, false, false),
+    					listen_dev(img10, "click", /*click_handler_10*/ ctx[61], false, false, false),
+    					listen_dev(img11, "click", /*togglesortedplastic*/ ctx[33], false, false, false),
+    					listen_dev(img11, "click", /*click_handler_11*/ ctx[62], false, false, false),
+    					listen_dev(img12, "click", /*togglemusicposters*/ ctx[34], false, false, false),
+    					listen_dev(img12, "click", /*click_handler_12*/ ctx[63], false, false, false),
+    					listen_dev(img13, "click", /*toggletimatal*/ ctx[35], false, false, false),
+    					listen_dev(img13, "click", /*click_handler_13*/ ctx[64], false, false, false),
+    					listen_dev(img14, "click", /*toggletools*/ ctx[36], false, false, false),
+    					listen_dev(img14, "click", /*click_handler_14*/ ctx[65], false, false, false),
+    					listen_dev(img16, "click", /*togglelikamar*/ ctx[44], false, false, false),
+    					listen_dev(img16, "click", /*click_handler_15*/ ctx[66], false, false, false),
+    					listen_dev(img17, "click", /*togglesecret*/ ctx[32], false, false, false),
+    					listen_dev(img17, "click", /*click_handler_16*/ ctx[67], false, false, false),
+    					listen_dev(img18, "click", /*togglemusicbook*/ ctx[38], false, false, false),
+    					listen_dev(img18, "click", /*click_handler_17*/ ctx[68], false, false, false),
+    					listen_dev(img19, "click", /*togglecorruptedspace*/ ctx[39], false, false, false),
+    					listen_dev(img19, "click", /*click_handler_18*/ ctx[69], false, false, false),
+    					listen_dev(img20, "click", /*toggleevublad*/ ctx[50], false, false, false),
+    					listen_dev(img20, "click", /*click_handler_19*/ ctx[70], false, false, false),
+    					listen_dev(img21, "click", /*togglefamiliarfaces*/ ctx[41], false, false, false),
+    					listen_dev(img21, "click", /*click_handler_20*/ ctx[71], false, false, false),
+    					listen_dev(img22, "click", /*togglelitabok*/ ctx[42], false, false, false),
+    					listen_dev(img22, "click", /*click_handler_21*/ ctx[72], false, false, false),
+    					listen_dev(img23, "click", /*toggletrash*/ ctx[43], false, false, false),
+    					listen_dev(img23, "click", /*click_handler_22*/ ctx[73], false, false, false),
+    					listen_dev(img24, "click", /*toggleplastica*/ ctx[37], false, false, false),
+    					listen_dev(img24, "click", /*click_handler_23*/ ctx[74], false, false, false),
+    					listen_dev(img25, "click", /*toggleoilbuddies*/ ctx[40], false, false, false),
+    					listen_dev(img25, "click", /*click_handler_24*/ ctx[75], false, false, false)
     				];
 
     				mounted = true;
@@ -11291,7 +11913,7 @@ var app = (function () {
     		p: function update(ctx, dirty) {
     			if (/*frontscreen*/ ctx[1]) {
     				if (if_block0) ; else {
-    					if_block0 = create_if_block_112(ctx);
+    					if_block0 = create_if_block_117(ctx);
     					if_block0.c();
     					if_block0.m(div1, t2);
     				}
@@ -11302,7 +11924,7 @@ var app = (function () {
 
     			if (/*onourowntime*/ ctx[2]) {
     				if (if_block1) ; else {
-    					if_block1 = create_if_block_111(ctx);
+    					if_block1 = create_if_block_116(ctx);
     					if_block1.c();
     					if_block1.m(div1, t3);
     				}
@@ -11313,7 +11935,7 @@ var app = (function () {
 
     			if (/*green*/ ctx[3]) {
     				if (if_block2) ; else {
-    					if_block2 = create_if_block_110(ctx);
+    					if_block2 = create_if_block_115(ctx);
     					if_block2.c();
     					if_block2.m(div1, t4);
     				}
@@ -11324,7 +11946,7 @@ var app = (function () {
 
     			if (/*viv*/ ctx[4]) {
     				if (if_block3) ; else {
-    					if_block3 = create_if_block_109(ctx);
+    					if_block3 = create_if_block_114(ctx);
     					if_block3.c();
     					if_block3.m(div1, t5);
     				}
@@ -11335,7 +11957,7 @@ var app = (function () {
 
     			if (/*portfolioio*/ ctx[7]) {
     				if (if_block4) ; else {
-    					if_block4 = create_if_block_108(ctx);
+    					if_block4 = create_if_block_113(ctx);
     					if_block4.c();
     					if_block4.m(div1, t6);
     				}
@@ -11346,7 +11968,7 @@ var app = (function () {
 
     			if (/*typoposters*/ ctx[5]) {
     				if (if_block5) ; else {
-    					if_block5 = create_if_block_107(ctx);
+    					if_block5 = create_if_block_112(ctx);
     					if_block5.c();
     					if_block5.m(div1, t7);
     				}
@@ -11357,7 +11979,7 @@ var app = (function () {
 
     			if (/*beauimg*/ ctx[21]) {
     				if (if_block6) ; else {
-    					if_block6 = create_if_block_106(ctx);
+    					if_block6 = create_if_block_111(ctx);
     					if_block6.c();
     					if_block6.m(div1, t8);
     				}
@@ -11368,7 +11990,7 @@ var app = (function () {
 
     			if (/*secret*/ ctx[6]) {
     				if (if_block7) ; else {
-    					if_block7 = create_if_block_105(ctx);
+    					if_block7 = create_if_block_110(ctx);
     					if_block7.c();
     					if_block7.m(div1, t9);
     				}
@@ -11379,7 +12001,7 @@ var app = (function () {
 
     			if (/*sortedplastic*/ ctx[8]) {
     				if (if_block8) ; else {
-    					if_block8 = create_if_block_104(ctx);
+    					if_block8 = create_if_block_109(ctx);
     					if_block8.c();
     					if_block8.m(div1, t10);
     				}
@@ -11390,7 +12012,7 @@ var app = (function () {
 
     			if (/*oeb*/ ctx[20]) {
     				if (if_block9) ; else {
-    					if_block9 = create_if_block_103(ctx);
+    					if_block9 = create_if_block_108(ctx);
     					if_block9.c();
     					if_block9.m(div1, t11);
     				}
@@ -11401,7 +12023,7 @@ var app = (function () {
 
     			if (/*musicposters*/ ctx[9]) {
     				if (if_block10) ; else {
-    					if_block10 = create_if_block_102(ctx);
+    					if_block10 = create_if_block_107(ctx);
     					if_block10.c();
     					if_block10.m(div1, t12);
     				}
@@ -11412,7 +12034,7 @@ var app = (function () {
 
     			if (/*timatal*/ ctx[10]) {
     				if (if_block11) ; else {
-    					if_block11 = create_if_block_101(ctx);
+    					if_block11 = create_if_block_106(ctx);
     					if_block11.c();
     					if_block11.m(div1, t13);
     				}
@@ -11423,7 +12045,7 @@ var app = (function () {
 
     			if (/*tools*/ ctx[11]) {
     				if (if_block12) ; else {
-    					if_block12 = create_if_block_100(ctx);
+    					if_block12 = create_if_block_105(ctx);
     					if_block12.c();
     					if_block12.m(div1, t14);
     				}
@@ -11434,7 +12056,7 @@ var app = (function () {
 
     			if (/*trash*/ ctx[12]) {
     				if (if_block13) ; else {
-    					if_block13 = create_if_block_99(ctx);
+    					if_block13 = create_if_block_104(ctx);
     					if_block13.c();
     					if_block13.m(div1, t15);
     				}
@@ -11445,7 +12067,7 @@ var app = (function () {
 
     			if (/*musicbook*/ ctx[13]) {
     				if (if_block14) ; else {
-    					if_block14 = create_if_block_98(ctx);
+    					if_block14 = create_if_block_103(ctx);
     					if_block14.c();
     					if_block14.m(div1, t16);
     				}
@@ -11456,7 +12078,7 @@ var app = (function () {
 
     			if (/*corruptedspace*/ ctx[14]) {
     				if (if_block15) ; else {
-    					if_block15 = create_if_block_97(ctx);
+    					if_block15 = create_if_block_102(ctx);
     					if_block15.c();
     					if_block15.m(div1, t17);
     				}
@@ -11467,7 +12089,7 @@ var app = (function () {
 
     			if (/*oilbuddies*/ ctx[15]) {
     				if (if_block16) ; else {
-    					if_block16 = create_if_block_96(ctx);
+    					if_block16 = create_if_block_101(ctx);
     					if_block16.c();
     					if_block16.m(div1, t18);
     				}
@@ -11478,7 +12100,7 @@ var app = (function () {
 
     			if (/*litabok*/ ctx[16]) {
     				if (if_block17) ; else {
-    					if_block17 = create_if_block_95(ctx);
+    					if_block17 = create_if_block_100(ctx);
     					if_block17.c();
     					if_block17.m(div1, t19);
     				}
@@ -11489,7 +12111,7 @@ var app = (function () {
 
     			if (/*plastica*/ ctx[17]) {
     				if (if_block18) ; else {
-    					if_block18 = create_if_block_94(ctx);
+    					if_block18 = create_if_block_99(ctx);
     					if_block18.c();
     					if_block18.m(div1, t20);
     				}
@@ -11500,7 +12122,7 @@ var app = (function () {
 
     			if (/*familiarfaces*/ ctx[18]) {
     				if (if_block19) ; else {
-    					if_block19 = create_if_block_93(ctx);
+    					if_block19 = create_if_block_98(ctx);
     					if_block19.c();
     					if_block19.m(div1, t21);
     				}
@@ -11511,7 +12133,7 @@ var app = (function () {
 
     			if (/*likamar*/ ctx[19]) {
     				if (if_block20) ; else {
-    					if_block20 = create_if_block_92(ctx);
+    					if_block20 = create_if_block_97(ctx);
     					if_block20.c();
     					if_block20.m(div1, t22);
     				}
@@ -11522,7 +12144,7 @@ var app = (function () {
 
     			if (/*bread*/ ctx[22]) {
     				if (if_block21) ; else {
-    					if_block21 = create_if_block_91(ctx);
+    					if_block21 = create_if_block_96(ctx);
     					if_block21.c();
     					if_block21.m(div1, t23);
     				}
@@ -11533,7 +12155,7 @@ var app = (function () {
 
     			if (/*breadmag*/ ctx[24]) {
     				if (if_block22) ; else {
-    					if_block22 = create_if_block_90(ctx);
+    					if_block22 = create_if_block_95(ctx);
     					if_block22.c();
     					if_block22.m(div1, t24);
     				}
@@ -11544,29 +12166,29 @@ var app = (function () {
 
     			if (/*flora*/ ctx[23]) {
     				if (if_block23) ; else {
-    					if_block23 = create_if_block_89(ctx);
+    					if_block23 = create_if_block_94(ctx);
     					if_block23.c();
-    					if_block23.m(div1, null);
+    					if_block23.m(div1, t25);
     				}
     			} else if (if_block23) {
     				if_block23.d(1);
     				if_block23 = null;
     			}
 
-    			if (/*frontscreen*/ ctx[1]) {
+    			if (/*evublad*/ ctx[25]) {
     				if (if_block24) ; else {
-    					if_block24 = create_if_block_88(ctx);
+    					if_block24 = create_if_block_93(ctx);
     					if_block24.c();
-    					if_block24.m(span0, t26);
+    					if_block24.m(div1, null);
     				}
     			} else if (if_block24) {
     				if_block24.d(1);
     				if_block24 = null;
     			}
 
-    			if (/*onourowntime*/ ctx[2]) {
+    			if (/*frontscreen*/ ctx[1]) {
     				if (if_block25) ; else {
-    					if_block25 = create_if_block_87(ctx);
+    					if_block25 = create_if_block_92(ctx);
     					if_block25.c();
     					if_block25.m(span0, t27);
     				}
@@ -11575,9 +12197,9 @@ var app = (function () {
     				if_block25 = null;
     			}
 
-    			if (/*green*/ ctx[3]) {
+    			if (/*onourowntime*/ ctx[2]) {
     				if (if_block26) ; else {
-    					if_block26 = create_if_block_86(ctx);
+    					if_block26 = create_if_block_91(ctx);
     					if_block26.c();
     					if_block26.m(span0, t28);
     				}
@@ -11586,9 +12208,9 @@ var app = (function () {
     				if_block26 = null;
     			}
 
-    			if (/*viv*/ ctx[4]) {
+    			if (/*green*/ ctx[3]) {
     				if (if_block27) ; else {
-    					if_block27 = create_if_block_85(ctx);
+    					if_block27 = create_if_block_90(ctx);
     					if_block27.c();
     					if_block27.m(span0, t29);
     				}
@@ -11597,9 +12219,9 @@ var app = (function () {
     				if_block27 = null;
     			}
 
-    			if (/*bread*/ ctx[22]) {
+    			if (/*viv*/ ctx[4]) {
     				if (if_block28) ; else {
-    					if_block28 = create_if_block_84(ctx);
+    					if_block28 = create_if_block_89(ctx);
     					if_block28.c();
     					if_block28.m(span0, t30);
     				}
@@ -11608,9 +12230,9 @@ var app = (function () {
     				if_block28 = null;
     			}
 
-    			if (/*breadmag*/ ctx[24]) {
+    			if (/*bread*/ ctx[22]) {
     				if (if_block29) ; else {
-    					if_block29 = create_if_block_83(ctx);
+    					if_block29 = create_if_block_88(ctx);
     					if_block29.c();
     					if_block29.m(span0, t31);
     				}
@@ -11619,9 +12241,9 @@ var app = (function () {
     				if_block29 = null;
     			}
 
-    			if (/*portfolioio*/ ctx[7]) {
+    			if (/*breadmag*/ ctx[24]) {
     				if (if_block30) ; else {
-    					if_block30 = create_if_block_82(ctx);
+    					if_block30 = create_if_block_87(ctx);
     					if_block30.c();
     					if_block30.m(span0, t32);
     				}
@@ -11630,9 +12252,9 @@ var app = (function () {
     				if_block30 = null;
     			}
 
-    			if (/*typoposters*/ ctx[5]) {
+    			if (/*portfolioio*/ ctx[7]) {
     				if (if_block31) ; else {
-    					if_block31 = create_if_block_81(ctx);
+    					if_block31 = create_if_block_86(ctx);
     					if_block31.c();
     					if_block31.m(span0, t33);
     				}
@@ -11641,9 +12263,9 @@ var app = (function () {
     				if_block31 = null;
     			}
 
-    			if (/*beauimg*/ ctx[21]) {
+    			if (/*typoposters*/ ctx[5]) {
     				if (if_block32) ; else {
-    					if_block32 = create_if_block_80(ctx);
+    					if_block32 = create_if_block_85(ctx);
     					if_block32.c();
     					if_block32.m(span0, t34);
     				}
@@ -11652,9 +12274,9 @@ var app = (function () {
     				if_block32 = null;
     			}
 
-    			if (/*secret*/ ctx[6]) {
+    			if (/*beauimg*/ ctx[21]) {
     				if (if_block33) ; else {
-    					if_block33 = create_if_block_79(ctx);
+    					if_block33 = create_if_block_84(ctx);
     					if_block33.c();
     					if_block33.m(span0, t35);
     				}
@@ -11663,9 +12285,9 @@ var app = (function () {
     				if_block33 = null;
     			}
 
-    			if (/*sortedplastic*/ ctx[8]) {
+    			if (/*secret*/ ctx[6]) {
     				if (if_block34) ; else {
-    					if_block34 = create_if_block_78(ctx);
+    					if_block34 = create_if_block_83(ctx);
     					if_block34.c();
     					if_block34.m(span0, t36);
     				}
@@ -11674,9 +12296,9 @@ var app = (function () {
     				if_block34 = null;
     			}
 
-    			if (/*oeb*/ ctx[20]) {
+    			if (/*sortedplastic*/ ctx[8]) {
     				if (if_block35) ; else {
-    					if_block35 = create_if_block_77(ctx);
+    					if_block35 = create_if_block_82(ctx);
     					if_block35.c();
     					if_block35.m(span0, t37);
     				}
@@ -11685,9 +12307,9 @@ var app = (function () {
     				if_block35 = null;
     			}
 
-    			if (/*musicposters*/ ctx[9]) {
+    			if (/*oeb*/ ctx[20]) {
     				if (if_block36) ; else {
-    					if_block36 = create_if_block_76(ctx);
+    					if_block36 = create_if_block_81(ctx);
     					if_block36.c();
     					if_block36.m(span0, t38);
     				}
@@ -11696,9 +12318,9 @@ var app = (function () {
     				if_block36 = null;
     			}
 
-    			if (/*timatal*/ ctx[10]) {
+    			if (/*musicposters*/ ctx[9]) {
     				if (if_block37) ; else {
-    					if_block37 = create_if_block_75(ctx);
+    					if_block37 = create_if_block_80(ctx);
     					if_block37.c();
     					if_block37.m(span0, t39);
     				}
@@ -11707,9 +12329,9 @@ var app = (function () {
     				if_block37 = null;
     			}
 
-    			if (/*tools*/ ctx[11]) {
+    			if (/*timatal*/ ctx[10]) {
     				if (if_block38) ; else {
-    					if_block38 = create_if_block_74(ctx);
+    					if_block38 = create_if_block_79(ctx);
     					if_block38.c();
     					if_block38.m(span0, t40);
     				}
@@ -11718,9 +12340,9 @@ var app = (function () {
     				if_block38 = null;
     			}
 
-    			if (/*trash*/ ctx[12]) {
+    			if (/*tools*/ ctx[11]) {
     				if (if_block39) ; else {
-    					if_block39 = create_if_block_73(ctx);
+    					if_block39 = create_if_block_78(ctx);
     					if_block39.c();
     					if_block39.m(span0, t41);
     				}
@@ -11729,9 +12351,9 @@ var app = (function () {
     				if_block39 = null;
     			}
 
-    			if (/*musicbook*/ ctx[13]) {
+    			if (/*trash*/ ctx[12]) {
     				if (if_block40) ; else {
-    					if_block40 = create_if_block_72(ctx);
+    					if_block40 = create_if_block_77(ctx);
     					if_block40.c();
     					if_block40.m(span0, t42);
     				}
@@ -11740,9 +12362,9 @@ var app = (function () {
     				if_block40 = null;
     			}
 
-    			if (/*corruptedspace*/ ctx[14]) {
+    			if (/*musicbook*/ ctx[13]) {
     				if (if_block41) ; else {
-    					if_block41 = create_if_block_71(ctx);
+    					if_block41 = create_if_block_76(ctx);
     					if_block41.c();
     					if_block41.m(span0, t43);
     				}
@@ -11751,9 +12373,9 @@ var app = (function () {
     				if_block41 = null;
     			}
 
-    			if (/*oilbuddies*/ ctx[15]) {
+    			if (/*corruptedspace*/ ctx[14]) {
     				if (if_block42) ; else {
-    					if_block42 = create_if_block_70(ctx);
+    					if_block42 = create_if_block_75(ctx);
     					if_block42.c();
     					if_block42.m(span0, t44);
     				}
@@ -11762,9 +12384,9 @@ var app = (function () {
     				if_block42 = null;
     			}
 
-    			if (/*litabok*/ ctx[16]) {
+    			if (/*oilbuddies*/ ctx[15]) {
     				if (if_block43) ; else {
-    					if_block43 = create_if_block_69(ctx);
+    					if_block43 = create_if_block_74(ctx);
     					if_block43.c();
     					if_block43.m(span0, t45);
     				}
@@ -11773,9 +12395,9 @@ var app = (function () {
     				if_block43 = null;
     			}
 
-    			if (/*plastica*/ ctx[17]) {
+    			if (/*litabok*/ ctx[16]) {
     				if (if_block44) ; else {
-    					if_block44 = create_if_block_68(ctx);
+    					if_block44 = create_if_block_73(ctx);
     					if_block44.c();
     					if_block44.m(span0, t46);
     				}
@@ -11784,9 +12406,9 @@ var app = (function () {
     				if_block44 = null;
     			}
 
-    			if (/*familiarfaces*/ ctx[18]) {
+    			if (/*plastica*/ ctx[17]) {
     				if (if_block45) ; else {
-    					if_block45 = create_if_block_67(ctx);
+    					if_block45 = create_if_block_72(ctx);
     					if_block45.c();
     					if_block45.m(span0, t47);
     				}
@@ -11795,9 +12417,9 @@ var app = (function () {
     				if_block45 = null;
     			}
 
-    			if (/*likamar*/ ctx[19]) {
+    			if (/*familiarfaces*/ ctx[18]) {
     				if (if_block46) ; else {
-    					if_block46 = create_if_block_66(ctx);
+    					if_block46 = create_if_block_71(ctx);
     					if_block46.c();
     					if_block46.m(span0, t48);
     				}
@@ -11806,42 +12428,42 @@ var app = (function () {
     				if_block46 = null;
     			}
 
-    			if (/*flora*/ ctx[23]) {
+    			if (/*likamar*/ ctx[19]) {
     				if (if_block47) ; else {
-    					if_block47 = create_if_block_65(ctx);
+    					if_block47 = create_if_block_70(ctx);
     					if_block47.c();
-    					if_block47.m(span0, null);
+    					if_block47.m(span0, t49);
     				}
     			} else if (if_block47) {
     				if_block47.d(1);
     				if_block47 = null;
     			}
 
-    			if (/*frontscreen*/ ctx[1]) {
+    			if (/*flora*/ ctx[23]) {
     				if (if_block48) ; else {
-    					if_block48 = create_if_block_64(ctx);
+    					if_block48 = create_if_block_69(ctx);
     					if_block48.c();
-    					if_block48.m(div3, t50);
+    					if_block48.m(span0, t50);
     				}
     			} else if (if_block48) {
     				if_block48.d(1);
     				if_block48 = null;
     			}
 
-    			if (/*onourowntime*/ ctx[2]) {
+    			if (/*evublad*/ ctx[25]) {
     				if (if_block49) ; else {
-    					if_block49 = create_if_block_63(ctx);
+    					if_block49 = create_if_block_68(ctx);
     					if_block49.c();
-    					if_block49.m(div3, t51);
+    					if_block49.m(span0, null);
     				}
     			} else if (if_block49) {
     				if_block49.d(1);
     				if_block49 = null;
     			}
 
-    			if (/*green*/ ctx[3]) {
+    			if (/*frontscreen*/ ctx[1]) {
     				if (if_block50) ; else {
-    					if_block50 = create_if_block_62(ctx);
+    					if_block50 = create_if_block_67(ctx);
     					if_block50.c();
     					if_block50.m(div3, t52);
     				}
@@ -11850,9 +12472,9 @@ var app = (function () {
     				if_block50 = null;
     			}
 
-    			if (/*viv*/ ctx[4]) {
+    			if (/*onourowntime*/ ctx[2]) {
     				if (if_block51) ; else {
-    					if_block51 = create_if_block_61(ctx);
+    					if_block51 = create_if_block_66(ctx);
     					if_block51.c();
     					if_block51.m(div3, t53);
     				}
@@ -11861,9 +12483,9 @@ var app = (function () {
     				if_block51 = null;
     			}
 
-    			if (/*bread*/ ctx[22]) {
+    			if (/*green*/ ctx[3]) {
     				if (if_block52) ; else {
-    					if_block52 = create_if_block_60(ctx);
+    					if_block52 = create_if_block_65(ctx);
     					if_block52.c();
     					if_block52.m(div3, t54);
     				}
@@ -11872,9 +12494,9 @@ var app = (function () {
     				if_block52 = null;
     			}
 
-    			if (/*breadmag*/ ctx[24]) {
+    			if (/*viv*/ ctx[4]) {
     				if (if_block53) ; else {
-    					if_block53 = create_if_block_59(ctx);
+    					if_block53 = create_if_block_64(ctx);
     					if_block53.c();
     					if_block53.m(div3, t55);
     				}
@@ -11883,9 +12505,9 @@ var app = (function () {
     				if_block53 = null;
     			}
 
-    			if (/*portfolioio*/ ctx[7]) {
+    			if (/*bread*/ ctx[22]) {
     				if (if_block54) ; else {
-    					if_block54 = create_if_block_58(ctx);
+    					if_block54 = create_if_block_63(ctx);
     					if_block54.c();
     					if_block54.m(div3, t56);
     				}
@@ -11894,9 +12516,9 @@ var app = (function () {
     				if_block54 = null;
     			}
 
-    			if (/*typoposters*/ ctx[5]) {
+    			if (/*breadmag*/ ctx[24]) {
     				if (if_block55) ; else {
-    					if_block55 = create_if_block_57(ctx);
+    					if_block55 = create_if_block_62(ctx);
     					if_block55.c();
     					if_block55.m(div3, t57);
     				}
@@ -11905,9 +12527,9 @@ var app = (function () {
     				if_block55 = null;
     			}
 
-    			if (/*beauimg*/ ctx[21]) {
+    			if (/*portfolioio*/ ctx[7]) {
     				if (if_block56) ; else {
-    					if_block56 = create_if_block_56(ctx);
+    					if_block56 = create_if_block_61(ctx);
     					if_block56.c();
     					if_block56.m(div3, t58);
     				}
@@ -11916,9 +12538,9 @@ var app = (function () {
     				if_block56 = null;
     			}
 
-    			if (/*secret*/ ctx[6]) {
+    			if (/*typoposters*/ ctx[5]) {
     				if (if_block57) ; else {
-    					if_block57 = create_if_block_55(ctx);
+    					if_block57 = create_if_block_60(ctx);
     					if_block57.c();
     					if_block57.m(div3, t59);
     				}
@@ -11927,9 +12549,9 @@ var app = (function () {
     				if_block57 = null;
     			}
 
-    			if (/*sortedplastic*/ ctx[8]) {
+    			if (/*beauimg*/ ctx[21]) {
     				if (if_block58) ; else {
-    					if_block58 = create_if_block_54(ctx);
+    					if_block58 = create_if_block_59(ctx);
     					if_block58.c();
     					if_block58.m(div3, t60);
     				}
@@ -11938,9 +12560,9 @@ var app = (function () {
     				if_block58 = null;
     			}
 
-    			if (/*oeb*/ ctx[20]) {
+    			if (/*secret*/ ctx[6]) {
     				if (if_block59) ; else {
-    					if_block59 = create_if_block_53(ctx);
+    					if_block59 = create_if_block_58(ctx);
     					if_block59.c();
     					if_block59.m(div3, t61);
     				}
@@ -11949,9 +12571,9 @@ var app = (function () {
     				if_block59 = null;
     			}
 
-    			if (/*musicposters*/ ctx[9]) {
+    			if (/*sortedplastic*/ ctx[8]) {
     				if (if_block60) ; else {
-    					if_block60 = create_if_block_52(ctx);
+    					if_block60 = create_if_block_57(ctx);
     					if_block60.c();
     					if_block60.m(div3, t62);
     				}
@@ -11960,9 +12582,9 @@ var app = (function () {
     				if_block60 = null;
     			}
 
-    			if (/*timatal*/ ctx[10]) {
+    			if (/*oeb*/ ctx[20]) {
     				if (if_block61) ; else {
-    					if_block61 = create_if_block_51(ctx);
+    					if_block61 = create_if_block_56(ctx);
     					if_block61.c();
     					if_block61.m(div3, t63);
     				}
@@ -11971,9 +12593,9 @@ var app = (function () {
     				if_block61 = null;
     			}
 
-    			if (/*tools*/ ctx[11]) {
+    			if (/*musicposters*/ ctx[9]) {
     				if (if_block62) ; else {
-    					if_block62 = create_if_block_50(ctx);
+    					if_block62 = create_if_block_55(ctx);
     					if_block62.c();
     					if_block62.m(div3, t64);
     				}
@@ -11982,9 +12604,9 @@ var app = (function () {
     				if_block62 = null;
     			}
 
-    			if (/*trash*/ ctx[12]) {
+    			if (/*timatal*/ ctx[10]) {
     				if (if_block63) ; else {
-    					if_block63 = create_if_block_49(ctx);
+    					if_block63 = create_if_block_54(ctx);
     					if_block63.c();
     					if_block63.m(div3, t65);
     				}
@@ -11993,9 +12615,9 @@ var app = (function () {
     				if_block63 = null;
     			}
 
-    			if (/*musicbook*/ ctx[13]) {
+    			if (/*tools*/ ctx[11]) {
     				if (if_block64) ; else {
-    					if_block64 = create_if_block_48(ctx);
+    					if_block64 = create_if_block_53(ctx);
     					if_block64.c();
     					if_block64.m(div3, t66);
     				}
@@ -12004,9 +12626,9 @@ var app = (function () {
     				if_block64 = null;
     			}
 
-    			if (/*corruptedspace*/ ctx[14]) {
+    			if (/*trash*/ ctx[12]) {
     				if (if_block65) ; else {
-    					if_block65 = create_if_block_47(ctx);
+    					if_block65 = create_if_block_52(ctx);
     					if_block65.c();
     					if_block65.m(div3, t67);
     				}
@@ -12015,9 +12637,9 @@ var app = (function () {
     				if_block65 = null;
     			}
 
-    			if (/*oilbuddies*/ ctx[15]) {
+    			if (/*musicbook*/ ctx[13]) {
     				if (if_block66) ; else {
-    					if_block66 = create_if_block_46(ctx);
+    					if_block66 = create_if_block_51(ctx);
     					if_block66.c();
     					if_block66.m(div3, t68);
     				}
@@ -12026,9 +12648,9 @@ var app = (function () {
     				if_block66 = null;
     			}
 
-    			if (/*litabok*/ ctx[16]) {
+    			if (/*corruptedspace*/ ctx[14]) {
     				if (if_block67) ; else {
-    					if_block67 = create_if_block_45(ctx);
+    					if_block67 = create_if_block_50(ctx);
     					if_block67.c();
     					if_block67.m(div3, t69);
     				}
@@ -12037,9 +12659,9 @@ var app = (function () {
     				if_block67 = null;
     			}
 
-    			if (/*plastica*/ ctx[17]) {
+    			if (/*oilbuddies*/ ctx[15]) {
     				if (if_block68) ; else {
-    					if_block68 = create_if_block_44(ctx);
+    					if_block68 = create_if_block_49(ctx);
     					if_block68.c();
     					if_block68.m(div3, t70);
     				}
@@ -12048,9 +12670,9 @@ var app = (function () {
     				if_block68 = null;
     			}
 
-    			if (/*familiarfaces*/ ctx[18]) {
+    			if (/*litabok*/ ctx[16]) {
     				if (if_block69) ; else {
-    					if_block69 = create_if_block_43(ctx);
+    					if_block69 = create_if_block_48(ctx);
     					if_block69.c();
     					if_block69.m(div3, t71);
     				}
@@ -12059,9 +12681,9 @@ var app = (function () {
     				if_block69 = null;
     			}
 
-    			if (/*likamar*/ ctx[19]) {
+    			if (/*plastica*/ ctx[17]) {
     				if (if_block70) ; else {
-    					if_block70 = create_if_block_42(ctx);
+    					if_block70 = create_if_block_47(ctx);
     					if_block70.c();
     					if_block70.m(div3, t72);
     				}
@@ -12070,53 +12692,53 @@ var app = (function () {
     				if_block70 = null;
     			}
 
-    			if (/*flora*/ ctx[23]) {
+    			if (/*familiarfaces*/ ctx[18]) {
     				if (if_block71) ; else {
-    					if_block71 = create_if_block_41(ctx);
+    					if_block71 = create_if_block_46(ctx);
     					if_block71.c();
-    					if_block71.m(div3, null);
+    					if_block71.m(div3, t73);
     				}
     			} else if (if_block71) {
     				if_block71.d(1);
     				if_block71 = null;
     			}
 
-    			if (/*frontscreen*/ ctx[1]) {
+    			if (/*likamar*/ ctx[19]) {
     				if (if_block72) ; else {
-    					if_block72 = create_if_block_40(ctx);
+    					if_block72 = create_if_block_45(ctx);
     					if_block72.c();
-    					if_block72.m(span1, t74);
+    					if_block72.m(div3, t74);
     				}
     			} else if (if_block72) {
     				if_block72.d(1);
     				if_block72 = null;
     			}
 
-    			if (/*onourowntime*/ ctx[2]) {
+    			if (/*flora*/ ctx[23]) {
     				if (if_block73) ; else {
-    					if_block73 = create_if_block_39(ctx);
+    					if_block73 = create_if_block_44(ctx);
     					if_block73.c();
-    					if_block73.m(span1, t75);
+    					if_block73.m(div3, t75);
     				}
     			} else if (if_block73) {
     				if_block73.d(1);
     				if_block73 = null;
     			}
 
-    			if (/*viv*/ ctx[4]) {
+    			if (/*evublad*/ ctx[25]) {
     				if (if_block74) ; else {
-    					if_block74 = create_if_block_38(ctx);
+    					if_block74 = create_if_block_43(ctx);
     					if_block74.c();
-    					if_block74.m(span1, t76);
+    					if_block74.m(div3, null);
     				}
     			} else if (if_block74) {
     				if_block74.d(1);
     				if_block74 = null;
     			}
 
-    			if (/*typoposters*/ ctx[5]) {
+    			if (/*frontscreen*/ ctx[1]) {
     				if (if_block75) ; else {
-    					if_block75 = create_if_block_37(ctx);
+    					if_block75 = create_if_block_42(ctx);
     					if_block75.c();
     					if_block75.m(span1, t77);
     				}
@@ -12125,9 +12747,9 @@ var app = (function () {
     				if_block75 = null;
     			}
 
-    			if (/*secret*/ ctx[6]) {
+    			if (/*onourowntime*/ ctx[2]) {
     				if (if_block76) ; else {
-    					if_block76 = create_if_block_36(ctx);
+    					if_block76 = create_if_block_41(ctx);
     					if_block76.c();
     					if_block76.m(span1, t78);
     				}
@@ -12136,9 +12758,9 @@ var app = (function () {
     				if_block76 = null;
     			}
 
-    			if (/*tools*/ ctx[11]) {
+    			if (/*viv*/ ctx[4]) {
     				if (if_block77) ; else {
-    					if_block77 = create_if_block_35(ctx);
+    					if_block77 = create_if_block_40(ctx);
     					if_block77.c();
     					if_block77.m(span1, t79);
     				}
@@ -12147,9 +12769,9 @@ var app = (function () {
     				if_block77 = null;
     			}
 
-    			if (/*timatal*/ ctx[10]) {
+    			if (/*typoposters*/ ctx[5]) {
     				if (if_block78) ; else {
-    					if_block78 = create_if_block_34(ctx);
+    					if_block78 = create_if_block_39(ctx);
     					if_block78.c();
     					if_block78.m(span1, t80);
     				}
@@ -12158,9 +12780,9 @@ var app = (function () {
     				if_block78 = null;
     			}
 
-    			if (/*sortedplastic*/ ctx[8]) {
+    			if (/*secret*/ ctx[6]) {
     				if (if_block79) ; else {
-    					if_block79 = create_if_block_33(ctx);
+    					if_block79 = create_if_block_38(ctx);
     					if_block79.c();
     					if_block79.m(span1, t81);
     				}
@@ -12169,9 +12791,9 @@ var app = (function () {
     				if_block79 = null;
     			}
 
-    			if (/*litabok*/ ctx[16]) {
+    			if (/*tools*/ ctx[11]) {
     				if (if_block80) ; else {
-    					if_block80 = create_if_block_32(ctx);
+    					if_block80 = create_if_block_37(ctx);
     					if_block80.c();
     					if_block80.m(span1, t82);
     				}
@@ -12180,9 +12802,9 @@ var app = (function () {
     				if_block80 = null;
     			}
 
-    			if (/*oilbuddies*/ ctx[15]) {
+    			if (/*timatal*/ ctx[10]) {
     				if (if_block81) ; else {
-    					if_block81 = create_if_block_31(ctx);
+    					if_block81 = create_if_block_36(ctx);
     					if_block81.c();
     					if_block81.m(span1, t83);
     				}
@@ -12191,9 +12813,9 @@ var app = (function () {
     				if_block81 = null;
     			}
 
-    			if (/*trash*/ ctx[12]) {
+    			if (/*sortedplastic*/ ctx[8]) {
     				if (if_block82) ; else {
-    					if_block82 = create_if_block_30(ctx);
+    					if_block82 = create_if_block_35(ctx);
     					if_block82.c();
     					if_block82.m(span1, t84);
     				}
@@ -12202,9 +12824,9 @@ var app = (function () {
     				if_block82 = null;
     			}
 
-    			if (/*familiarfaces*/ ctx[18]) {
+    			if (/*litabok*/ ctx[16]) {
     				if (if_block83) ; else {
-    					if_block83 = create_if_block_29(ctx);
+    					if_block83 = create_if_block_34(ctx);
     					if_block83.c();
     					if_block83.m(span1, t85);
     				}
@@ -12213,9 +12835,9 @@ var app = (function () {
     				if_block83 = null;
     			}
 
-    			if (/*musicbook*/ ctx[13]) {
+    			if (/*oilbuddies*/ ctx[15]) {
     				if (if_block84) ; else {
-    					if_block84 = create_if_block_28(ctx);
+    					if_block84 = create_if_block_33(ctx);
     					if_block84.c();
     					if_block84.m(span1, t86);
     				}
@@ -12224,9 +12846,9 @@ var app = (function () {
     				if_block84 = null;
     			}
 
-    			if (/*plastica*/ ctx[17]) {
+    			if (/*trash*/ ctx[12]) {
     				if (if_block85) ; else {
-    					if_block85 = create_if_block_27(ctx);
+    					if_block85 = create_if_block_32(ctx);
     					if_block85.c();
     					if_block85.m(span1, t87);
     				}
@@ -12235,9 +12857,9 @@ var app = (function () {
     				if_block85 = null;
     			}
 
-    			if (/*corruptedspace*/ ctx[14]) {
+    			if (/*familiarfaces*/ ctx[18]) {
     				if (if_block86) ; else {
-    					if_block86 = create_if_block_26(ctx);
+    					if_block86 = create_if_block_31(ctx);
     					if_block86.c();
     					if_block86.m(span1, t88);
     				}
@@ -12246,9 +12868,9 @@ var app = (function () {
     				if_block86 = null;
     			}
 
-    			if (/*likamar*/ ctx[19]) {
+    			if (/*musicbook*/ ctx[13]) {
     				if (if_block87) ; else {
-    					if_block87 = create_if_block_25(ctx);
+    					if_block87 = create_if_block_30(ctx);
     					if_block87.c();
     					if_block87.m(span1, t89);
     				}
@@ -12257,108 +12879,68 @@ var app = (function () {
     				if_block87 = null;
     			}
 
-    			if (/*green*/ ctx[3]) {
+    			if (/*plastica*/ ctx[17]) {
     				if (if_block88) ; else {
-    					if_block88 = create_if_block_24(ctx);
+    					if_block88 = create_if_block_29(ctx);
     					if_block88.c();
-    					if_block88.m(span1, null);
+    					if_block88.m(span1, t90);
     				}
     			} else if (if_block88) {
     				if_block88.d(1);
     				if_block88 = null;
     			}
 
-    			if (/*onourowntime*/ ctx[2]) {
-    				if (if_block89) {
-    					if (dirty[0] & /*onourowntime*/ 4) {
-    						transition_in(if_block89, 1);
-    					}
-    				} else {
-    					if_block89 = create_if_block_23(ctx);
+    			if (/*corruptedspace*/ ctx[14]) {
+    				if (if_block89) ; else {
+    					if_block89 = create_if_block_28(ctx);
     					if_block89.c();
-    					transition_in(if_block89, 1);
-    					if_block89.m(div5, t91);
+    					if_block89.m(span1, t91);
     				}
     			} else if (if_block89) {
-    				group_outros();
+    				if_block89.d(1);
+    				if_block89 = null;
+    			}
 
-    				transition_out(if_block89, 1, 1, () => {
-    					if_block89 = null;
-    				});
-
-    				check_outros();
+    			if (/*likamar*/ ctx[19]) {
+    				if (if_block90) ; else {
+    					if_block90 = create_if_block_27(ctx);
+    					if_block90.c();
+    					if_block90.m(span1, t92);
+    				}
+    			} else if (if_block90) {
+    				if_block90.d(1);
+    				if_block90 = null;
     			}
 
     			if (/*green*/ ctx[3]) {
-    				if (if_block90) {
-    					if (dirty[0] & /*green*/ 8) {
-    						transition_in(if_block90, 1);
-    					}
-    				} else {
-    					if_block90 = create_if_block_22(ctx);
-    					if_block90.c();
-    					transition_in(if_block90, 1);
-    					if_block90.m(div5, t92);
-    				}
-    			} else if (if_block90) {
-    				group_outros();
-
-    				transition_out(if_block90, 1, 1, () => {
-    					if_block90 = null;
-    				});
-
-    				check_outros();
-    			}
-
-    			if (/*viv*/ ctx[4]) {
-    				if (if_block91) {
-    					if (dirty[0] & /*viv*/ 16) {
-    						transition_in(if_block91, 1);
-    					}
-    				} else {
-    					if_block91 = create_if_block_21(ctx);
+    				if (if_block91) ; else {
+    					if_block91 = create_if_block_26(ctx);
     					if_block91.c();
-    					transition_in(if_block91, 1);
-    					if_block91.m(div5, t93);
+    					if_block91.m(span1, t93);
     				}
     			} else if (if_block91) {
-    				group_outros();
-
-    				transition_out(if_block91, 1, 1, () => {
-    					if_block91 = null;
-    				});
-
-    				check_outros();
+    				if_block91.d(1);
+    				if_block91 = null;
     			}
 
-    			if (/*portfolioio*/ ctx[7]) {
-    				if (if_block92) {
-    					if (dirty[0] & /*portfolioio*/ 128) {
-    						transition_in(if_block92, 1);
-    					}
-    				} else {
-    					if_block92 = create_if_block_20(ctx);
+    			if (/*evublad*/ ctx[25]) {
+    				if (if_block92) ; else {
+    					if_block92 = create_if_block_25(ctx);
     					if_block92.c();
-    					transition_in(if_block92, 1);
-    					if_block92.m(div5, t94);
+    					if_block92.m(span1, null);
     				}
     			} else if (if_block92) {
-    				group_outros();
-
-    				transition_out(if_block92, 1, 1, () => {
-    					if_block92 = null;
-    				});
-
-    				check_outros();
+    				if_block92.d(1);
+    				if_block92 = null;
     			}
 
-    			if (/*typoposters*/ ctx[5]) {
+    			if (/*onourowntime*/ ctx[2]) {
     				if (if_block93) {
-    					if (dirty[0] & /*typoposters*/ 32) {
+    					if (dirty[0] & /*onourowntime*/ 4) {
     						transition_in(if_block93, 1);
     					}
     				} else {
-    					if_block93 = create_if_block_19(ctx);
+    					if_block93 = create_if_block_24(ctx);
     					if_block93.c();
     					transition_in(if_block93, 1);
     					if_block93.m(div5, t95);
@@ -12373,13 +12955,13 @@ var app = (function () {
     				check_outros();
     			}
 
-    			if (/*secret*/ ctx[6]) {
+    			if (/*green*/ ctx[3]) {
     				if (if_block94) {
-    					if (dirty[0] & /*secret*/ 64) {
+    					if (dirty[0] & /*green*/ 8) {
     						transition_in(if_block94, 1);
     					}
     				} else {
-    					if_block94 = create_if_block_18(ctx);
+    					if_block94 = create_if_block_23(ctx);
     					if_block94.c();
     					transition_in(if_block94, 1);
     					if_block94.m(div5, t96);
@@ -12394,13 +12976,13 @@ var app = (function () {
     				check_outros();
     			}
 
-    			if (/*sortedplastic*/ ctx[8]) {
+    			if (/*viv*/ ctx[4]) {
     				if (if_block95) {
-    					if (dirty[0] & /*sortedplastic*/ 256) {
+    					if (dirty[0] & /*viv*/ 16) {
     						transition_in(if_block95, 1);
     					}
     				} else {
-    					if_block95 = create_if_block_17(ctx);
+    					if_block95 = create_if_block_22(ctx);
     					if_block95.c();
     					transition_in(if_block95, 1);
     					if_block95.m(div5, t97);
@@ -12415,13 +12997,13 @@ var app = (function () {
     				check_outros();
     			}
 
-    			if (/*musicposters*/ ctx[9]) {
+    			if (/*portfolioio*/ ctx[7]) {
     				if (if_block96) {
-    					if (dirty[0] & /*musicposters*/ 512) {
+    					if (dirty[0] & /*portfolioio*/ 128) {
     						transition_in(if_block96, 1);
     					}
     				} else {
-    					if_block96 = create_if_block_16(ctx);
+    					if_block96 = create_if_block_21(ctx);
     					if_block96.c();
     					transition_in(if_block96, 1);
     					if_block96.m(div5, t98);
@@ -12436,13 +13018,13 @@ var app = (function () {
     				check_outros();
     			}
 
-    			if (/*timatal*/ ctx[10]) {
+    			if (/*typoposters*/ ctx[5]) {
     				if (if_block97) {
-    					if (dirty[0] & /*timatal*/ 1024) {
+    					if (dirty[0] & /*typoposters*/ 32) {
     						transition_in(if_block97, 1);
     					}
     				} else {
-    					if_block97 = create_if_block_15(ctx);
+    					if_block97 = create_if_block_20(ctx);
     					if_block97.c();
     					transition_in(if_block97, 1);
     					if_block97.m(div5, t99);
@@ -12457,13 +13039,13 @@ var app = (function () {
     				check_outros();
     			}
 
-    			if (/*tools*/ ctx[11]) {
+    			if (/*secret*/ ctx[6]) {
     				if (if_block98) {
-    					if (dirty[0] & /*tools*/ 2048) {
+    					if (dirty[0] & /*secret*/ 64) {
     						transition_in(if_block98, 1);
     					}
     				} else {
-    					if_block98 = create_if_block_14(ctx);
+    					if_block98 = create_if_block_19(ctx);
     					if_block98.c();
     					transition_in(if_block98, 1);
     					if_block98.m(div5, t100);
@@ -12478,13 +13060,13 @@ var app = (function () {
     				check_outros();
     			}
 
-    			if (/*trash*/ ctx[12]) {
+    			if (/*sortedplastic*/ ctx[8]) {
     				if (if_block99) {
-    					if (dirty[0] & /*trash*/ 4096) {
+    					if (dirty[0] & /*sortedplastic*/ 256) {
     						transition_in(if_block99, 1);
     					}
     				} else {
-    					if_block99 = create_if_block_13(ctx);
+    					if_block99 = create_if_block_18(ctx);
     					if_block99.c();
     					transition_in(if_block99, 1);
     					if_block99.m(div5, t101);
@@ -12499,13 +13081,13 @@ var app = (function () {
     				check_outros();
     			}
 
-    			if (/*musicbook*/ ctx[13]) {
+    			if (/*musicposters*/ ctx[9]) {
     				if (if_block100) {
-    					if (dirty[0] & /*musicbook*/ 8192) {
+    					if (dirty[0] & /*musicposters*/ 512) {
     						transition_in(if_block100, 1);
     					}
     				} else {
-    					if_block100 = create_if_block_12(ctx);
+    					if_block100 = create_if_block_17(ctx);
     					if_block100.c();
     					transition_in(if_block100, 1);
     					if_block100.m(div5, t102);
@@ -12520,13 +13102,13 @@ var app = (function () {
     				check_outros();
     			}
 
-    			if (/*corruptedspace*/ ctx[14]) {
+    			if (/*timatal*/ ctx[10]) {
     				if (if_block101) {
-    					if (dirty[0] & /*corruptedspace*/ 16384) {
+    					if (dirty[0] & /*timatal*/ 1024) {
     						transition_in(if_block101, 1);
     					}
     				} else {
-    					if_block101 = create_if_block_11(ctx);
+    					if_block101 = create_if_block_16(ctx);
     					if_block101.c();
     					transition_in(if_block101, 1);
     					if_block101.m(div5, t103);
@@ -12541,13 +13123,13 @@ var app = (function () {
     				check_outros();
     			}
 
-    			if (/*oilbuddies*/ ctx[15]) {
+    			if (/*tools*/ ctx[11]) {
     				if (if_block102) {
-    					if (dirty[0] & /*oilbuddies*/ 32768) {
+    					if (dirty[0] & /*tools*/ 2048) {
     						transition_in(if_block102, 1);
     					}
     				} else {
-    					if_block102 = create_if_block_10(ctx);
+    					if_block102 = create_if_block_15(ctx);
     					if_block102.c();
     					transition_in(if_block102, 1);
     					if_block102.m(div5, t104);
@@ -12562,13 +13144,13 @@ var app = (function () {
     				check_outros();
     			}
 
-    			if (/*litabok*/ ctx[16]) {
+    			if (/*trash*/ ctx[12]) {
     				if (if_block103) {
-    					if (dirty[0] & /*litabok*/ 65536) {
+    					if (dirty[0] & /*trash*/ 4096) {
     						transition_in(if_block103, 1);
     					}
     				} else {
-    					if_block103 = create_if_block_9(ctx);
+    					if_block103 = create_if_block_14(ctx);
     					if_block103.c();
     					transition_in(if_block103, 1);
     					if_block103.m(div5, t105);
@@ -12583,13 +13165,13 @@ var app = (function () {
     				check_outros();
     			}
 
-    			if (/*plastica*/ ctx[17]) {
+    			if (/*musicbook*/ ctx[13]) {
     				if (if_block104) {
-    					if (dirty[0] & /*plastica*/ 131072) {
+    					if (dirty[0] & /*musicbook*/ 8192) {
     						transition_in(if_block104, 1);
     					}
     				} else {
-    					if_block104 = create_if_block_8(ctx);
+    					if_block104 = create_if_block_13(ctx);
     					if_block104.c();
     					transition_in(if_block104, 1);
     					if_block104.m(div5, t106);
@@ -12604,13 +13186,13 @@ var app = (function () {
     				check_outros();
     			}
 
-    			if (/*familiarfaces*/ ctx[18]) {
+    			if (/*corruptedspace*/ ctx[14]) {
     				if (if_block105) {
-    					if (dirty[0] & /*familiarfaces*/ 262144) {
+    					if (dirty[0] & /*corruptedspace*/ 16384) {
     						transition_in(if_block105, 1);
     					}
     				} else {
-    					if_block105 = create_if_block_7(ctx);
+    					if_block105 = create_if_block_12(ctx);
     					if_block105.c();
     					transition_in(if_block105, 1);
     					if_block105.m(div5, t107);
@@ -12625,13 +13207,13 @@ var app = (function () {
     				check_outros();
     			}
 
-    			if (/*likamar*/ ctx[19]) {
+    			if (/*oilbuddies*/ ctx[15]) {
     				if (if_block106) {
-    					if (dirty[0] & /*likamar*/ 524288) {
+    					if (dirty[0] & /*oilbuddies*/ 32768) {
     						transition_in(if_block106, 1);
     					}
     				} else {
-    					if_block106 = create_if_block_6(ctx);
+    					if_block106 = create_if_block_11(ctx);
     					if_block106.c();
     					transition_in(if_block106, 1);
     					if_block106.m(div5, t108);
@@ -12646,13 +13228,13 @@ var app = (function () {
     				check_outros();
     			}
 
-    			if (/*oeb*/ ctx[20]) {
+    			if (/*litabok*/ ctx[16]) {
     				if (if_block107) {
-    					if (dirty[0] & /*oeb*/ 1048576) {
+    					if (dirty[0] & /*litabok*/ 65536) {
     						transition_in(if_block107, 1);
     					}
     				} else {
-    					if_block107 = create_if_block_5(ctx);
+    					if_block107 = create_if_block_10(ctx);
     					if_block107.c();
     					transition_in(if_block107, 1);
     					if_block107.m(div5, t109);
@@ -12667,13 +13249,13 @@ var app = (function () {
     				check_outros();
     			}
 
-    			if (/*beauimg*/ ctx[21]) {
+    			if (/*plastica*/ ctx[17]) {
     				if (if_block108) {
-    					if (dirty[0] & /*beauimg*/ 2097152) {
+    					if (dirty[0] & /*plastica*/ 131072) {
     						transition_in(if_block108, 1);
     					}
     				} else {
-    					if_block108 = create_if_block_4(ctx);
+    					if_block108 = create_if_block_9(ctx);
     					if_block108.c();
     					transition_in(if_block108, 1);
     					if_block108.m(div5, t110);
@@ -12688,13 +13270,13 @@ var app = (function () {
     				check_outros();
     			}
 
-    			if (/*bread*/ ctx[22]) {
+    			if (/*familiarfaces*/ ctx[18]) {
     				if (if_block109) {
-    					if (dirty[0] & /*bread*/ 4194304) {
+    					if (dirty[0] & /*familiarfaces*/ 262144) {
     						transition_in(if_block109, 1);
     					}
     				} else {
-    					if_block109 = create_if_block_3(ctx);
+    					if_block109 = create_if_block_8(ctx);
     					if_block109.c();
     					transition_in(if_block109, 1);
     					if_block109.m(div5, t111);
@@ -12709,13 +13291,13 @@ var app = (function () {
     				check_outros();
     			}
 
-    			if (/*flora*/ ctx[23]) {
+    			if (/*likamar*/ ctx[19]) {
     				if (if_block110) {
-    					if (dirty[0] & /*flora*/ 8388608) {
+    					if (dirty[0] & /*likamar*/ 524288) {
     						transition_in(if_block110, 1);
     					}
     				} else {
-    					if_block110 = create_if_block_2(ctx);
+    					if_block110 = create_if_block_7(ctx);
     					if_block110.c();
     					transition_in(if_block110, 1);
     					if_block110.m(div5, t112);
@@ -12730,16 +13312,16 @@ var app = (function () {
     				check_outros();
     			}
 
-    			if (/*breadmag*/ ctx[24]) {
+    			if (/*oeb*/ ctx[20]) {
     				if (if_block111) {
-    					if (dirty[0] & /*breadmag*/ 16777216) {
+    					if (dirty[0] & /*oeb*/ 1048576) {
     						transition_in(if_block111, 1);
     					}
     				} else {
-    					if_block111 = create_if_block_1(ctx);
+    					if_block111 = create_if_block_6(ctx);
     					if_block111.c();
     					transition_in(if_block111, 1);
-    					if_block111.m(div5, null);
+    					if_block111.m(div5, t113);
     				}
     			} else if (if_block111) {
     				group_outros();
@@ -12751,16 +13333,117 @@ var app = (function () {
     				check_outros();
     			}
 
+    			if (/*beauimg*/ ctx[21]) {
+    				if (if_block112) {
+    					if (dirty[0] & /*beauimg*/ 2097152) {
+    						transition_in(if_block112, 1);
+    					}
+    				} else {
+    					if_block112 = create_if_block_5(ctx);
+    					if_block112.c();
+    					transition_in(if_block112, 1);
+    					if_block112.m(div5, t114);
+    				}
+    			} else if (if_block112) {
+    				group_outros();
+
+    				transition_out(if_block112, 1, 1, () => {
+    					if_block112 = null;
+    				});
+
+    				check_outros();
+    			}
+
+    			if (/*bread*/ ctx[22]) {
+    				if (if_block113) {
+    					if (dirty[0] & /*bread*/ 4194304) {
+    						transition_in(if_block113, 1);
+    					}
+    				} else {
+    					if_block113 = create_if_block_4(ctx);
+    					if_block113.c();
+    					transition_in(if_block113, 1);
+    					if_block113.m(div5, t115);
+    				}
+    			} else if (if_block113) {
+    				group_outros();
+
+    				transition_out(if_block113, 1, 1, () => {
+    					if_block113 = null;
+    				});
+
+    				check_outros();
+    			}
+
+    			if (/*flora*/ ctx[23]) {
+    				if (if_block114) {
+    					if (dirty[0] & /*flora*/ 8388608) {
+    						transition_in(if_block114, 1);
+    					}
+    				} else {
+    					if_block114 = create_if_block_3(ctx);
+    					if_block114.c();
+    					transition_in(if_block114, 1);
+    					if_block114.m(div5, t116);
+    				}
+    			} else if (if_block114) {
+    				group_outros();
+
+    				transition_out(if_block114, 1, 1, () => {
+    					if_block114 = null;
+    				});
+
+    				check_outros();
+    			}
+
+    			if (/*breadmag*/ ctx[24]) {
+    				if (if_block115) {
+    					if (dirty[0] & /*breadmag*/ 16777216) {
+    						transition_in(if_block115, 1);
+    					}
+    				} else {
+    					if_block115 = create_if_block_2(ctx);
+    					if_block115.c();
+    					transition_in(if_block115, 1);
+    					if_block115.m(div5, t117);
+    				}
+    			} else if (if_block115) {
+    				group_outros();
+
+    				transition_out(if_block115, 1, 1, () => {
+    					if_block115 = null;
+    				});
+
+    				check_outros();
+    			}
+
+    			if (/*evublad*/ ctx[25]) {
+    				if (if_block116) {
+    					if (dirty[0] & /*evublad*/ 33554432) {
+    						transition_in(if_block116, 1);
+    					}
+    				} else {
+    					if_block116 = create_if_block_1(ctx);
+    					if_block116.c();
+    					transition_in(if_block116, 1);
+    					if_block116.m(div5, null);
+    				}
+    			} else if (if_block116) {
+    				group_outros();
+
+    				transition_out(if_block116, 1, 1, () => {
+    					if_block116 = null;
+    				});
+
+    				check_outros();
+    			}
+
     			if (dirty[0] & /*expand*/ 1) {
     				toggle_class(div5, "expand", /*expand*/ ctx[0]);
     			}
     		},
     		i: function intro(local) {
     			if (current) return;
-    			transition_in(if_block89);
-    			transition_in(if_block90);
-    			transition_in(if_block91);
-    			transition_in(if_block92);
     			transition_in(if_block93);
     			transition_in(if_block94);
     			transition_in(if_block95);
@@ -12780,13 +13463,14 @@ var app = (function () {
     			transition_in(if_block109);
     			transition_in(if_block110);
     			transition_in(if_block111);
+    			transition_in(if_block112);
+    			transition_in(if_block113);
+    			transition_in(if_block114);
+    			transition_in(if_block115);
+    			transition_in(if_block116);
     			current = true;
     		},
     		o: function outro(local) {
-    			transition_out(if_block89);
-    			transition_out(if_block90);
-    			transition_out(if_block91);
-    			transition_out(if_block92);
     			transition_out(if_block93);
     			transition_out(if_block94);
     			transition_out(if_block95);
@@ -12806,6 +13490,11 @@ var app = (function () {
     			transition_out(if_block109);
     			transition_out(if_block110);
     			transition_out(if_block111);
+    			transition_out(if_block112);
+    			transition_out(if_block113);
+    			transition_out(if_block114);
+    			transition_out(if_block115);
+    			transition_out(if_block116);
     			current = false;
     		},
     		d: function destroy(detaching) {
@@ -12922,11 +13611,16 @@ var app = (function () {
     			if (if_block109) if_block109.d();
     			if (if_block110) if_block110.d();
     			if (if_block111) if_block111.d();
-    			if (detaching) detach_dev(t113);
-    			if (detaching) detach_dev(div7);
-    			if (detaching) detach_dev(t129);
-    			if (detaching) detach_dev(div11);
     			if (if_block112) if_block112.d();
+    			if (if_block113) if_block113.d();
+    			if (if_block114) if_block114.d();
+    			if (if_block115) if_block115.d();
+    			if (if_block116) if_block116.d();
+    			if (detaching) detach_dev(t118);
+    			if (detaching) detach_dev(div7);
+    			if (detaching) detach_dev(t134);
+    			if (detaching) detach_dev(div11);
+    			if (if_block117) if_block117.d();
     			mounted = false;
     			run_all(dispose);
     		}
@@ -12934,7 +13628,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_fragment$n.name,
+    		id: create_fragment$o.name,
     		type: "component",
     		source: "",
     		ctx
@@ -12943,7 +13637,7 @@ var app = (function () {
     	return block;
     }
 
-    function instance$n($$self, $$props, $$invalidate) {
+    function instance$o($$self, $$props, $$invalidate) {
     	let expand;
     	let frontscreen = true;
     	let other = true;
@@ -12970,6 +13664,7 @@ var app = (function () {
     	let bread = false;
     	let flora = false;
     	let breadmag = false;
+    	let evublad = false;
 
     	//let distanceBLines = 'calc((95vh - 1px) / 9 * 1)';
     	//let marginSides = 'calc(100vw / 16)';
@@ -13003,6 +13698,7 @@ var app = (function () {
     		$$invalidate(22, bread = false);
     		$$invalidate(23, flora = false);
     		$$invalidate(24, breadmag = false);
+    		$$invalidate(25, evublad = false);
     	};
 
     	const togglegreen = () => {
@@ -13030,6 +13726,7 @@ var app = (function () {
     		$$invalidate(22, bread = false);
     		$$invalidate(23, flora = false);
     		$$invalidate(24, breadmag = false);
+    		$$invalidate(25, evublad = false);
     	};
 
     	const toggleviv = () => {
@@ -13057,6 +13754,7 @@ var app = (function () {
     		$$invalidate(22, bread = false);
     		$$invalidate(23, flora = false);
     		$$invalidate(24, breadmag = false);
+    		$$invalidate(25, evublad = false);
     	};
 
     	const toggleportfolioio = () => {
@@ -13084,6 +13782,7 @@ var app = (function () {
     		$$invalidate(22, bread = false);
     		$$invalidate(23, flora = false);
     		$$invalidate(24, breadmag = false);
+    		$$invalidate(25, evublad = false);
     	};
 
     	const toggletypoposters = () => {
@@ -13111,6 +13810,7 @@ var app = (function () {
     		$$invalidate(22, bread = false);
     		$$invalidate(23, flora = false);
     		$$invalidate(24, breadmag = false);
+    		$$invalidate(25, evublad = false);
     	};
 
     	const togglesecret = () => {
@@ -13138,6 +13838,7 @@ var app = (function () {
     		$$invalidate(22, bread = false);
     		$$invalidate(23, flora = false);
     		$$invalidate(24, breadmag = false);
+    		$$invalidate(25, evublad = false);
     	};
 
     	const togglesortedplastic = () => {
@@ -13165,6 +13866,7 @@ var app = (function () {
     		$$invalidate(22, bread = false);
     		$$invalidate(23, flora = false);
     		$$invalidate(24, breadmag = false);
+    		$$invalidate(25, evublad = false);
     	};
 
     	const togglemusicposters = () => {
@@ -13192,6 +13894,7 @@ var app = (function () {
     		$$invalidate(22, bread = false);
     		$$invalidate(23, flora = false);
     		$$invalidate(24, breadmag = false);
+    		$$invalidate(25, evublad = false);
     	};
 
     	const toggletimatal = () => {
@@ -13219,6 +13922,7 @@ var app = (function () {
     		$$invalidate(22, bread = false);
     		$$invalidate(23, flora = false);
     		$$invalidate(24, breadmag = false);
+    		$$invalidate(25, evublad = false);
     	};
 
     	const toggletools = () => {
@@ -13246,6 +13950,7 @@ var app = (function () {
     		$$invalidate(22, bread = false);
     		$$invalidate(23, flora = false);
     		$$invalidate(24, breadmag = false);
+    		$$invalidate(25, evublad = false);
     	};
 
     	const toggleplastica = () => {
@@ -13273,6 +13978,7 @@ var app = (function () {
     		$$invalidate(22, bread = false);
     		$$invalidate(23, flora = false);
     		$$invalidate(24, breadmag = false);
+    		$$invalidate(25, evublad = false);
     	};
 
     	const togglemusicbook = () => {
@@ -13300,6 +14006,7 @@ var app = (function () {
     		$$invalidate(22, bread = false);
     		$$invalidate(23, flora = false);
     		$$invalidate(24, breadmag = false);
+    		$$invalidate(25, evublad = false);
     	};
 
     	const togglecorruptedspace = () => {
@@ -13327,6 +14034,7 @@ var app = (function () {
     		$$invalidate(22, bread = false);
     		$$invalidate(23, flora = false);
     		$$invalidate(24, breadmag = false);
+    		$$invalidate(25, evublad = false);
     	};
 
     	const toggleoilbuddies = () => {
@@ -13354,6 +14062,7 @@ var app = (function () {
     		$$invalidate(22, bread = false);
     		$$invalidate(23, flora = false);
     		$$invalidate(24, breadmag = false);
+    		$$invalidate(25, evublad = false);
     	};
 
     	const togglefamiliarfaces = () => {
@@ -13381,6 +14090,7 @@ var app = (function () {
     		$$invalidate(22, bread = false);
     		$$invalidate(23, flora = false);
     		$$invalidate(24, breadmag = false);
+    		$$invalidate(25, evublad = false);
     	};
 
     	const togglelitabok = () => {
@@ -13408,6 +14118,7 @@ var app = (function () {
     		$$invalidate(22, bread = false);
     		$$invalidate(23, flora = false);
     		$$invalidate(24, breadmag = false);
+    		$$invalidate(25, evublad = false);
     	};
 
     	const toggletrash = () => {
@@ -13435,6 +14146,7 @@ var app = (function () {
     		$$invalidate(22, bread = false);
     		$$invalidate(23, flora = false);
     		$$invalidate(24, breadmag = false);
+    		$$invalidate(25, evublad = false);
     	};
 
     	const togglelikamar = () => {
@@ -13462,6 +14174,7 @@ var app = (function () {
     		$$invalidate(22, bread = false);
     		$$invalidate(23, flora = false);
     		$$invalidate(24, breadmag = false);
+    		$$invalidate(25, evublad = false);
     	};
 
     	const toggleoeb = () => {
@@ -13489,6 +14202,7 @@ var app = (function () {
     		$$invalidate(22, bread = false);
     		$$invalidate(23, flora = false);
     		$$invalidate(24, breadmag = false);
+    		$$invalidate(25, evublad = false);
     	};
 
     	const togglebeauimg = () => {
@@ -13516,6 +14230,7 @@ var app = (function () {
     		$$invalidate(22, bread = false);
     		$$invalidate(23, flora = false);
     		$$invalidate(24, breadmag = false);
+    		$$invalidate(25, evublad = false);
     	};
 
     	const togglebread = () => {
@@ -13543,6 +14258,7 @@ var app = (function () {
     		$$invalidate(22, bread = true);
     		$$invalidate(23, flora = false);
     		$$invalidate(24, breadmag = false);
+    		$$invalidate(25, evublad = false);
     	};
 
     	const toggleflora = () => {
@@ -13570,6 +14286,7 @@ var app = (function () {
     		$$invalidate(22, bread = false);
     		$$invalidate(23, flora = true);
     		$$invalidate(24, breadmag = false);
+    		$$invalidate(25, evublad = false);
     	};
 
     	const togglebreadmag = () => {
@@ -13597,6 +14314,35 @@ var app = (function () {
     		$$invalidate(22, bread = false);
     		$$invalidate(23, flora = false);
     		$$invalidate(24, breadmag = true);
+    		$$invalidate(25, evublad = false);
+    	};
+
+    	const toggleevublad = () => {
+    		$$invalidate(1, frontscreen = false);
+    		$$invalidate(2, onourowntime = false);
+    		$$invalidate(3, green = false);
+    		$$invalidate(4, viv = false);
+    		$$invalidate(7, portfolioio = false);
+    		$$invalidate(5, typoposters = false);
+    		$$invalidate(6, secret = false);
+    		$$invalidate(8, sortedplastic = false);
+    		$$invalidate(9, musicposters = false);
+    		$$invalidate(10, timatal = false);
+    		$$invalidate(11, tools = false);
+    		$$invalidate(13, musicbook = false);
+    		$$invalidate(14, corruptedspace = false);
+    		$$invalidate(15, oilbuddies = false);
+    		$$invalidate(17, plastica = false);
+    		$$invalidate(18, familiarfaces = false);
+    		$$invalidate(16, litabok = false);
+    		$$invalidate(12, trash = false);
+    		$$invalidate(19, likamar = false);
+    		$$invalidate(20, oeb = false);
+    		$$invalidate(21, beauimg = false);
+    		$$invalidate(22, bread = false);
+    		$$invalidate(23, flora = false);
+    		$$invalidate(24, breadmag = false);
+    		$$invalidate(25, evublad = true);
     	};
 
     	const writable_props = [];
@@ -13631,6 +14377,7 @@ var app = (function () {
     	const click_handler_21 = () => $$invalidate(0, expand = !expand);
     	const click_handler_22 = () => $$invalidate(0, expand = !expand);
     	const click_handler_23 = () => $$invalidate(0, expand = !expand);
+    	const click_handler_24 = () => $$invalidate(0, expand = !expand);
 
     	$$self.$capture_state = () => ({
     		Onourowntime,
@@ -13656,6 +14403,7 @@ var app = (function () {
     		Bread,
     		Flora,
     		Breadmag,
+    		Evublad,
     		expand,
     		frontscreen,
     		other,
@@ -13682,6 +14430,7 @@ var app = (function () {
     		bread,
     		flora,
     		breadmag,
+    		evublad,
     		toggleonourowntime,
     		togglegreen,
     		toggleviv,
@@ -13704,13 +14453,14 @@ var app = (function () {
     		togglebeauimg,
     		togglebread,
     		toggleflora,
-    		togglebreadmag
+    		togglebreadmag,
+    		toggleevublad
     	});
 
     	$$self.$inject_state = $$props => {
     		if ("expand" in $$props) $$invalidate(0, expand = $$props.expand);
     		if ("frontscreen" in $$props) $$invalidate(1, frontscreen = $$props.frontscreen);
-    		if ("other" in $$props) $$invalidate(25, other = $$props.other);
+    		if ("other" in $$props) $$invalidate(26, other = $$props.other);
     		if ("onourowntime" in $$props) $$invalidate(2, onourowntime = $$props.onourowntime);
     		if ("green" in $$props) $$invalidate(3, green = $$props.green);
     		if ("viv" in $$props) $$invalidate(4, viv = $$props.viv);
@@ -13734,6 +14484,7 @@ var app = (function () {
     		if ("bread" in $$props) $$invalidate(22, bread = $$props.bread);
     		if ("flora" in $$props) $$invalidate(23, flora = $$props.flora);
     		if ("breadmag" in $$props) $$invalidate(24, breadmag = $$props.breadmag);
+    		if ("evublad" in $$props) $$invalidate(25, evublad = $$props.evublad);
     	};
 
     	if ($$props && "$$inject" in $$props) {
@@ -13766,6 +14517,7 @@ var app = (function () {
     		bread,
     		flora,
     		breadmag,
+    		evublad,
     		other,
     		toggleonourowntime,
     		togglegreen,
@@ -13790,6 +14542,7 @@ var app = (function () {
     		togglebread,
     		toggleflora,
     		togglebreadmag,
+    		toggleevublad,
     		click_handler,
     		click_handler_1,
     		click_handler_2,
@@ -13813,20 +14566,21 @@ var app = (function () {
     		click_handler_20,
     		click_handler_21,
     		click_handler_22,
-    		click_handler_23
+    		click_handler_23,
+    		click_handler_24
     	];
     }
 
     class App extends SvelteComponentDev {
     	constructor(options) {
     		super(options);
-    		init(this, options, instance$n, create_fragment$n, safe_not_equal, {}, [-1, -1, -1]);
+    		init(this, options, instance$o, create_fragment$o, safe_not_equal, {}, [-1, -1, -1]);
 
     		dispatch_dev("SvelteRegisterComponent", {
     			component: this,
     			tagName: "App",
     			options,
-    			id: create_fragment$n.name
+    			id: create_fragment$o.name
     		});
     	}
     }

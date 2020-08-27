@@ -17,7 +17,9 @@
 	<img class="img portfolio-item smaller" alt="mynd" src="igms/litabok/6.png" />
 	<img class="img portfolio-item smaller" alt="mynd" src="igms/litabok/5.png" />	
 	<img class="img portfolio-item smaller" alt="mynd" src="igms/litabok/4.png" />
-	<img class="img portfolio-item smaller" alt="mynd" src="igms/litabok/3.png" />
+	<img class="img portfolio-item smaller" alt="mynd" src="igms/litabok/3.png" /><br>
+	<img class="img portfolio-item smaller" alt="mynd" src="igms/litabok/2.png" />
+	<img class="img portfolio-item smaller" alt="mynd" src="igms/litabok/1.png" />
 	<br><br><br><br><br><br><br><br>
 	<img class="img portfolio-item" alt="mynd" src="igms/litabok/3.jpg" /><br>
 	<img class="img portfolio-item" alt="mynd" src="igms/litabok/2.jpg" />

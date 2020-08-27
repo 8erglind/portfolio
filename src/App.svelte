@@ -24,6 +24,7 @@
 	import Bread from './specifics/Bread.svelte';
 	import Flora from './specifics/Flora.svelte';
 	import Breadmag from './specifics/Breadmag.svelte';
+  import Evublad from './specifics/Evublad.svelte';
 
 
 
@@ -55,6 +56,7 @@
 	let bread = false;
 	let flora = false;
 	let breadmag = false;
+  let evublad = false;
 	
 
 
@@ -70,29 +72,30 @@
 	//	Main = true;
 	//}
 
-	const toggleonourowntime = () => { frontscreen = false; onourowntime = true; green = false; viv = false; portfolioio = false; typoposters = false; secret = false; sortedplastic = false; musicposters = false; timatal = false; tools = false; musicbook = false; corruptedspace = false; oilbuddies = false; plastica = false; familiarfaces = false; litabok = false; trash = false; likamar = false; oeb = false; beauimg = false;  bread = false; flora = false; breadmag = false;}
-	const togglegreen = () => { frontscreen = false; onourowntime = false; green = true; viv = false; portfolioio = false; typoposters = false; secret = false; sortedplastic = false; musicposters = false; timatal = false; tools = false; musicbook = false; corruptedspace = false; oilbuddies = false; plastica = false; familiarfaces = false; litabok = false; trash = false; likamar = false; oeb = false; beauimg = false;  bread = false; flora = false; breadmag = false;}
-	const toggleviv = () => { frontscreen = false; onourowntime = false; green = false; viv = true; portfolioio = false; typoposters = false; secret = false; sortedplastic = false; musicposters = false; timatal = false; tools = false; musicbook = false; corruptedspace = false; oilbuddies = false; plastica = false; familiarfaces = false; litabok = false; trash = false; likamar = false; oeb = false; beauimg = false;  bread = false; flora = false; breadmag = false;}
-	const toggleportfolioio = () => { frontscreen = false; onourowntime = false; green = false; viv = false; portfolioio = true; typoposters = false; secret = false; sortedplastic = false; musicposters = false; timatal = false; tools = false; musicbook = false; corruptedspace = false; oilbuddies = false; plastica = false; familiarfaces = false; litabok = false; trash = false; likamar = false; oeb = false; beauimg = false;  bread = false; flora = false; breadmag = false;}
-	const toggletypoposters = () => { frontscreen = false; onourowntime = false; green = false; viv = false; portfolioio = false; typoposters = true; secret = false; sortedplastic = false; musicposters = false; timatal = false; tools = false; musicbook = false; corruptedspace = false; oilbuddies = false; plastica = false; familiarfaces = false; litabok = false; trash = false; likamar = false; oeb = false; beauimg = false;  bread = false; flora = false; breadmag = false;}
-	const togglesecret = () => { frontscreen = false; onourowntime = false; green = false; viv = false; portfolioio = false; typoposters = false; secret = true; sortedplastic = false; musicposters = false; timatal = false; tools = false; musicbook = false; corruptedspace = false; oilbuddies = false; plastica = false; familiarfaces = false; litabok = false; trash = false; likamar = false; oeb = false; beauimg = false;  bread = false; flora = false; breadmag = false;}
-	const togglesortedplastic = () => { frontscreen = false; onourowntime = false; green = false; viv = false; portfolioio = false; typoposters = false; secret = false; sortedplastic = true; musicposters = false; timatal = false; tools = false; musicbook = false; corruptedspace = false; oilbuddies = false; plastica = false; familiarfaces = false; litabok = false; trash = false; likamar = false; oeb = false; beauimg = false;  bread = false; flora = false; breadmag = false;}
-	const togglemusicposters = () => { frontscreen = false; onourowntime = false; green = false; viv = false; portfolioio = false; typoposters = false; secret = false; sortedplastic = false; musicposters = true; timatal = false; tools = false; musicbook = false; corruptedspace = false; oilbuddies = false; plastica = false; familiarfaces = false; litabok = false; trash = false; likamar = false; oeb = false; beauimg = false;  bread = false; flora = false; breadmag = false;}
-	const toggletimatal = () => { frontscreen = false; onourowntime = false; green = false; viv = false; portfolioio = false; typoposters = false; secret = false; sortedplastic = false; musicposters = false; timatal = true; tools = false; musicbook = false; corruptedspace = false; oilbuddies = false; plastica = false; familiarfaces = false; litabok = false; trash = false; likamar = false; oeb = false; beauimg = false;  bread = false; flora = false; breadmag = false;}
-	const toggletools = () => { frontscreen = false; onourowntime = false; green = false; viv = false; portfolioio = false; typoposters = false; secret = false; sortedplastic = false; musicposters = false; timatal = false; tools = true; musicbook = false; corruptedspace = false; oilbuddies = false; plastica = false; familiarfaces = false; litabok = false; trash = false; likamar = false; oeb = false; beauimg = false;  bread = false; flora = false; breadmag = false;}
-	const toggleplastica = () => { frontscreen = false; onourowntime = false; green = false; viv = false; portfolioio = false; typoposters = false; secret = false; sortedplastic = false; musicposters = false; timatal = false; tools = false; musicbook = false; corruptedspace = false; oilbuddies = false; plastica = true; familiarfaces = false; litabok = false; trash = false; likamar = false; oeb = false; beauimg = false;  bread = false; flora = false; breadmag = false;}
-	const togglemusicbook = () => { frontscreen = false; onourowntime = false; green = false; viv = false; portfolioio = false; typoposters = false; secret = false; sortedplastic = false; musicposters = false; timatal = false; tools = false; musicbook = true; corruptedspace = false; oilbuddies = false; plastica = false; familiarfaces = false; litabok = false; trash = false; likamar = false; oeb = false; beauimg = false;  bread = false; flora = false; breadmag = false;}
-	const togglecorruptedspace = () => { frontscreen = false; onourowntime = false; green = false; viv = false; portfolioio = false; typoposters = false; secret = false; sortedplastic = false; musicposters = false; timatal = false; tools = false; musicbook = false; corruptedspace = true; oilbuddies = false; plastica = false; familiarfaces = false; litabok = false; trash = false; likamar = false; oeb = false; beauimg = false;  bread = false; flora = false; breadmag = false;}
-	const toggleoilbuddies = () => { frontscreen = false; onourowntime = false; green = false; viv = false; portfolioio = false; typoposters = false; secret = false; sortedplastic = false; musicposters = false; timatal = false; tools = false; musicbook = false; corruptedspace = false; oilbuddies = true; plastica = false; familiarfaces = false; litabok = false; trash = false; likamar = false; oeb = false; beauimg = false;  bread = false; flora = false; breadmag = false;}
-	const togglefamiliarfaces = () => { frontscreen = false; onourowntime = false; green = false; viv = false; portfolioio = false; typoposters = false; secret = false; sortedplastic = false; musicposters = false; timatal = false; tools = false; musicbook = false; corruptedspace = false; oilbuddies = false; litabok = false; plastica = false; familiarfaces = true; trash = false; likamar = false; oeb = false; beauimg = false;  bread = false; flora = false; breadmag = false;}
-	const togglelitabok = () => { frontscreen = false; onourowntime = false; green = false; viv = false; portfolioio = false; typoposters = false; secret = false; sortedplastic = false; musicposters = false; timatal = false; tools = false; musicbook = false; corruptedspace = false; oilbuddies = false; plastica = false; familiarfaces = false; litabok = true; trash = false; likamar = false; oeb = false; beauimg = false;  bread = false; flora = false; breadmag = false;}
-	const toggletrash = () => { frontscreen = false; onourowntime = false; green = false; viv = false; portfolioio = false; typoposters = false; secret = false; sortedplastic = false; musicposters = false; timatal = false; tools = false; musicbook = false; corruptedspace = false; oilbuddies = false; plastica = false; familiarfaces = false; litabok = false; trash = true; likamar = false; oeb = false; beauimg = false;  bread = false; flora = false; breadmag = false;}
-	const togglelikamar = () => { frontscreen = false; onourowntime = false; green = false; viv = false; portfolioio = false; typoposters = false; secret = false; sortedplastic = false; musicposters = false; timatal = false; tools = false; musicbook = false; corruptedspace = false; oilbuddies = false; plastica = false; familiarfaces = false; litabok = false; trash = false; likamar = true; oeb = false; beauimg = false;  bread = false; flora = false; breadmag = false;}
-	const toggleoeb = () => { frontscreen = false; onourowntime = false; green = false; viv = false; portfolioio = false; typoposters = false; secret = false; sortedplastic = false; musicposters = false; timatal = false; tools = false; musicbook = false; corruptedspace = false; oilbuddies = false; plastica = false; familiarfaces = false; litabok = false; trash = false; likamar = false; oeb = true; beauimg = false;  bread = false; flora = false; breadmag = false;}
-	const togglebeauimg = () => { frontscreen = false; onourowntime = false; green = false; viv = false; portfolioio = false; typoposters = false; secret = false; sortedplastic = false; musicposters = false; timatal = false; tools = false; musicbook = false; corruptedspace = false; oilbuddies = false; plastica = false; familiarfaces = false; litabok = false; trash = false; likamar = false; oeb = false; beauimg = true;  bread = false; flora = false; breadmag = false;}
-	const togglebread = () => { frontscreen = false; onourowntime = false; green = false; viv = false; portfolioio = false; typoposters = false; secret = false; sortedplastic = false; musicposters = false; timatal = false; tools = false; musicbook = false; corruptedspace = false; oilbuddies = false; plastica = false; familiarfaces = false; litabok = false; trash = false; likamar = false; oeb = false; beauimg = false; bread = true; flora = false; breadmag = false;}
-	const toggleflora = () => { frontscreen = false; onourowntime = false; green = false; viv = false; portfolioio = false; typoposters = false; secret = false; sortedplastic = false; musicposters = false; timatal = false; tools = false; musicbook = false; corruptedspace = false; oilbuddies = false; plastica = false; familiarfaces = false; litabok = false; trash = false; likamar = false; oeb = false; beauimg = false; bread = false; flora = true; breadmag = false;}
-	const togglebreadmag = () => { frontscreen = false; onourowntime = false; green = false; viv = false; portfolioio = false; typoposters = false; secret = false; sortedplastic = false; musicposters = false; timatal = false; tools = false; musicbook = false; corruptedspace = false; oilbuddies = false; plastica = false; familiarfaces = false; litabok = false; trash = false; likamar = false; oeb = false; beauimg = false; bread = false; flora = false; breadmag = true;}
+	const toggleonourowntime = () => { frontscreen = false; onourowntime = true; green = false; viv = false; portfolioio = false; typoposters = false; secret = false; sortedplastic = false; musicposters = false; timatal = false; tools = false; musicbook = false; corruptedspace = false; oilbuddies = false; plastica = false; familiarfaces = false; litabok = false; trash = false; likamar = false; oeb = false; beauimg = false;  bread = false; flora = false; breadmag = false; evublad = false;}
+	const togglegreen = () => { frontscreen = false; onourowntime = false; green = true; viv = false; portfolioio = false; typoposters = false; secret = false; sortedplastic = false; musicposters = false; timatal = false; tools = false; musicbook = false; corruptedspace = false; oilbuddies = false; plastica = false; familiarfaces = false; litabok = false; trash = false; likamar = false; oeb = false; beauimg = false;  bread = false; flora = false; breadmag = false; evublad = false;}
+	const toggleviv = () => { frontscreen = false; onourowntime = false; green = false; viv = true; portfolioio = false; typoposters = false; secret = false; sortedplastic = false; musicposters = false; timatal = false; tools = false; musicbook = false; corruptedspace = false; oilbuddies = false; plastica = false; familiarfaces = false; litabok = false; trash = false; likamar = false; oeb = false; beauimg = false;  bread = false; flora = false; breadmag = false; evublad = false;}
+	const toggleportfolioio = () => { frontscreen = false; onourowntime = false; green = false; viv = false; portfolioio = true; typoposters = false; secret = false; sortedplastic = false; musicposters = false; timatal = false; tools = false; musicbook = false; corruptedspace = false; oilbuddies = false; plastica = false; familiarfaces = false; litabok = false; trash = false; likamar = false; oeb = false; beauimg = false;  bread = false; flora = false; breadmag = false; evublad = false;}
+	const toggletypoposters = () => { frontscreen = false; onourowntime = false; green = false; viv = false; portfolioio = false; typoposters = true; secret = false; sortedplastic = false; musicposters = false; timatal = false; tools = false; musicbook = false; corruptedspace = false; oilbuddies = false; plastica = false; familiarfaces = false; litabok = false; trash = false; likamar = false; oeb = false; beauimg = false;  bread = false; flora = false; breadmag = false; evublad = false;}
+	const togglesecret = () => { frontscreen = false; onourowntime = false; green = false; viv = false; portfolioio = false; typoposters = false; secret = true; sortedplastic = false; musicposters = false; timatal = false; tools = false; musicbook = false; corruptedspace = false; oilbuddies = false; plastica = false; familiarfaces = false; litabok = false; trash = false; likamar = false; oeb = false; beauimg = false;  bread = false; flora = false; breadmag = false; evublad = false;}
+	const togglesortedplastic = () => { frontscreen = false; onourowntime = false; green = false; viv = false; portfolioio = false; typoposters = false; secret = false; sortedplastic = true; musicposters = false; timatal = false; tools = false; musicbook = false; corruptedspace = false; oilbuddies = false; plastica = false; familiarfaces = false; litabok = false; trash = false; likamar = false; oeb = false; beauimg = false;  bread = false; flora = false; breadmag = false; evublad = false;}
+	const togglemusicposters = () => { frontscreen = false; onourowntime = false; green = false; viv = false; portfolioio = false; typoposters = false; secret = false; sortedplastic = false; musicposters = true; timatal = false; tools = false; musicbook = false; corruptedspace = false; oilbuddies = false; plastica = false; familiarfaces = false; litabok = false; trash = false; likamar = false; oeb = false; beauimg = false;  bread = false; flora = false; breadmag = false; evublad = false;}
+	const toggletimatal = () => { frontscreen = false; onourowntime = false; green = false; viv = false; portfolioio = false; typoposters = false; secret = false; sortedplastic = false; musicposters = false; timatal = true; tools = false; musicbook = false; corruptedspace = false; oilbuddies = false; plastica = false; familiarfaces = false; litabok = false; trash = false; likamar = false; oeb = false; beauimg = false;  bread = false; flora = false; breadmag = false; evublad = false;}
+	const toggletools = () => { frontscreen = false; onourowntime = false; green = false; viv = false; portfolioio = false; typoposters = false; secret = false; sortedplastic = false; musicposters = false; timatal = false; tools = true; musicbook = false; corruptedspace = false; oilbuddies = false; plastica = false; familiarfaces = false; litabok = false; trash = false; likamar = false; oeb = false; beauimg = false;  bread = false; flora = false; breadmag = false; evublad = false;}
+	const toggleplastica = () => { frontscreen = false; onourowntime = false; green = false; viv = false; portfolioio = false; typoposters = false; secret = false; sortedplastic = false; musicposters = false; timatal = false; tools = false; musicbook = false; corruptedspace = false; oilbuddies = false; plastica = true; familiarfaces = false; litabok = false; trash = false; likamar = false; oeb = false; beauimg = false;  bread = false; flora = false; breadmag = false; evublad = false;}
+	const togglemusicbook = () => { frontscreen = false; onourowntime = false; green = false; viv = false; portfolioio = false; typoposters = false; secret = false; sortedplastic = false; musicposters = false; timatal = false; tools = false; musicbook = true; corruptedspace = false; oilbuddies = false; plastica = false; familiarfaces = false; litabok = false; trash = false; likamar = false; oeb = false; beauimg = false;  bread = false; flora = false; breadmag = false; evublad = false;}
+	const togglecorruptedspace = () => { frontscreen = false; onourowntime = false; green = false; viv = false; portfolioio = false; typoposters = false; secret = false; sortedplastic = false; musicposters = false; timatal = false; tools = false; musicbook = false; corruptedspace = true; oilbuddies = false; plastica = false; familiarfaces = false; litabok = false; trash = false; likamar = false; oeb = false; beauimg = false;  bread = false; flora = false; breadmag = false; evublad = false;}
+	const toggleoilbuddies = () => { frontscreen = false; onourowntime = false; green = false; viv = false; portfolioio = false; typoposters = false; secret = false; sortedplastic = false; musicposters = false; timatal = false; tools = false; musicbook = false; corruptedspace = false; oilbuddies = true; plastica = false; familiarfaces = false; litabok = false; trash = false; likamar = false; oeb = false; beauimg = false;  bread = false; flora = false; breadmag = false; evublad = false;}
+	const togglefamiliarfaces = () => { frontscreen = false; onourowntime = false; green = false; viv = false; portfolioio = false; typoposters = false; secret = false; sortedplastic = false; musicposters = false; timatal = false; tools = false; musicbook = false; corruptedspace = false; oilbuddies = false; litabok = false; plastica = false; familiarfaces = true; trash = false; likamar = false; oeb = false; beauimg = false;  bread = false; flora = false; breadmag = false; evublad = false;}
+	const togglelitabok = () => { frontscreen = false; onourowntime = false; green = false; viv = false; portfolioio = false; typoposters = false; secret = false; sortedplastic = false; musicposters = false; timatal = false; tools = false; musicbook = false; corruptedspace = false; oilbuddies = false; plastica = false; familiarfaces = false; litabok = true; trash = false; likamar = false; oeb = false; beauimg = false;  bread = false; flora = false; breadmag = false; evublad = false;}
+	const toggletrash = () => { frontscreen = false; onourowntime = false; green = false; viv = false; portfolioio = false; typoposters = false; secret = false; sortedplastic = false; musicposters = false; timatal = false; tools = false; musicbook = false; corruptedspace = false; oilbuddies = false; plastica = false; familiarfaces = false; litabok = false; trash = true; likamar = false; oeb = false; beauimg = false;  bread = false; flora = false; breadmag = false; evublad = false;}
+	const togglelikamar = () => { frontscreen = false; onourowntime = false; green = false; viv = false; portfolioio = false; typoposters = false; secret = false; sortedplastic = false; musicposters = false; timatal = false; tools = false; musicbook = false; corruptedspace = false; oilbuddies = false; plastica = false; familiarfaces = false; litabok = false; trash = false; likamar = true; oeb = false; beauimg = false;  bread = false; flora = false; breadmag = false; evublad = false;}
+	const toggleoeb = () => { frontscreen = false; onourowntime = false; green = false; viv = false; portfolioio = false; typoposters = false; secret = false; sortedplastic = false; musicposters = false; timatal = false; tools = false; musicbook = false; corruptedspace = false; oilbuddies = false; plastica = false; familiarfaces = false; litabok = false; trash = false; likamar = false; oeb = true; beauimg = false;  bread = false; flora = false; breadmag = false; evublad = false;}
+	const togglebeauimg = () => { frontscreen = false; onourowntime = false; green = false; viv = false; portfolioio = false; typoposters = false; secret = false; sortedplastic = false; musicposters = false; timatal = false; tools = false; musicbook = false; corruptedspace = false; oilbuddies = false; plastica = false; familiarfaces = false; litabok = false; trash = false; likamar = false; oeb = false; beauimg = true;  bread = false; flora = false; breadmag = false; evublad = false;}
+	const togglebread = () => { frontscreen = false; onourowntime = false; green = false; viv = false; portfolioio = false; typoposters = false; secret = false; sortedplastic = false; musicposters = false; timatal = false; tools = false; musicbook = false; corruptedspace = false; oilbuddies = false; plastica = false; familiarfaces = false; litabok = false; trash = false; likamar = false; oeb = false; beauimg = false; bread = true; flora = false; breadmag = false; evublad = false;}
+	const toggleflora = () => { frontscreen = false; onourowntime = false; green = false; viv = false; portfolioio = false; typoposters = false; secret = false; sortedplastic = false; musicposters = false; timatal = false; tools = false; musicbook = false; corruptedspace = false; oilbuddies = false; plastica = false; familiarfaces = false; litabok = false; trash = false; likamar = false; oeb = false; beauimg = false; bread = false; flora = true; breadmag = false; evublad = false;}
+	const togglebreadmag = () => { frontscreen = false; onourowntime = false; green = false; viv = false; portfolioio = false; typoposters = false; secret = false; sortedplastic = false; musicposters = false; timatal = false; tools = false; musicbook = false; corruptedspace = false; oilbuddies = false; plastica = false; familiarfaces = false; litabok = false; trash = false; likamar = false; oeb = false; beauimg = false; bread = false; flora = false; breadmag = true; evublad = false;}
+  const toggleevublad = () => { frontscreen = false; onourowntime = false; green = false; viv = false; portfolioio = false; typoposters = false; secret = false; sortedplastic = false; musicposters = false; timatal = false; tools = false; musicbook = false; corruptedspace = false; oilbuddies = false; plastica = false; familiarfaces = false; litabok = false; trash = false; likamar = false; oeb = false; beauimg = false; bread = false; flora = false; breadmag = false; evublad = true;}
 
 
 
@@ -142,10 +145,11 @@
   	{#if bread}Spring 2019{/if}
   	{#if breadmag}Spring 2019{/if}
   	{#if flora}Summer 2018 - ongoing{/if}
+    {#if evublad}Spring 2018{/if}
   </div>
 
   <div class="subtitlesDate mainscreen-subtitles"><span class="subtitles-text">
-  	{#if frontscreen}Page last updated<br>19th of August 2020.{/if}
+  	{#if frontscreen}Page last updated<br>27th of August, 2020.{/if}
   	{#if onourowntime}...{/if}
   	{#if green}...{/if}
   	{#if viv}...{/if}
@@ -169,6 +173,7 @@
   	{#if familiarfaces}...{/if}
   	{#if likamar}Typeface initially designed in 2019, refined for Flóra útgáfa in 2020.{/if}
   	{#if flora}Current website mostly designed and built in Summer 2020.{/if}
+    {#if evublad}...{/if}
   </span></div>
 
   <div class="name mainscreen-main">
@@ -196,21 +201,22 @@
   	{#if familiarfaces}Familiar Faces{/if}
   	{#if likamar}Untitled Typeface{/if}
   	{#if flora}<a href="https://flora-utgafa.is/" style="color: lightblue !important;" target="_blank">Flóra útgáfa</a>{/if}
+    {#if evublad}Artist Interview<br>Eva Sigurðardóttir{/if}
   </div>
   <div class="subtitlesName mainscreen-subtitles">
     <span class="subtitles-text">
-    	{#if frontscreen}Welcome to my portfolio,<br>click on "MENU" (lower right corner) to view my work.{/if}
+    	{#if frontscreen}Welcome to my portfolio!<br>Browse through my projects on the right and click to see more details.{/if}
 		{#if onourowntime}Fundraiser / Catalogue website for Graphic Design and Non Linear Narrative, The Royal Academy of Art in The Hague, graduation class of 2020. Website design and building collaboration with Trang Ha, identity designed by Zahari Dimitrov and Zuzanna Zgierska using typefaces by Edward Dżułaj and Nedislav Kamburov.{/if}
 	  	<!--{#if green}...{/if}-->
 	  	{#if viv}A publication containing an interview with Vivienne Westwood by Tim Blanks (published in Interview Magazine, July 18, 2012) along with added content about topics mentioned in the interview. Printed on A3 and folded into a a-bit-wider-than-A4 format.{/if}
 	  	{#if typoposters}20 posters celebrating 10 different typefaces. Printed front and back on 10 A2-sized sheets, and folded into A4 for storage.{/if}
 		{#if secret}An anonymous's secret, translated into a foldout A6-size hardcover book.{/if}
 		{#if tools}A publication holding an archive of different communication tools. A5-size.{/if}
-		{#if timatal}A collection of different ideas and imaginations of time and time-keeping.<br>Content gathered from a single book found in a library (and returned before I thought of doucumenting it :S ...school project).{/if}
+		{#if timatal}A collection of different ideas and imaginations of time and time-keeping. A kind of non-calendar calendar.<br>Content gathered from a single book found in a library (and returned before I thought of doucumenting it (rookie mistake) so the source remains a mystery).{/if}
 		{#if sortedplastic}A research project, collaboration with Louana Gentner, on where plastic &mdash; sorted by residents of the Hague and delivered to local bins to be recycled &mdash; ends up. An interesting disappointment, documented in an A3-size publication and an online tetris-style game.{/if}
 		{#if litabok}An installation and publication.{/if}
-		{#if oilbuddies}The heads of the worlds biggest oil-companies in 2017, in bubbles, floating around (...headed to wherever the weahter suits their clothes).{/if}
-		{#if trash}A sticker for the trash-bins of KABK as a call for recycling. Typeface made out of KABK's logo.{/if}
+		{#if oilbuddies}The heads of the worlds biggest oil-companies in 2017, in bubbles, floating around, ...headed to wherever the weahter suits their clothes?{/if}
+		{#if trash}A set of stickers for the trash-bins of KABK as a call for recycling. Typeface made out of KABK's logo.<br>(...a drop in the ocean, a change in the weather){/if}
 	  	{#if familiarfaces}Posters, digital and physical, made in collaboration with Seojeong Youn.{/if}
 	  	{#if musicbook}A publication and a video about music's effect on humans, as seen through Stevie&nbsp;Wonder's 'If&nbsp;It's&nbsp;Magic', Dorothy&nbsp;Ashby, David&nbsp;Lynch, Meditation, Mantras and Patterns.{/if}
 	  	{#if plastica}A Website and A Chrome extension, where I recreated Google as Plastica. A merging of two (supposedly) integral parts of my life.{/if}
@@ -222,6 +228,7 @@
 	  	{#if musicposters}...{/if}-->	
   		{#if likamar}Typeface initially designed in 2019, refined for Flóra útgáfa in 2020.{/if}
   		{#if green}Graphic Design Bachelor thesis from Royal Academy of Art, the Hague.{/if}
+      {#if evublad}Studio visit and interview with artist Eva Sigurðardóttir. Eva's handwriting is used to translate integral parts of the interview from Icelandic to English.{/if}
     </span>
   </div>
 
@@ -248,6 +255,7 @@
   {#if bread}<Bread></Bread>{/if}
   {#if flora}<Flora></Flora>{/if}
   {#if breadmag}<Breadmag></Breadmag>{/if}
+  {#if evublad}<Evublad></Evublad>{/if}
   
   
 </div>
@@ -258,12 +266,12 @@
       <img class="logoBio" alt="mynd" src="igms/icons/BBJsmall2.png"><br><br>
       BERGLIND BRÁ<br><br>
       <i>Education</i><br>
-      Myndlistaskólinn<br>
-      BA in 2020 from The Royal Academy of Art, The Hague
+      Sjónlist 2015, Myndlistaskólinn í Reykjavík<br>
+      Graphic Design BA 2020, The Royal Academy of Art, The Hague
       <br><br>
       <span class="out-on-mobile"><i>Work experience</i><br>
-      Internship at Somalgors74 / Curdin Tones<br>
       Web building / graphic design for Flóra útgáfa<br>
+      Internship at Somalgors74 / Curdin Tones<br>
       Portfolio website for photographer Io Alexa Sivertsen<br><br></span>
       <!--<i>Experties</i><br>
       Webdesign<br><br>-->
@@ -310,6 +318,7 @@
 	<img class="smallPic" alt="mynd" src="igms/secret/small.png" on:click={togglesecret} on:click="{() => expand = !expand}">
 	<img class="smallPic larger" alt="mynd" src="igms/musicBook/4.png" on:click={togglemusicbook} on:click="{() => expand = !expand}">
 	<img class="smallPic" alt="mynd" src="igms/corruptedspace/smaller.jpg" on:click={togglecorruptedspace} on:click="{() => expand = !expand}">
+  <img class="smallPic" alt="mynd" src="igms/evublad/evublad-spreads0.jpg" on:click={toggleevublad} on:click="{() => expand = !expand}">
 	<img class="smallPic" alt="mynd" src="igms/familiarfaces/small.jpg" on:click={togglefamiliarfaces} on:click="{() => expand = !expand}">
     <img class="smallPic" alt="mynd" style="max-width: 250px;" src="igms/litabok/small.png" on:click={togglelitabok} on:click="{() => expand = !expand}">
 	<img class="smallPic" alt="mynd" src="igms/trash/small.png" on:click={toggletrash} on:click="{() => expand = !expand}">
@@ -332,27 +341,16 @@
 	    <img class="mediumPic" alt="mynd" src="igms/undefined-teikningar/ulines.png">
 	    <img class="mediumPic" alt="mynd" src="igms/undefined-teikningar/upprodun3rettmeddrasli2.jpg">
 	    <img class="mediumPic" alt="mynd" src="igms/undefined-undefined/organo.jpg">
-	    <img class="mediumPic" alt="mynd" src="igms/undefined-ljosmyndir/P1150392.JPG">
-	    <img class="mediumPic" alt="mynd" src="igms/undefined-ljosmyndir/P1050540.JPG">
-	    <!--<img class="mediumPic" alt="mynd" src="igms/undefined-ljosmyndir/P1150285.JPG">-->
-	    <img class="mediumPic" alt="mynd" src="igms/undefined-ljosmyndir/prent f fólk379.jpg">
-	    <!--<img class="mediumPic" alt="mynd" src="igms/undefined-ljosmyndir/IMG_7173.JPG">-->
-	    <!--<img class="mediumPic" alt="mynd" src="igms/undefined-ljosmyndir/prent f fólk3106.jpg">-->
-	    <img class="mediumPic" alt="mynd" src="igms/undefined-posters/otherPoster.png">
-	    <img class="mediumPic" alt="mynd" src="igms/undefined-teikningar/teikning1.jpg">
-	    <img class="mediumPic" alt="mynd" src="igms/undefined-teikningar/teikning2.jpg">
-	    <img class="mediumPic" alt="mynd" src="igms/undefined-teikningar/teikning3.jpg">
-	    <img class="mediumPic" alt="mynd" style="border-radius: 120px;" src="igms/undefined-undefined/_.jpg">
-	    <img class="mediumPic" alt="mynd" src="igms/undefined-posters/2.png">
-	    <img class="mediumPic" alt="mynd" src="igms/undefined-undefined/prent f fólk374.jpg">
-	    <img class="mediumPic" alt="mynd" src="igms/undefined-undefined/prent f fólk375.jpg">
+	    <img class="mediumPic" alt="mynd" src="igms/undefined-posters/2.jpg">
+	    <img class="mediumPic" alt="mynd" src="igms/undefined-undefined/toomuchtoseelevel.jpg">
+	    <img class="mediumPic" alt="mynd" src="igms/undefined-undefined/aproverb.jpg">
 	    <!--<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/1tvenna.png">-->
 	    <!--<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/mynd12.png">-->
 	    <!--<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/blubb_Page_06.jpg">-->
 	    <img class="mediumPic" alt="mynd" src="igms/undefined-undefined/blubb_Page_14b.jpg">
 	    <!--<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/blubb_Page_16.jpg">-->
 	    <!--<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/blubb_Page_19.jpg">-->
-	    <img class="mediumPic" alt="mynd" src="igms/undefined-undefined/5utgafa-ut.png">
+	    <img class="mediumPic" alt="mynd" src="igms/undefined-undefined/5utgafa-ut.jpg">
 	    <!--<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/prufur-31.gif">-->
 	    <!--<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/typoblack.png">-->
 	    <!--<img class="mediumPic" alt="mynd" src="igms/cali/small.jpg">-->
@@ -360,20 +358,45 @@
 	    <!--<img class="mediumPic" alt="mynd" alt="mynd" src="igms/cali/cali2.jpg">-->
 	    <img class="mediumPic" alt="mynd" src="igms/cali/cali3.jpg">
 	    <!--<img class="mediumPic" alt="mynd" src="igms/cali/cali4.jpg">-->
-	    <img class="mediumPic" alt="mynd" src="igms/undefined-undefined/baby.png">
-	    <img class="mediumPic" alt="mynd" src="igms/undefined-undefined/5red2.png">
+	    <img class="mediumPic" alt="mynd" src="igms/undefined-undefined/smallbaby.png">
+	    <img class="mediumPic" alt="mynd" src="igms/undefined-undefined/5red1.png">
 	    <img class="mediumPic" alt="mynd" src="igms/undefined-undefined/ok.gif">
-	    <img class="mediumPic" alt="mynd" src="igms/undefined-teikningar/Scan 34.jpg">
-	    <img class="mediumPic" alt="mynd" style="max-width: 30vw;" src="igms/undefined-posters/KABKPuppyParade2.jpg">
+      <img class="mediumPic" alt="mynd" src="igms/undefined-undefined/mynd12.png">
+	    <!--<img class="mediumPic" alt="mynd" src="igms/undefined-teikningar/bluelines.jpg">-->
+	    <img class="mediumPic" alt="mynd" style="max-width: 30vw;" src="igms/undefined-posters/KABKPuppyParade.jpg">
+      <img class="mediumPic" alt="mynd" src="igms/undefined-undefined/typography.jpg">
 	    <!--<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/blom2b.jpg">-->
-	    <img class="mediumPic" alt="mynd" src="igms/undefined-undefined/blomnytt.jpg">
-	    <img class="mediumPic" alt="mynd" src="igms/undefined-undefined/IMG_1856.JPG">
+      <!--<img class="mediumPic" alt="mynd" src="igms/undefined-teikningar/fruma.jpg">-->
+      <img class="mediumPic" alt="mynd" src="igms/undefined-undefined/5web.jpg">
+	    <img class="mediumPic" alt="mynd" src="igms/undefined-undefined/skoh.jpg">
 	    <img class="mediumPic" alt="mynd" src="igms/undefined-undefined/rammi.jpg">
 	    <img class="mediumPic" alt="mynd" style="max-width: 30vw;" src="igms/undefined-undefined/spurn.png">
+      <img class="mediumPic" alt="mynd" src="igms/undefined-undefined/blomnytt2.jpg">
+      <img class="mediumPic" alt="mynd" src="igms/undefined-undefined/mamma.jpg">
 	    <img class="mediumPic" alt="mynd" src="igms/undefined-undefined/oohnoo.gif">
-	    <img class="mediumPic" alt="mynd" src="igms/undefined-undefined/5web.png">
 	    <img class="mediumPic" alt="mynd" src="igms/undefined-undefined/front.png">
-	    <img class="mediumPic" alt="mynd" src="igms/undefined-undefined/mamma.jpg">
+      <!--<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/smellt-drawing.jpg">-->
+      <img class="mediumPic" alt="mynd" src="igms/undefined-undefined/display1.jpg">
+      <img class="mediumPic" alt="mynd" src="igms/undefined-undefined/display2.jpg">
+      <img class="mediumPic" alt="mynd" src="igms/undefined-undefined/display3.jpg">
+      <img class="mediumPic" alt="mynd" src="igms/undefined-ljosmyndir/tschlin.jpg">
+      <img class="mediumPic" alt="mynd" src="igms/undefined-ljosmyndir/simiafjalli.jpg">
+      <!--<img class="mediumPic" alt="mynd" src="igms/undefined-ljosmyndir/P1150285.JPG">-->
+      <img class="mediumPic" alt="mynd" src="igms/undefined-ljosmyndir/fjall.jpg">
+      <!--<img class="mediumPic" alt="mynd" src="igms/undefined-ljosmyndir/IMG_7173.JPG">-->
+      <!--<img class="mediumPic" alt="mynd" src="igms/undefined-ljosmyndir/prent f fólk3106.jpg">-->
+      <img class="mediumPic" alt="mynd" src="igms/undefined-posters/otherPoster.jpg">
+      <img class="mediumPic" alt="mynd" src="igms/undefined-teikningar/teikning1.jpg">
+      <img class="mediumPic" alt="mynd" src="igms/undefined-teikningar/teikning2.jpg">
+      <img class="mediumPic" alt="mynd" src="igms/undefined-teikningar/teikning3.jpg">
+      <img class="mediumPic" alt="mynd" style="border-radius: 120px;" src="igms/undefined-undefined/_.jpg">
+      <img class="mediumPic" alt="mynd" src="igms/undefined-web/7.jpg">
+      <img class="mediumPic" alt="mynd" src="igms/undefined-undefined/15.png">
+      <img class="mediumPic" alt="mynd" src="igms/undefined-undefined/14.png">
+      <!--<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/13.png">-->
+      <img class="mediumPic" alt="mynd" src="igms/undefined-undefined/1.png">
+      <img class="mediumPic" alt="mynd" src="igms/undefined-undefined/aSmalltable.png">
+      <br><br><br><br><br><br>
     {/if}
 
     
@@ -416,7 +439,7 @@
   	margin-bottom: 100px;
   }
   .line:after {
-  	content: 'OTHER / UNPUBLISHED / UNFINISHED / UNDEFINED';
+  	content: 'OTHER / UNPUBLISHED / UNFINISHED / UNDEFINED / UNREFINED';
   	position: absolute;
   	width: 100%;
   	height: auto;

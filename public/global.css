@@ -305,7 +305,7 @@ a {color: blue; font-style: italic;}
 
 
 .smallPic {
-  opacity: /*0.4*/ .8;
+  opacity: /*0.4 .8*/ 1;
   margin-bottom: 8px;
   margin-top: 8px;
   margin-left: 10px;
@@ -328,7 +328,7 @@ a {color: blue; font-style: italic;}
   filter: grayscale(0);
 }
 .mediumPic {
-  opacity: /*0.4*/ .8;
+  opacity: /*0.4 .8*/ 1;
   margin-bottom: 8px;
   margin-top: 8px;
   margin-left: 10px;
