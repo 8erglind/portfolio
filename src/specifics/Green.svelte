@@ -31,7 +31,7 @@
 	<!--<img class="img smaller portfolio-item" alt="mynd" src="igms/thesis/mobile1.jpg" />-->
 	<img class="img smaller portfolio-item" alt="mynd" src="igms/thesis/mobile2.jpg" />
 	<img class="img smaller portfolio-item" alt="mynd" src="igms/thesis/mobile3.jpg" /><br>
-	<img class="img smaller portfolio-item" alt="mynd" src="igms/thesis/mobile4.jpg" />
+	<!--<img class="img smaller portfolio-item" alt="mynd" src="igms/thesis/mobile4.jpg" />-->
 	<img class="img smaller portfolio-item" alt="mynd" src="igms/thesis/mobile5.jpg" />
 	<img class="img smaller portfolio-item" alt="mynd" src="igms/thesis/mobile6.jpg" />
 	<br><br><br><br><br><br><br><br>

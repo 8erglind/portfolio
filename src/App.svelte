@@ -72,7 +72,8 @@
 	//	Main = true;
 	//}
 
-	const toggleonourowntime = () => { frontscreen = false; onourowntime = true; green = false; viv = false; portfolioio = false; typoposters = false; secret = false; sortedplastic = false; musicposters = false; timatal = false; tools = false; musicbook = false; corruptedspace = false; oilbuddies = false; plastica = false; familiarfaces = false; litabok = false; trash = false; likamar = false; oeb = false; beauimg = false;  bread = false; flora = false; breadmag = false; evublad = false;}
+	//const toggleother = () => { other = true;}
+  const toggleonourowntime = () => { frontscreen = false; onourowntime = true; green = false; viv = false; portfolioio = false; typoposters = false; secret = false; sortedplastic = false; musicposters = false; timatal = false; tools = false; musicbook = false; corruptedspace = false; oilbuddies = false; plastica = false; familiarfaces = false; litabok = false; trash = false; likamar = false; oeb = false; beauimg = false;  bread = false; flora = false; breadmag = false; evublad = false;}
 	const togglegreen = () => { frontscreen = false; onourowntime = false; green = true; viv = false; portfolioio = false; typoposters = false; secret = false; sortedplastic = false; musicposters = false; timatal = false; tools = false; musicbook = false; corruptedspace = false; oilbuddies = false; plastica = false; familiarfaces = false; litabok = false; trash = false; likamar = false; oeb = false; beauimg = false;  bread = false; flora = false; breadmag = false; evublad = false;}
 	const toggleviv = () => { frontscreen = false; onourowntime = false; green = false; viv = true; portfolioio = false; typoposters = false; secret = false; sortedplastic = false; musicposters = false; timatal = false; tools = false; musicbook = false; corruptedspace = false; oilbuddies = false; plastica = false; familiarfaces = false; litabok = false; trash = false; likamar = false; oeb = false; beauimg = false;  bread = false; flora = false; breadmag = false; evublad = false;}
 	const toggleportfolioio = () => { frontscreen = false; onourowntime = false; green = false; viv = false; portfolioio = true; typoposters = false; secret = false; sortedplastic = false; musicposters = false; timatal = false; tools = false; musicbook = false; corruptedspace = false; oilbuddies = false; plastica = false; familiarfaces = false; litabok = false; trash = false; likamar = false; oeb = false; beauimg = false;  bread = false; flora = false; breadmag = false; evublad = false;}
@@ -99,10 +100,342 @@
 
 
 
+
+  let PIConourowntime = true;
+  let PICgreen = true;
+  let PICviv = true;
+  let PICtypoposters = true;
+  let PICsecret = true;
+  let PICportfolioio = true;
+  let PICsortedplastic = true;
+  let PICmusicposters = true;
+  let PICtimatal = true;
+  let PICtools = true;
+  let PICtrash = true;
+  let PICmusicbook = true;
+  let PICcorruptedspace = true;
+  let PICoilbuddies = true;
+  let PIClitabok = true;
+  let PICplastica = true;
+  let PICfamiliarfaces = true;
+  let PIClikamar = true;
+  let PICoeb = true;
+  let PICbeauimg = true;
+  let PICbread = true;
+  let PICflora = true;
+  let PICbreadmag = true;
+  let PICevublad = true;
+  let PICsomalgors = true;
+
+  let PICcalendar = true;
+  let PICorgano = true;
+  let PICbeyond = true;
+  let PICtoomuch = true;
+  let PICproverb = true;
+  let PICpsdmynd = true;
+  let PICfloraA = true;
+  let PICcali = true;
+  let PICbaby = true;
+  let PICfimma = true;
+  let PICleturgif = true;
+  let PICpuppy = true;
+  let PICtypobook = true;
+  let PICbuyt = true;
+  let PICshu = true;
+  let PICrammi = true;
+  let PICspurn = true;
+  let PICmalverk = true;
+  let PICflottabok = true;
+  let PICljosmynd = true;
+  let PICegoposter = true;
+  let PICdrawing = true;
+  let PICbritney = true;
+  let PICbrandalism = true;
+  let PICegobook = true;
+  let PICmen = true;
+
+  const toggleWEB = () => { 
+    PICtimatal = false; 
+    PICsecret = false; 
+    PICviv = false; 
+    PICtypoposters = false; 
+    PICmusicposters = false; 
+    PICfamiliarfaces = false; 
+    PIClitabok = false; 
+    PICtrash = false; 
+    PIClikamar = false;
+    PICbreadmag = false; 
+    PICbeauimg = false; 
+    PICevublad = false;  
+    PICbread = false; 
+    PIConourowntime = true; 
+    PICgreen = true; 
+    PICportfolioio = true; 
+    PICsortedplastic = true; 
+    PICtools = false; 
+    PICmusicbook = false; 
+    PICcorruptedspace = false; 
+    PICoilbuddies = false; 
+    PICplastica = true; PICoeb = true; 
+    PICflora = true; 
+    PICsomalgors = true;
+
+    PICcalendar = false;
+    PICorgano = true;
+    PICbeyond = false;
+    PICtoomuch = false;
+    PICproverb = false;
+    PICpsdmynd = false;
+    PICfloraA = false;
+    PICcali = false;
+    PICbaby = false;
+    PICfimma = false;
+    PICleturgif = false;
+    PICpuppy = false;
+    PICtypobook = false;
+    PICbuyt = true;
+    PICshu = false;
+    PICrammi = false;
+    PICspurn = false;
+    PICmalverk = false;
+    PICflottabok = false;
+    PICljosmynd = false;
+    PICegoposter = false;
+    PICdrawing = false;
+    PICbritney = true;
+    PICbrandalism = false;
+    PICegobook = false;
+    PICmen = false;
+  }
+  const togglePRINT = () => { 
+    PICflora = false; 
+    PIConourowntime = false; 
+    PICgreen = true; 
+    PICviv = true; 
+    PICportfolioio = false; 
+    PICtypoposters = true; 
+    PICsecret = true; 
+    PICsortedplastic = true; 
+    PICmusicposters = true; 
+    PICtimatal = true; 
+    PICtools = true; 
+    PICmusicbook = true; 
+    PICcorruptedspace = true; 
+    PICoilbuddies = false; 
+    PICplastica = false; 
+    PICfamiliarfaces = true; 
+    PIClitabok = true; 
+    PICtrash = true; 
+    PIClikamar = false; 
+    PICoeb = false; 
+    PICbeauimg = true; 
+    PICbread = true; 
+    PICbreadmag = true; 
+    PICevublad = true; 
+    PICsomalgors = true;
+
+    PICcalendar = false;
+    PICorgano = false;
+    PICbeyond = true;
+    PICtoomuch = true;
+    PICproverb = true;
+    PICpsdmynd = false;
+    PICfloraA = false;
+    PICcali = true;
+    PICbaby = false;
+    PICfimma = false;
+    PICleturgif = false;
+    PICpuppy = false;
+    PICtypobook = true;
+    PICbuyt = false;
+    PICshu = false;
+    PICrammi = true;
+    PICspurn = false;
+    PICmalverk = false;
+    PICflottabok = true;
+    PICljosmynd = false;
+    PICegoposter = true;
+    PICdrawing = false;
+    PICbritney = false;
+    PICbrandalism = true;
+    PICegobook = true;
+    PICmen = false;
+  }
+  const toggleVIDEO = () => { 
+    PIConourowntime = false; 
+    PICgreen = true; 
+    PICviv = true; 
+    PICportfolioio = false; 
+    PICtypoposters = false; 
+    PICsecret = false; 
+    PICsortedplastic = false; 
+    PICmusicposters = false; 
+    PICtimatal = false; 
+    PICtools = false; 
+    PICmusicbook = true; 
+    PICcorruptedspace = true; 
+    PICoilbuddies = true; 
+    PICplastica = false; 
+    PICfamiliarfaces = true; 
+    PIClitabok = false; 
+    PICtrash = false; 
+    PIClikamar = false; 
+    PICoeb = false; 
+    PICbeauimg = false; 
+    PICbread = false; 
+    PICflora = false; 
+    PICbreadmag = false; 
+    PICevublad = false; 
+    PICsomalgors = false;
+
+    PICcalendar = false;
+    PICorgano = false;
+    PICbeyond = false;
+    PICtoomuch = false;
+    PICproverb = false;
+    PICpsdmynd = false;
+    PICfloraA = false;
+    PICcali = false;
+    PICbaby = false;
+    PICfimma = false;
+    PICleturgif = false;
+    PICpuppy = false;
+    PICtypobook = false;
+    PICbuyt = false;
+    PICshu = false;
+    PICrammi = false;
+    PICspurn = false;
+    PICmalverk = false;
+    PICflottabok = false;
+    PICljosmynd = false;
+    PICegoposter = false;
+    PICdrawing = false;
+    PICbritney = false;
+    PICbrandalism = false;
+    PICegobook = false;
+    PICmen = false;
+  }
+  const toggleOTHER = () => { 
+    PICflora = false; 
+    PIConourowntime = false; 
+    PICgreen = true; 
+    PICviv = false; 
+    PICportfolioio = false; 
+    PICtypoposters = false; 
+    PICsecret = false; 
+    PICsortedplastic = false; 
+    PICmusicposters = true; 
+    PICtimatal = false; 
+    PICtools = false; 
+    PICmusicbook = false; 
+    PICcorruptedspace = false; 
+    PICoilbuddies = false; 
+    PICplastica = false; 
+    PICfamiliarfaces = false; 
+    PIClitabok = true; 
+    PICtrash = true; 
+    PIClikamar = true; 
+    PICoeb = true; 
+    PICbeauimg = true; 
+    PICbread = true; 
+    PICbreadmag = false; 
+    PICevublad = false; 
+    PICsomalgors = false;
+
+    PICcalendar = false;
+    PICorgano = false;
+    PICbeyond = false;
+    PICtoomuch = false;
+    PICproverb = false;
+    PICpsdmynd = true;
+    PICfloraA = true;
+    PICcali = false;
+    PICbaby = true;
+    PICfimma = true;
+    PICleturgif = true;
+    PICpuppy = false;
+    PICtypobook = false;
+    PICbuyt = false;
+    PICshu = true;
+    PICrammi = true;
+    PICspurn = true;
+    PICmalverk = true;
+    PICflottabok = false;
+    PICljosmynd = true;
+    PICegoposter = false;
+    PICdrawing = true;
+    PICbritney = false;
+    PICbrandalism = false;
+    PICegobook = false;
+    PICmen = true;
+  }
+  const toggleALL = () => { 
+    PIConourowntime = true; 
+    PICgreen = true; 
+    PICviv = true; 
+    PICportfolioio = true; 
+    PICtypoposters = true; 
+    PICsecret = true; 
+    PICsortedplastic = true; 
+    PICmusicposters = true; 
+    PICtimatal = true; 
+    PICtools = true; 
+    PICmusicbook = true; 
+    PICcorruptedspace = true; 
+    PICoilbuddies = true; 
+    PICplastica = true; 
+    PICfamiliarfaces = true; 
+    PIClitabok = true; 
+    PICtrash = true; 
+    PIClikamar = true; 
+    PICoeb = true; 
+    PICbeauimg = true; 
+    PICbread = true; 
+    PICflora = true; 
+    PICbreadmag = true; 
+    PICevublad = true; 
+    PICsomalgors = true;
+
+    PICcalendar = true;
+    PICorgano = true;
+    PICbeyond = true;
+    PICtoomuch = true;
+    PICproverb = true;
+    PICpsdmynd = true;
+    PICfloraA = true;
+    PICcali = true;
+    PICbaby = true;
+    PICfimma = true;
+    PICleturgif = true;
+    PICpuppy = true;
+    PICtypobook = true;
+    PICbuyt = true;
+    PICshu = true;
+    PICrammi = true;
+    PICspurn = true;
+    PICmalverk = true;
+    PICflottabok = true;
+    PICljosmynd = true;
+    PICegoposter = true;
+    PICdrawing = true;
+    PICbritney = true;
+    PICbrandalism = true;
+    PICegobook = true;
+    PICmen = true;
+  }
+
+
+
 </script>
 
-<!--<Header></Header>-->
 
+<div class="buttonWrapper">
+  <div class="button" on:click={toggleWEB}>WEB</div>
+  <div class="button" on:click={togglePRINT}>PRINT</div>
+  <div class="button" on:click={toggleVIDEO}>VIDEO</div>
+  <div class="button" on:click={toggleOTHER}>OTHER</div>
+  <div class="button" on:click={toggleALL}>ALL</div>
+</div>
 
 
 
@@ -296,106 +629,103 @@
     <br><br>
     
     
-    <img class="smallPic" alt="mynd" src="igms/flora/small.png" on:click={toggleflora} on:click="{() => expand = !expand}">
-    <img class="smallPic" alt="mynd" src="igms/onourowntime/small.png" on:click={toggleonourowntime} on:click="{() => expand = !expand}">
-    <img class="smallPic" alt="mynd" src="igms/thesis/small.jpg" on:click={togglegreen} on:click="{() => expand = !expand}">
-    <img class="smallPic" alt="mynd" src="igms/viv/small.png" on:click={toggleviv} on:click="{() => expand = !expand}">
-    <img class="smallPic" alt="mynd" src="igms/bread/small.jpg" on:click={togglebread} on:click="{() => expand = !expand}">
-    <img class="smallPic" alt="mynd" src="igms/bread/breadmag.jpg" on:click={togglebreadmag} on:click="{() => expand = !expand}">
-    <img class="smallPic" alt="mynd" src="igms/io/small.png" on:click={toggleportfolioio} on:click="{() => expand = !expand}">
-    <img class="smallPic" alt="mynd" src="igms/beauimg/small.jpg" on:click={togglebeauimg} on:click="{() => expand = !expand}">
-    <img class="smallPic" alt="mynd" src="igms/typoPosters/3.jpg" on:click={toggletypoposters} on:click="{() => expand = !expand}">
+    {#if PICflora}<img class="smallPic" alt="mynd" src="igms/flora/small.png" on:click={toggleflora} on:click="{() => expand = !expand}">{/if}
+    {#if PIConourowntime}<img class="smallPic" alt="mynd" src="igms/onourowntime/small.png" on:click={toggleonourowntime} on:click="{() => expand = !expand}">{/if}
+    {#if PICgreen}<img class="smallPic" alt="mynd" src="igms/thesis/small.jpg" on:click={togglegreen} on:click="{() => expand = !expand}">{/if}
+    {#if PICviv}<img class="smallPic" alt="mynd" src="igms/viv/small.png" on:click={toggleviv} on:click="{() => expand = !expand}">{/if}
+    {#if PICbread}<img class="smallPic" alt="mynd" src="igms/bread/small.jpg" on:click={togglebread} on:click="{() => expand = !expand}">{/if}
+    {#if PICbreadmag}<img class="smallPic" alt="mynd" src="igms/bread/breadmag.jpg" on:click={togglebreadmag} on:click="{() => expand = !expand}">{/if}
+    {#if PICportfolioio}<img class="smallPic" alt="mynd" src="igms/io/small.png" on:click={toggleportfolioio} on:click="{() => expand = !expand}">{/if}
+    {#if PICbeauimg}<img class="smallPic" alt="mynd" src="igms/beauimg/small.jpg" on:click={togglebeauimg} on:click="{() => expand = !expand}">{/if}
+    {#if PICtypoposters}<img class="smallPic" alt="mynd" src="igms/typoPosters/3.jpg" on:click={toggletypoposters} on:click="{() => expand = !expand}">{/if}
     <!--<img class="smallPic" alt="mynd" src="igms/secret/small.png" on:click={togglesecret} on:click="{() => expand = !expand}">-->
-    <img class="smallPic" alt="mynd" src="igms/oeb/small.png" on:click={toggleoeb} on:click="{() => expand = !expand}">
-    <img class="smallPic" alt="mynd" src="igms/sortedPlastic/small.png" on:click={togglesortedplastic} on:click="{() => expand = !expand}">
-    <img class="smallPic" alt="mynd" src="igms/musicPosters/small.jpg" on:click={togglemusicposters} on:click="{() => expand = !expand}">
-    <img class="smallPic" alt="mynd" src="igms/timatal/small.png" on:click={toggletimatal} on:click="{() => expand = !expand}">
-    <img class="smallPic" alt="mynd" src="igms/tools/tools.png" on:click={toggletools} on:click="{() => expand = !expand}">
+    {#if PICoeb}<img class="smallPic" alt="mynd" src="igms/oeb/small.png" on:click={toggleoeb} on:click="{() => expand = !expand}">{/if}
+    {#if PICsortedplastic}<img class="smallPic" alt="mynd" src="igms/sortedPlastic/small.png" on:click={togglesortedplastic} on:click="{() => expand = !expand}">{/if}
+    {#if PICmusicposters}<img class="smallPic" alt="mynd" src="igms/musicPosters/small.jpg" on:click={togglemusicposters} on:click="{() => expand = !expand}">{/if}
+    {#if PICtimatal}<img class="smallPic" alt="mynd" src="igms/timatal/small.png" on:click={toggletimatal} on:click="{() => expand = !expand}">{/if}
+    {#if PICtools}<img class="smallPic" alt="mynd" src="igms/tools/tools.png" on:click={toggletools} on:click="{() => expand = !expand}">{/if}
     <!--<img class="smallPic" alt="mynd" src="igms/body/body.png">-->
-    <img class="smallPic" alt="mynd" src="igms/somalgors74/small.jpg">
-	<img class="smallPic" alt="mynd" src="igms/typedesign/svhv35.jpg" on:click={togglelikamar} on:click="{() => expand = !expand}">
-	<!--<img class="smallPic" alt="mynd" src="igms/cali/small.jpg"> OTHER -->
-	<img class="smallPic" alt="mynd" src="igms/secret/small.png" on:click={togglesecret} on:click="{() => expand = !expand}">
-	<img class="smallPic larger" alt="mynd" src="igms/musicBook/4.png" on:click={togglemusicbook} on:click="{() => expand = !expand}">
-	<img class="smallPic" alt="mynd" src="igms/corruptedspace/smaller.jpg" on:click={togglecorruptedspace} on:click="{() => expand = !expand}">
-  <img class="smallPic" alt="mynd" src="igms/evublad/evublad-spreads0.jpg" on:click={toggleevublad} on:click="{() => expand = !expand}">
-	<img class="smallPic" alt="mynd" src="igms/familiarfaces/small.jpg" on:click={togglefamiliarfaces} on:click="{() => expand = !expand}">
-    <img class="smallPic" alt="mynd" style="max-width: 250px;" src="igms/litabok/small.png" on:click={togglelitabok} on:click="{() => expand = !expand}">
-	<img class="smallPic" alt="mynd" src="igms/trash/small.png" on:click={toggletrash} on:click="{() => expand = !expand}">
-	
+    {#if PICsomalgors}<img class="smallPic" alt="mynd" src="igms/somalgors74/small.jpg">{/if}
+	  {#if PIClikamar}<img class="smallPic" alt="mynd" src="igms/typedesign/svhv35.jpg" on:click={togglelikamar} on:click="{() => expand = !expand}">{/if}
+	  <!--<img class="smallPic" alt="mynd" src="igms/cali/small.jpg"> OTHER -->
+	  {#if PICsecret}<img class="smallPic" alt="mynd" src="igms/secret/small.png" on:click={togglesecret} on:click="{() => expand = !expand}">{/if}
+	  {#if PICmusicbook}<img class="smallPic larger" alt="mynd" src="igms/musicBook/4.png" on:click={togglemusicbook} on:click="{() => expand = !expand}">{/if}
+  	{#if PICcorruptedspace}<img class="smallPic" alt="mynd" src="igms/corruptedspace/smaller.jpg" on:click={togglecorruptedspace} on:click="{() => expand = !expand}">{/if}
+    {#if PICevublad}<img class="smallPic" alt="mynd" src="igms/evublad/evublad-spreads0.jpg" on:click={toggleevublad} on:click="{() => expand = !expand}">{/if}
+  	{#if PICfamiliarfaces}<img class="smallPic" alt="mynd" src="igms/familiarfaces/small.jpg" on:click={togglefamiliarfaces} on:click="{() => expand = !expand}">{/if}
+    {#if PIClitabok}<img class="smallPic" alt="mynd" style="max-width: 250px;" src="igms/litabok/small.png" on:click={togglelitabok} on:click="{() => expand = !expand}">{/if}
+  	{#if PICtrash}<img class="smallPic" alt="mynd" src="igms/trash/small.png" on:click={toggletrash} on:click="{() => expand = !expand}">{/if}
     <!--<img class="smallPic" alt="mynd" src="igms/alterego/small.png"> OTHER -->
     <!--<img class="smallPic" alt="mynd" src="igms/grad/small.png">-->
-    
     <!--<img class="smallPic" alt="mynd" src="igms/buyt/small.png"> OTHER -->
     <!--<img class="smallPic" alt="mynd" src="igms/faces/small.png"> OTHER -->
-    <img class="smallPic" alt="mynd" src="igms/plastica/small2.png" on:click={toggleplastica} on:click="{() => expand = !expand}">
-	
-    <img class="smallPic" alt="mynd" style="border-radius: 50px;" src="igms/oilbuddies/small.png" on:click={toggleoilbuddies} on:click="{() => expand = !expand}">
+    {#if PICplastica}<img class="smallPic" alt="mynd" src="igms/plastica/small2.png" on:click={toggleplastica} on:click="{() => expand = !expand}">{/if}
+    {#if PICoilbuddies}<img class="smallPic" alt="mynd" style="border-radius: 50px;" src="igms/oilbuddies/small.png" on:click={toggleoilbuddies} on:click="{() => expand = !expand}">{/if}
 
 
 
-    {#if other}
+    
 	    <div class="line"></div>
-		
+		{#if other}
 	    <!--<img class="mediumPic" src="igms/undefined-teikningar/upprodun2.jpg">-->
-	    <img class="mediumPic" alt="mynd" src="igms/undefined-teikningar/ulines.png">
-	    <img class="mediumPic" alt="mynd" src="igms/undefined-teikningar/upprodun3rettmeddrasli2.jpg">
-	    <img class="mediumPic" alt="mynd" src="igms/undefined-undefined/organo.jpg">
-	    <img class="mediumPic" alt="mynd" src="igms/undefined-posters/2.jpg">
-	    <img class="mediumPic" alt="mynd" src="igms/undefined-undefined/toomuchtoseelevel.jpg">
-	    <img class="mediumPic" alt="mynd" src="igms/undefined-undefined/aproverb.jpg">
+	    {#if PICcalendar}<img class="mediumPic" alt="mynd" src="igms/undefined-teikningar/ulines.png">{/if}
+	    {#if PICcalendar}<img class="mediumPic" alt="mynd" src="igms/undefined-teikningar/upprodun3rettmeddrasli2.jpg">{/if}
+	    {#if PICorgano}<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/organo.jpg">{/if}
+	    {#if PICbeyond}<img class="mediumPic" alt="mynd" src="igms/undefined-posters/2.jpg">{/if}
+	    {#if PICtoomuch}<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/toomuchtoseelevel.jpg">{/if}
+	    {#if PICproverb}<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/aproverb.jpg">{/if}
 	    <!--<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/1tvenna.png">-->
 	    <!--<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/mynd12.png">-->
 	    <!--<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/blubb_Page_06.jpg">-->
-	    <img class="mediumPic" alt="mynd" src="igms/undefined-undefined/blubb_Page_14b.jpg">
+	    {#if PICpsdmynd}<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/blubb_Page_14b.jpg">{/if}
 	    <!--<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/blubb_Page_16.jpg">-->
 	    <!--<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/blubb_Page_19.jpg">-->
-	    <img class="mediumPic" alt="mynd" src="igms/undefined-undefined/5utgafa-ut.jpg">
+	    {#if PICfloraA}<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/5utgafa-ut.jpg">{/if}
 	    <!--<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/prufur-31.gif">-->
 	    <!--<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/typoblack.png">-->
 	    <!--<img class="mediumPic" alt="mynd" src="igms/cali/small.jpg">-->
-	    <img class="mediumPic" alt="mynd" src="igms/cali/cali1.jpg">
+	    {#if PICcali}<img class="mediumPic" alt="mynd" src="igms/cali/cali1.jpg">{/if}
 	    <!--<img class="mediumPic" alt="mynd" alt="mynd" src="igms/cali/cali2.jpg">-->
-	    <img class="mediumPic" alt="mynd" src="igms/cali/cali3.jpg">
+	    {#if PICcali}<img class="mediumPic" alt="mynd" src="igms/cali/cali3.jpg">{/if}
 	    <!--<img class="mediumPic" alt="mynd" src="igms/cali/cali4.jpg">-->
-	    <img class="mediumPic" alt="mynd" src="igms/undefined-undefined/smallbaby.png">
-	    <img class="mediumPic" alt="mynd" src="igms/undefined-undefined/5red1.png">
-	    <img class="mediumPic" alt="mynd" src="igms/undefined-undefined/ok.gif">
-      <img class="mediumPic" alt="mynd" src="igms/undefined-undefined/mynd12.png">
+	    {#if PICbaby}<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/smallbaby.png">{/if}
+	    {#if PICfimma}<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/5red1.png">{/if}
+	    {#if PICleturgif}<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/ok.gif">{/if}
+      {#if PICpsdmynd}<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/mynd12.png">{/if}
 	    <!--<img class="mediumPic" alt="mynd" src="igms/undefined-teikningar/bluelines.jpg">-->
-	    <img class="mediumPic" alt="mynd" style="max-width: 30vw;" src="igms/undefined-posters/KABKPuppyParade.jpg">
-      <img class="mediumPic" alt="mynd" src="igms/undefined-undefined/typography.jpg">
+	    {#if PICpuppy}<img class="mediumPic" alt="mynd" style="max-width: 30vw;" src="igms/undefined-posters/KABKPuppyParade.jpg">{/if}
+      {#if PICtypobook}<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/typography.jpg">{/if}
 	    <!--<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/blom2b.jpg">-->
       <!--<img class="mediumPic" alt="mynd" src="igms/undefined-teikningar/fruma.jpg">-->
-      <img class="mediumPic" alt="mynd" src="igms/undefined-undefined/5web.jpg">
-	    <img class="mediumPic" alt="mynd" src="igms/undefined-undefined/skoh.jpg">
-	    <img class="mediumPic" alt="mynd" src="igms/undefined-undefined/rammi.jpg">
-	    <img class="mediumPic" alt="mynd" style="max-width: 30vw;" src="igms/undefined-undefined/spurn.png">
-      <img class="mediumPic" alt="mynd" src="igms/undefined-undefined/blomnytt2.jpg">
-      <img class="mediumPic" alt="mynd" src="igms/undefined-undefined/mamma.jpg">
-	    <img class="mediumPic" alt="mynd" src="igms/undefined-undefined/oohnoo.gif">
-	    <img class="mediumPic" alt="mynd" src="igms/undefined-undefined/front.png">
+      {#if PICbuyt}<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/5web.jpg">{/if}
+	    {#if PICshu}<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/skoh.jpg">{/if}
+	    {#if PICrammi}<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/rammi.jpg">{/if}
+	    {#if PICspurn}<img class="mediumPic" alt="mynd" style="max-width: 30vw;" src="igms/undefined-undefined/spurn.png">{/if}
+      {#if PICpsdmynd}<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/blomnytt2.jpg">{/if}
+      {#if PICmalverk}<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/mamma.jpg">{/if}
+	    {#if PICleturgif}<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/oohnoo.gif">{/if}
+	    {#if PICflottabok}<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/front.png">{/if}
       <!--<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/smellt-drawing.jpg">-->
-      <img class="mediumPic" alt="mynd" src="igms/undefined-undefined/display1.jpg">
-      <img class="mediumPic" alt="mynd" src="igms/undefined-undefined/display2.jpg">
-      <img class="mediumPic" alt="mynd" src="igms/undefined-undefined/display3.jpg">
-      <img class="mediumPic" alt="mynd" src="igms/undefined-ljosmyndir/tschlin.jpg">
-      <img class="mediumPic" alt="mynd" src="igms/undefined-ljosmyndir/simiafjalli.jpg">
+      {#if PICtypobook}<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/display1.jpg">{/if}
+      {#if PICtypobook}<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/display2.jpg">{/if}
+      {#if PICtypobook}<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/display3.jpg">{/if}
+      {#if PICljosmynd}<img class="mediumPic" alt="mynd" src="igms/undefined-ljosmyndir/tschlin.jpg">{/if}
+      {#if PICljosmynd}<img class="mediumPic" alt="mynd" src="igms/undefined-ljosmyndir/simiafjalli.jpg">{/if}
       <!--<img class="mediumPic" alt="mynd" src="igms/undefined-ljosmyndir/P1150285.JPG">-->
-      <img class="mediumPic" alt="mynd" src="igms/undefined-ljosmyndir/fjall.jpg">
+      {#if PICljosmynd}<img class="mediumPic" alt="mynd" src="igms/undefined-ljosmyndir/fjall.jpg">{/if}
       <!--<img class="mediumPic" alt="mynd" src="igms/undefined-ljosmyndir/IMG_7173.JPG">-->
       <!--<img class="mediumPic" alt="mynd" src="igms/undefined-ljosmyndir/prent f fólk3106.jpg">-->
-      <img class="mediumPic" alt="mynd" src="igms/undefined-posters/otherPoster.jpg">
-      <img class="mediumPic" alt="mynd" src="igms/undefined-teikningar/teikning1.jpg">
-      <img class="mediumPic" alt="mynd" src="igms/undefined-teikningar/teikning2.jpg">
-      <img class="mediumPic" alt="mynd" src="igms/undefined-teikningar/teikning3.jpg">
-      <img class="mediumPic" alt="mynd" style="border-radius: 120px;" src="igms/undefined-undefined/_.jpg">
-      <img class="mediumPic" alt="mynd" src="igms/undefined-web/7.jpg">
-      <img class="mediumPic" alt="mynd" src="igms/undefined-undefined/15.png">
-      <img class="mediumPic" alt="mynd" src="igms/undefined-undefined/14.png">
+      {#if PICegoposter}<img class="mediumPic" alt="mynd" src="igms/undefined-posters/otherPoster.jpg">{/if}
+      {#if PICdrawing}<img class="mediumPic" alt="mynd" src="igms/undefined-teikningar/teikning1.jpg">{/if}
+      {#if PICdrawing}<img class="mediumPic" alt="mynd" src="igms/undefined-teikningar/teikning2.jpg">{/if}
+      {#if PICdrawing}<img class="mediumPic" alt="mynd" src="igms/undefined-teikningar/teikning3.jpg">{/if}
+      {#if PICpsdmynd}<img class="mediumPic" alt="mynd" style="border-radius: 120px;" src="igms/undefined-undefined/_.jpg">{/if}
+      {#if PICbritney}<img class="mediumPic" alt="mynd" src="igms/undefined-web/7.jpg">{/if}
+      {#if PICbrandalism}<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/15.png">{/if}
+      {#if PICbrandalism}<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/14.png">{/if}
       <!--<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/13.png">-->
-      <img class="mediumPic" alt="mynd" src="igms/undefined-undefined/1.png">
-      <img class="mediumPic" alt="mynd" src="igms/undefined-undefined/aSmalltable.png">
+      {#if PICegobook}<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/1.png">{/if}
+      {#if PICmen}<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/aSmalltable.png">{/if}
       <br><br><br><br><br><br>
     {/if}
 

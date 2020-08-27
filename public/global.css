@@ -245,6 +245,30 @@ a {color: blue; font-style: italic;}
 
 
 
+
+.buttonWrapper {
+  position: fixed;
+  top: 10px;
+  right: 100px;
+  left: 50%;
+  display: inline;
+  text-align: center;
+  z-index: 9;
+}
+.button {
+  position: relative;
+  display: inline;
+  padding: 5px;
+  border: 1px dotted #027967;
+  margin-right: 2.5px;
+  margin-left: 2.5px;
+  cursor: pointer;
+}
+.button:hover {
+  border: 1px solid #027967;
+  background-color: #f7f6f2;}
+
+
 .container {
 	position: fixed;
 	top: 0px;
