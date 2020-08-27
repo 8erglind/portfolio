@@ -153,6 +153,7 @@
   let PICbrandalism = true;
   let PICegobook = true;
   let PICmen = true;
+  let PICalltmitt = true;
 
   const toggleWEB = () => { 
     PICtimatal = false; 
@@ -206,6 +207,7 @@
     PICbrandalism = false;
     PICegobook = false;
     PICmen = false;
+    PICalltmitt = true;
   }
   const togglePRINT = () => { 
     PICflora = false; 
@@ -260,6 +262,7 @@
     PICbrandalism = true;
     PICegobook = true;
     PICmen = false;
+    PICalltmitt = false;
   }
   const toggleVIDEO = () => { 
     PIConourowntime = false; 
@@ -314,6 +317,7 @@
     PICbrandalism = false;
     PICegobook = false;
     PICmen = true;
+    PICalltmitt = false;
   }
   const toggleOTHER = () => { 
     PICflora = false; 
@@ -368,6 +372,7 @@
     PICbrandalism = false;
     PICegobook = false;
     PICmen = true;
+    PICalltmitt = false;
   }
   const toggleALL = () => { 
     PIConourowntime = true; 
@@ -422,6 +427,7 @@
     PICbrandalism = true;
     PICegobook = true;
     PICmen = true;
+    PICalltmitt = true;
   }
 
 
@@ -719,6 +725,7 @@
       {#if PICdrawing}<img class="mediumPic" alt="mynd" src="igms/undefined-teikningar/teikning1.jpg">{/if}
       {#if PICdrawing}<img class="mediumPic" alt="mynd" src="igms/undefined-teikningar/teikning2.jpg">{/if}
       {#if PICdrawing}<img class="mediumPic" alt="mynd" src="igms/undefined-teikningar/teikning3.jpg">{/if}
+      {#if PICalltmitt}<img class="mediumPic" alt="mynd" src="igms/alltmitt/1.png">{/if}
       {#if PICpsdmynd}<img class="mediumPic" alt="mynd" style="border-radius: 120px;" src="igms/undefined-undefined/_.jpg">{/if}
       {#if PICbritney}<img class="mediumPic" alt="mynd" src="igms/undefined-web/7.jpg">{/if}
       {#if PICbrandalism}<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/15.png">{/if}
