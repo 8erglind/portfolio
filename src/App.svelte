@@ -652,7 +652,7 @@
     {#if PICtools}<img class="smallPic" alt="mynd" src="igms/tools/tools.png" on:click={toggletools} on:click="{() => expand = !expand}">{/if}
     <!--<img class="smallPic" alt="mynd" src="igms/body/body.png">-->
     {#if PICsomalgors}<img class="smallPic" alt="mynd" src="igms/somalgors74/small.jpg">{/if}
-	  {#if PIClikamar}<img class="smallPic" alt="mynd" src="igms/typedesign/svhv35.jpg" on:click={togglelikamar} on:click="{() => expand = !expand}">{/if}
+	  {#if PIClikamar}<img class="smallPic" alt="mynd" src="igms/typedesign/small.jpg" on:click={togglelikamar} on:click="{() => expand = !expand}">{/if}
 	  <!--<img class="smallPic" alt="mynd" src="igms/cali/small.jpg"> OTHER -->
 	  {#if PICsecret}<img class="smallPic" alt="mynd" src="igms/secret/small.png" on:click={togglesecret} on:click="{() => expand = !expand}">{/if}
 	  {#if PICmusicbook}<img class="smallPic larger" alt="mynd" src="igms/musicBook/4.png" on:click={togglemusicbook} on:click="{() => expand = !expand}">{/if}

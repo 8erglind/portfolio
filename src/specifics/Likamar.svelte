@@ -17,8 +17,8 @@
 
 	<img class="img portfolio-item smaller-two" alt="mynd" src="igms/typedesign/motionMobile.gif" />
 	<img class="img portfolio-item smaller-two " alt="mynd" src="igms/typedesign/motionMobileCgaedi.gif" />
-	<img class="img portfolio-item smaller-two" alt="mynd" src="igms/typedesign/svhv27.jpg" />
-	<img class="img portfolio-item smaller-two" alt="mynd" src="igms/typedesign/svhv35.jpg" />
+	<img class="img portfolio-item smaller-two" alt="mynd" src="igms/typedesign/svhv27b.jpg" />
+	<img class="img portfolio-item smaller-two" alt="mynd" src="igms/typedesign/svhv35b.jpg" />
 	
 	<br><br><br><br><br><br><br><br>
 </div>
