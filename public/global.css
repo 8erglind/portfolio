@@ -439,6 +439,13 @@ a {color: blue; font-style: italic;}
 }
 
 
+.menu {
+  padding: 9px;
+  bottom: -1px;
+  right: -1px;  
+}
+
+
 .out-on-desktop {
 	display: inline-block;
 	position: relative;
@@ -450,9 +457,13 @@ a {color: blue; font-style: italic;}
 
 .buttonWrapper {
   top: auto;
-  bottom: 10px;
+  bottom: 20px;
   right: 0px;
   left: 0px;
+}
+.button {
+  border-top: 1px dotted #027967;
+  padding: 10px;
 }
 
 
@@ -474,8 +485,8 @@ a {color: blue; font-style: italic;}
   margin-top: 5px;
   margin-left: 5px;
   margin-right: 5px;
-  max-width: 30vw;
-  max-height: 30vw;
+  max-width: 40vw !important;
+  max-height: 40vw;
   padding: 5px;
   border-radius: 0px;
 }
