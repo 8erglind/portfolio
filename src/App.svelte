@@ -127,7 +127,8 @@
   let PICevublad = true;
   let PICsomalgors = true;
 
-  let PICcalendar = true;
+  let PICcalendarA = true;
+  let PICcalendarB = true;
   let PICorgano = true;
   let PICbeyond = true;
   let PICtoomuch = true;
@@ -181,7 +182,8 @@
     PICflora = true; 
     PICsomalgors = true;
 
-    PICcalendar = false;
+    PICcalendarA = false;
+    PICcalendarB = false;
     PICorgano = true;
     PICbeyond = false;
     PICtoomuch = false;
@@ -236,7 +238,8 @@
     PICevublad = true; 
     PICsomalgors = true;
 
-    PICcalendar = false;
+    PICcalendarA = false;
+    PICcalendarB = true;
     PICorgano = false;
     PICbeyond = true;
     PICtoomuch = true;
@@ -291,7 +294,8 @@
     PICevublad = false; 
     PICsomalgors = false;
 
-    PICcalendar = false;
+    PICcalendarA = false;
+    PICcalendarB = false;
     PICorgano = false;
     PICbeyond = false;
     PICtoomuch = false;
@@ -346,7 +350,8 @@
     PICevublad = false; 
     PICsomalgors = false;
 
-    PICcalendar = false;
+    PICcalendarA = true;
+    PICcalendarB = false;
     PICorgano = false;
     PICbeyond = false;
     PICtoomuch = false;
@@ -401,7 +406,8 @@
     PICevublad = true; 
     PICsomalgors = true;
 
-    PICcalendar = true;
+    PICcalendarA = true;
+    PICcalendarB = true;
     PICorgano = true;
     PICbeyond = true;
     PICtoomuch = true;
@@ -674,8 +680,8 @@
 	    <div class="line"></div>
 		{#if other}
 	    <!--<img class="mediumPic" src="igms/undefined-teikningar/upprodun2.jpg">-->
-	    {#if PICcalendar}<img class="mediumPic" alt="mynd" src="igms/undefined-teikningar/ulines.png">{/if}
-	    {#if PICcalendar}<img class="mediumPic" alt="mynd" src="igms/undefined-teikningar/upprodun3rettmeddrasli2.jpg">{/if}
+	    {#if PICcalendarA}<img class="mediumPic" alt="mynd" src="igms/undefined-teikningar/ulines.png">{/if}
+	    {#if PICcalendarB}<img class="mediumPic" alt="mynd" src="igms/undefined-teikningar/upprodun3rettmeddrasli2.jpg">{/if}
 	    {#if PICorgano}<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/organo.jpg">{/if}
 	    {#if PICbeyond}<img class="mediumPic" alt="mynd" src="igms/undefined-posters/2.jpg">{/if}
 	    {#if PICtoomuch}<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/toomuchtoseelevel.jpg">{/if}
