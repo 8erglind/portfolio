@@ -661,11 +661,11 @@
 	  {#if PIClikamar}<img class="smallPic" alt="mynd" src="igms/typedesign/small.jpg" on:click={togglelikamar} on:click="{() => expand = !expand}">{/if}
 	  <!--<img class="smallPic" alt="mynd" src="igms/cali/small.jpg"> OTHER -->
 	  {#if PICsecret}<img class="smallPic" alt="mynd" src="igms/secret/small.png" on:click={togglesecret} on:click="{() => expand = !expand}">{/if}
-	  {#if PICmusicbook}<img class="smallPic larger" alt="mynd" src="igms/musicBook/4.png" on:click={togglemusicbook} on:click="{() => expand = !expand}">{/if}
+	  {#if PICmusicbook}<img class="smallPic" alt="mynd" style="max-width: 430px !important;" src="igms/musicBook/4.png" on:click={togglemusicbook} on:click="{() => expand = !expand}">{/if}
   	{#if PICcorruptedspace}<img class="smallPic" alt="mynd" src="igms/corruptedspace/smaller.jpg" on:click={togglecorruptedspace} on:click="{() => expand = !expand}">{/if}
     {#if PICevublad}<img class="smallPic" alt="mynd" src="igms/evublad/evublad-spreads0.jpg" on:click={toggleevublad} on:click="{() => expand = !expand}">{/if}
   	{#if PICfamiliarfaces}<img class="smallPic" alt="mynd" src="igms/familiarfaces/small.jpg" on:click={togglefamiliarfaces} on:click="{() => expand = !expand}">{/if}
-    {#if PIClitabok}<img class="smallPic" alt="mynd" style="max-width: 250px;" src="igms/litabok/small.png" on:click={togglelitabok} on:click="{() => expand = !expand}">{/if}
+    {#if PIClitabok}<img class="smallPic" alt="mynd" style="max-width: 230px;" src="igms/litabok/small.png" on:click={togglelitabok} on:click="{() => expand = !expand}">{/if}
   	{#if PICtrash}<img class="smallPic" alt="mynd" src="igms/trash/small.png" on:click={toggletrash} on:click="{() => expand = !expand}">{/if}
     <!--<img class="smallPic" alt="mynd" src="igms/alterego/small.png"> OTHER -->
     <!--<img class="smallPic" alt="mynd" src="igms/grad/small.png">-->
