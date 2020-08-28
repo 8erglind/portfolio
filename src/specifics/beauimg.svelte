@@ -15,8 +15,8 @@
 	<img class="img portfolio-item" alt="mynd" src="igms/beauimg/4.jpg" /><br>
 	<img class="img portfolio-item" alt="mynd" src="igms/beauimg/5.jpg" />
 	<img class="img portfolio-item" alt="mynd" src="igms/beauimg/6.jpg" />
-	<img class="img portfolio-item" alt="mynd" src="igms/beauimg/7.jpg" />
-	<img class="img portfolio-item" alt="mynd" src="igms/beauimg/8.jpg" />
+	<!--<img class="img portfolio-item" alt="mynd" src="igms/beauimg/7.jpg" />
+	<img class="img portfolio-item" alt="mynd" src="igms/beauimg/8.jpg" />-->
 	<img class="img portfolio-item" alt="mynd" src="igms/beauimg/9.jpg" />
 	<img class="img portfolio-item" alt="mynd" src="igms/beauimg/10.jpg" />
 	<img class="img portfolio-item" alt="mynd" src="igms/beauimg/11.jpg" /><br>
