@@ -16,7 +16,14 @@
 	    </div>
 	    <script src="https://player.vimeo.com/api/player.js"></script>
 	</div>
-	<img class="img" alt="mynd" src="igms/viv/poster.jpg" />
+	<br><br><br><br><br><br><br><br>
+	<img class="img" alt="mynd" src="igms/viv/poster.jpg" /><br>
+	<br><br><br><br><br><br><br><br>
+	<img class="img" alt="mynd" src="igms/viv/22B.jpg" />
+	<img class="img" alt="mynd" src="igms/viv/38A.jpg" />
+	<img class="img" alt="mynd" src="igms/viv/41A.jpg" />
+	<img class="img" alt="mynd" src="igms/viv/42A.jpg" />
+	<img class="img" alt="mynd" src="igms/viv/44A.jpg" />
 	<br><br><br><br><br><br><br><br>
 
 </div>
