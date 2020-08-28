@@ -555,7 +555,7 @@
 		{#if sortedplastic}A research project, collaboration with Louana Gentner, on where plastic &mdash; sorted by residents of the Hague and delivered to local bins to be recycled &mdash; ends up. An interesting disappointment, documented in an A3-size publication and an online tetris-style game.{/if}
 		{#if litabok}An installation and publication.{/if}
 		{#if oilbuddies}The heads of the worlds biggest oil-companies in 2017, in bubbles, floating around, ...headed to wherever the weahter suits their clothes?{/if}
-		{#if trash}A set of stickers for the trash-bins of KABK as a call for recycling. Typeface made out of KABK's logo.<br>(...a drop in the ocean, a change in the weather){/if}
+		{#if trash}A set of stickers for the trash-bins of KABK as a call for recycling. Typeface made out of KABK's logo.{/if}
 	  	{#if familiarfaces}Posters, digital and physical, made in collaboration with Seojeong Youn.{/if}
 	  	{#if musicbook}A publication and a video about music's effect on humans, as seen through Stevie&nbsp;Wonder's 'If&nbsp;It's&nbsp;Magic', Dorothy&nbsp;Ashby, David&nbsp;Lynch, Meditation, Mantras and Patterns.{/if}
 	  	{#if plastica}A Website and A Chrome extension, where I recreated Google as Plastica. A merging of two (supposedly) integral parts of my life.{/if}
