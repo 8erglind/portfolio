@@ -312,7 +312,7 @@ a {color: blue; font-style: italic;}
 .menu {
   position: absolute;
   padding: 6px;
-  bottom: -2px;
+  bottom: -1px;
   right: -1px;
   cursor: nwse-resize;
   z-index: 100;
