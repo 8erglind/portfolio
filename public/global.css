@@ -214,7 +214,7 @@ a {color: blue; font-style: italic;}
 
 .biography {
   position: fixed;
-  top: calc(50% + 5px);
+  top: calc(0% + 5px);
   bottom: 16px;
   left: 5px;
   right: calc(65% - 1px);
