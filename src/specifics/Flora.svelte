@@ -21,6 +21,11 @@
 	<img class="img portfolio-item" alt="mynd" src="igms/flora/leita-desktop.png" />
 	<img class="img portfolio-item smaller" alt="mynd" src="igms/flora/leita-mobile.png" /><br>
 	<br><br><br><br><br><br><br><br>
+	<img class="img portfolio-item" alt="mynd" src="igms/undefined-posters/druslaXflora-poster-litil-en.jpg" />
+	<img class="img portfolio-item" alt="mynd" src="igms/undefined-posters/druslaXflora-poster-stor-en.jpg" /><br>
+	<img class="img portfolio-item" alt="mynd" src="igms/undefined-posters/druslaXflora-poster-litil-isl.jpg" />
+	<img class="img portfolio-item" alt="mynd" src="igms/undefined-posters/druslaXflora-poster-stor-isl.jpg" /><br>
+	<br><br><br><br><br><br><br><br>
 	<img class="img portfolio-item larger" alt="mynd" src="igms/flora/plaggadd.jpg" />
 	<img class="img portfolio-item smaller" alt="mynd" src="igms/flora/banner.gif" />
 	<br><br><br><br><br><br><br><br>
