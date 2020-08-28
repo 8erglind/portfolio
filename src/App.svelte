@@ -717,8 +717,8 @@
       {#if PICtypobook}<img class="mediumPic" alt="mynd" src="igms/undefined-undefined/display3.jpg">{/if}
       {#if PICljosmynd}<img class="mediumPic" alt="mynd" src="igms/undefined-ljosmyndir/tschlin.jpg">{/if}
       {#if PICljosmynd}<img class="mediumPic" alt="mynd" src="igms/undefined-ljosmyndir/simiafjalli.jpg">{/if}
-      <!--<img class="mediumPic" alt="mynd" src="igms/undefined-ljosmyndir/P1150285.JPG">-->
-      {#if PICljosmynd}<img class="mediumPic" alt="mynd" src="igms/undefined-ljosmyndir/fjall.jpg">{/if}
+      <!--<img class="mediumPic" alt="mynd" src="igms/undefined-ljosmyndir/P1150285.JPG">
+      {#if PICljosmynd}<img class="mediumPic" alt="mynd" src="igms/undefined-ljosmyndir/fjall.jpg">{/if}-->
       <!--<img class="mediumPic" alt="mynd" src="igms/undefined-ljosmyndir/IMG_7173.JPG">-->
       <!--<img class="mediumPic" alt="mynd" src="igms/undefined-ljosmyndir/prent f fólk3106.jpg">-->
       {#if PICegoposter}<img class="mediumPic" alt="mynd" src="igms/undefined-posters/otherPoster.jpg">{/if}

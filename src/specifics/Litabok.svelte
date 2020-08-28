@@ -9,8 +9,8 @@
 	<img class="img portfolio-item smaller" alt="mynd" src="igms/litabok/14.png" />
 	<img class="img portfolio-item smaller" alt="mynd" src="igms/litabok/13.png" />
 	<img class="img portfolio-item smaller" alt="mynd" src="igms/litabok/12.png" />
-	<!--<img class="img portfolio-item smaller" alt="mynd" src="igms/litabok/11.png" />-->
-	<img class="img portfolio-item smaller" alt="mynd" src="igms/litabok/10.png" />
+	<!--<img class="img portfolio-item smaller" alt="mynd" src="igms/litabok/11.png" />
+	<img class="img portfolio-item smaller" alt="mynd" src="igms/litabok/10.png" />-->
 	<img class="img portfolio-item smaller" alt="mynd" src="igms/litabok/9.png" />
 	<img class="img portfolio-item smaller" alt="mynd" src="igms/litabok/8.png" />
 	<img class="img portfolio-item smaller" alt="mynd" src="igms/litabok/7.png" />
