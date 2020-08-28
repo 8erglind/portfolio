@@ -89,7 +89,7 @@ a {color: blue; font-style: italic;}
 
 .containerMiddleScroll {
   position: fixed;
-  bottom: calc(50% + 5px);
+  bottom: calc(60% + 5px);
   top: 5px;
   /*padding-bottom: 0%;*/
   left:5px;
