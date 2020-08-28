@@ -553,7 +553,7 @@
     	{#if frontscreen}Welcome to my portfolio!<br>Browse through my projects on the right and click to see more details.{/if}
 		{#if onourowntime}Fundraiser / Catalogue website for Graphic Design and Non Linear Narrative, The Royal Academy of Art in The Hague, graduation class of 2020. Website design and building collaboration with Trang Ha, identity designed by Zahari Dimitrov and Zuzanna Zgierska using typefaces by Edward Dżułaj and Nedislav Kamburov.{/if}
 	  	<!--{#if green}...{/if}-->
-	  	{#if viv}A publication containing an interview with Vivienne Westwood by Tim Blanks (published in Interview Magazine, July 18, 2012) along with added content about topics mentioned in the interview. Printed on A3 and folded into a a-bit-wider-than-A4 format.{/if}
+	  	{#if viv}A publication containing an interview with Vivienne Westwood by Tim Blanks (published in Interview Magazine, July 18, 2012) along with added content related to topics mentioned in the interview. Printed on A3 and folded into a a-bit-wider-than-A4 format.{/if}
 	  	{#if typoposters}20 posters celebrating 10 different typefaces. Printed front and back on 10 A2-sized sheets, and folded into A4 for storage.{/if}
 		{#if secret}An anonymous's secret, translated into a foldout A6-size hardcover book.{/if}
 		{#if tools}A publication holding an archive of different communication tools. A5-size.{/if}
